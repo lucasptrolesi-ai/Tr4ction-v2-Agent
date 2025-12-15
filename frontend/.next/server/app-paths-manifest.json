@@ -1,0 +1,4 @@
+{
+  "/founder/templates/page": "app/founder/templates/page.js",
+  "/founder/templates/[trailId]/[stepId]/page": "app/founder/templates/[trailId]/[stepId]/page.js"
+}

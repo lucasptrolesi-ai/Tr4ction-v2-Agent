@@ -1,0 +1,98 @@
+# =====================================================
+#   DOCKER COMPOSE - TR4CTION AGENT
+#   Desenvolvimento e Produção
+# =====================================================
+
+services:
+
+  # ===========================================
+  #   ChromaDB - Vector Store
+  # ===========================================
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: tr4ction_chroma
+    restart: unless-stopped
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma/chroma
+      - ANONYMIZED_TELEMETRY=FALSE
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/api/v1/heartbeat || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - tr4ction_net
+
+  # ===========================================
+  #   Backend API - FastAPI
+  # ===========================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: ${BUILD_TARGET:-production}
+    container_name: tr4ction_backend
+    restart: unless-stopped
+    env_file:
+      - backend/.env
+    environment:
+      # ChromaDB Connection
+      - CHROMA_HOST=chroma
+      - CHROMA_PORT=8000
+      # Override para usar volumes Docker
+      - DATABASE_URL=sqlite:///./data/tr4ction.db
+      - CHROMA_DB_DIR=/app/data/chroma_db
+      # Segurança (via .env ou override)
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-}
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:3000,http://localhost:5173}
+      - ENVIRONMENT=${ENVIRONMENT:-production}
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      # Volumes persistentes
+      - backend_data:/app/data
+      - backend_uploads:/app/data/uploads
+      - backend_logs:/app/logs
+    depends_on:
+      chroma:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    networks:
+      - tr4ction_net
+
+# ===========================================
+#   Volumes Persistentes
+# ===========================================
+volumes:
+  chroma_data:
+    name: tr4ction_chroma_data
+    driver: local
+  backend_data:
+    name: tr4ction_backend_data
+    driver: local
+  backend_uploads:
+    name: tr4ction_uploads
+    driver: local
+  backend_logs:
+    name: tr4ction_logs
+    driver: local
+
+# ===========================================
+#   Network
+# ===========================================
+networks:
+  tr4ction_net:
+    name: tr4ction_network
+    driver: bridge
+

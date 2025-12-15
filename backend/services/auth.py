@@ -1,0 +1,334 @@
+"""
+Serviço de Autenticação - JWT + Password Hashing
+"""
+from datetime import datetime, timedelta
+from typing import Optional
+from jose import JWTError, jwt
+from passlib.context import CryptContext
+from fastapi import Depends, HTTPException, status
+from fastapi.security import OAuth2PasswordBearer
+from sqlalchemy.orm import Session
+from pydantic import BaseModel
+import os
+import uuid
+import secrets
+
+from db.database import get_db
+from db.models import User
+
+# ======================================================
+# Configurações JWT SEGURAS (via env)
+# ======================================================
+def get_jwt_secret() -> str:
+    """
+    Obtém JWT secret de forma segura.
+    Em produção, DEVE ser definido via variável de ambiente.
+    """
+    secret = os.getenv("JWT_SECRET_KEY")
+    
+    if not secret or secret == "tr4ction-change-this-in-production-openssl-rand-hex-32":
+        # Desenvolvimento: avisa mas permite continuar
+        if os.getenv("ENVIRONMENT") == "production":
+            raise ValueError(
+                "❌ ERRO CRÍTICO: JWT_SECRET_KEY não configurado em produção! "
+                "Use: openssl rand -hex 32"
+            )
+        print("⚠️ [AUTH] Usando JWT secret padrão. Configure JWT_SECRET_KEY em produção!")
+        return "tr4ction-dev-secret-key-not-for-production-" + secrets.token_hex(16)
+    
+    return secret
+
+SECRET_KEY = get_jwt_secret()
+ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("JWT_EXPIRE_MINUTES", "1440"))  # 24h default
+
+# Password hashing
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+# OAuth2 scheme
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login", auto_error=False)
+
+
+# ======================================================
+# Schemas Pydantic
+# ======================================================
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+    user: dict
+
+
+class TokenData(BaseModel):
+    user_id: Optional[str] = None
+    email: Optional[str] = None
+    role: Optional[str] = None
+
+
+class UserCreate(BaseModel):
+    email: str
+    password: str
+    name: str
+    role: str = "founder"
+    company_name: Optional[str] = None
+
+
+class UserLogin(BaseModel):
+    email: str
+    password: str
+
+
+class UserResponse(BaseModel):
+    id: str
+    email: str
+    name: str
+    role: str
+    company_name: Optional[str]
+    is_active: bool
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+# ======================================================
+# Funções de Password
+# ======================================================
+
+def verify_password(plain_password: str, hashed_password: str) -> bool:
+    """Verifica se a senha está correta"""
+    return pwd_context.verify(plain_password, hashed_password)
+
+
+def get_password_hash(password: str) -> str:
+    """Gera hash da senha"""
+    return pwd_context.hash(password)
+
+
+# ======================================================
+# Funções de Token JWT
+# ======================================================
+
+def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
+    """Cria token JWT"""
+    to_encode = data.copy()
+    
+    if expires_delta:
+        expire = datetime.utcnow() + expires_delta
+    else:
+        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    
+    to_encode.update({"exp": expire})
+    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+    
+    return encoded_jwt
+
+
+def decode_token(token: str) -> Optional[TokenData]:
+    """Decodifica e valida token JWT"""
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        user_id: str = payload.get("sub")
+        email: str = payload.get("email")
+        role: str = payload.get("role")
+        
+        if user_id is None:
+            return None
+            
+        return TokenData(user_id=user_id, email=email, role=role)
+    except JWTError:
+        return None
+
+
+# ======================================================
+# Funções de Usuário
+# ======================================================
+
+def get_user_by_email(db: Session, email: str) -> Optional[User]:
+    """Busca usuário por email"""
+    return db.query(User).filter(User.email == email.lower()).first()
+
+
+def get_user_by_id(db: Session, user_id: str) -> Optional[User]:
+    """Busca usuário por ID"""
+    return db.query(User).filter(User.id == user_id).first()
+
+
+def create_user(db: Session, user_data: UserCreate) -> User:
+    """Cria novo usuário"""
+    # Verifica se email já existe
+    existing = get_user_by_email(db, user_data.email)
+    if existing:
+        raise ValueError("Email já cadastrado")
+    
+    # Gera ID único
+    user_id = str(uuid.uuid4())
+    
+    # Cria usuário
+    user = User(
+        id=user_id,
+        email=user_data.email.lower(),
+        hashed_password=get_password_hash(user_data.password),
+        name=user_data.name,
+        role=user_data.role,
+        company_name=user_data.company_name,
+        is_active=True
+    )
+    
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    
+    return user
+
+
+def authenticate_user(db: Session, email: str, password: str) -> Optional[User]:
+    """Autentica usuário por email e senha"""
+    user = get_user_by_email(db, email)
+    
+    if not user:
+        return None
+    if not verify_password(password, user.hashed_password):
+        return None
+    if not user.is_active:
+        return None
+    
+    # Atualiza último login
+    user.last_login = datetime.utcnow()
+    db.commit()
+    
+    return user
+
+
+# ======================================================
+# Dependencies de Autenticação
+# ======================================================
+
+async def get_current_user(
+    token: str = Depends(oauth2_scheme),
+    db: Session = Depends(get_db)
+) -> Optional[User]:
+    """
+    Dependency que retorna o usuário atual baseado no token.
+    Retorna None se não autenticado (para rotas opcionais).
+    """
+    if not token:
+        return None
+    
+    token_data = decode_token(token)
+    if not token_data:
+        return None
+    
+    user = get_user_by_id(db, token_data.user_id)
+    return user
+
+
+async def get_current_user_required(
+    token: str = Depends(oauth2_scheme),
+    db: Session = Depends(get_db)
+) -> User:
+    """
+    Dependency que EXIGE usuário autenticado.
+    Lança exceção 401 se não autenticado.
+    """
+    credentials_exception = HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED,
+        detail="Não autenticado",
+        headers={"WWW-Authenticate": "Bearer"},
+    )
+    
+    if not token:
+        raise credentials_exception
+    
+    token_data = decode_token(token)
+    if not token_data:
+        raise credentials_exception
+    
+    user = get_user_by_id(db, token_data.user_id)
+    if not user:
+        raise credentials_exception
+    
+    if not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Usuário desativado"
+        )
+    
+    return user
+
+
+async def get_current_admin(
+    current_user: User = Depends(get_current_user_required)
+) -> User:
+    """
+    Dependency que exige usuário com role 'admin'.
+    """
+    if current_user.role != "admin":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Acesso negado - apenas administradores"
+        )
+    return current_user
+
+
+async def get_current_founder(
+    current_user: User = Depends(get_current_user_required)
+) -> User:
+    """
+    Dependency que exige usuário com role 'founder'.
+    """
+    if current_user.role != "founder":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Acesso negado - apenas founders"
+        )
+    return current_user
+
+
+def get_current_user_id(current_user: Optional[User] = Depends(get_current_user)) -> str:
+    """
+    Retorna o ID do usuário atual ou 'demo-user' se não autenticado.
+    Útil para manter compatibilidade com código existente.
+    """
+    if current_user:
+        return current_user.id
+    return "demo-user"
+
+
+# ======================================================
+# Seed de Usuários Padrão
+# ======================================================
+
+def seed_default_users(db: Session):
+    """Cria usuários padrão se não existirem"""
+    
+    # Admin padrão
+    admin_email = "admin@tr4ction.com"
+    if not get_user_by_email(db, admin_email):
+        admin = User(
+            id="admin-default",
+            email=admin_email,
+            hashed_password=get_password_hash("admin123"),
+            name="Administrador TR4CTION",
+            role="admin",
+            is_active=True
+        )
+        db.add(admin)
+        print(f"✓ Admin criado: {admin_email} / admin123")
+    
+    # Founder demo
+    founder_email = "demo@tr4ction.com"
+    if not get_user_by_email(db, founder_email):
+        founder = User(
+            id="demo-user",  # Mantém compatibilidade com dados existentes
+            email=founder_email,
+            hashed_password=get_password_hash("demo123"),
+            name="Demo Founder",
+            role="founder",
+            company_name="Demo Startup",
+            is_active=True
+        )
+        db.add(founder)
+        print(f"✓ Founder criado: {founder_email} / demo123")
+    
+    db.commit()

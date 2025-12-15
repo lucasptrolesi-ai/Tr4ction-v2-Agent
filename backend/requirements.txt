@@ -1,0 +1,42 @@
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart==0.0.20
+numpy==1.26.4
+python-dotenv==1.0.1
+
+groq==0.14.0
+openai==1.54.0
+chromadb==0.5.20
+
+gunicorn==22.0.0
+
+# Persistência (PASSO 2)
+sqlalchemy==2.0.23
+pydantic-settings==2.1.0
+
+# Exportação Excel (PASSO 3)
+openpyxl==3.1.2
+
+# Autenticação JWT (PASSO 7)
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# RAG Pipeline - Processamento de Documentos (PASSO 8)
+python-pptx==0.6.23
+PyPDF2==3.0.1
+python-docx==1.1.0
+
+# ======================================================
+# 📌 EMBEDDINGS - ESCOLHA UMA OPÇÃO:
+# ======================================================
+# OPÇÃO 1: Hugging Face API (RECOMENDADO para EC2 t3.micro)
+# - Economiza ~200MB de RAM
+# - Requer HF_API_TOKEN no .env
+# - Latência: ~900ms por requisição
+requests>=2.31.0
+
+# OPÇÃO 2: Local (descomente se precisar de fallback offline)
+# - Consome ~500MB RAM
+# - Funciona offline
+# sentence-transformers==2.2.2

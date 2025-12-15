@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.env
+venv/
+tests/
+data/uploads/*
+data/knowledge/*
+chroma_db/*
+*.md
