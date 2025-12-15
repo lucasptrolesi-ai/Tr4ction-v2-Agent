@@ -1,9 +1,39 @@
 # =====================================================
 #   DOCKER COMPOSE - TR4CTION AGENT
-#   Desenvolvimento e Produção
+#   Produção com Nginx Reverse Proxy
 # =====================================================
 
 services:
+
+  # ===========================================
+  #   Nginx - Reverse Proxy
+  # ===========================================
+  nginx:
+    image: nginx:alpine
+    container_name: tr4ction_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - certbot_conf:/etc/letsencrypt:ro
+      - certbot_www:/var/www/certbot:ro
+    depends_on:
+      - backend
+    networks:
+      - tr4ction_net
+
+  # ===========================================
+  #   Certbot - SSL Certificates
+  # ===========================================
+  certbot:
+    image: certbot/certbot
+    container_name: tr4ction_certbot
+    volumes:
+      - certbot_conf:/etc/letsencrypt
+      - certbot_www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
   # ===========================================
   #   ChromaDB - Vector Store
@@ -12,21 +42,15 @@ services:
     image: chromadb/chroma:latest
     container_name: tr4ction_chroma
     restart: unless-stopped
-    ports:
-      - "8001:8000"
+    # Porta interna apenas - não exposta para internet
+    expose:
+      - "8000"
     volumes:
       - chroma_data:/chroma/chroma
     environment:
       - IS_PERSISTENT=TRUE
       - PERSIST_DIRECTORY=/chroma/chroma
       - ANONYMIZED_TELEMETRY=FALSE
-    # Healthcheck desabilitado - imagem ChromaDB não tem curl/python
-    # healthcheck:
-    #   test: ["CMD-SHELL", "exit 0"]
-    #   interval: 10s
-    #   timeout: 10s
-    #   retries: 5
-    #   start_period: 20s
     networks:
       - tr4ction_net
 
@@ -51,8 +75,9 @@ services:
       - CHROMA_DB_DIR=/app/data/chroma_db
       # Segurança já vem do .env
       - ENVIRONMENT=${ENVIRONMENT:-production}
-    ports:
-      - "${API_PORT:-8000}:8000"
+    # Porta interna apenas - Nginx faz o proxy
+    expose:
+      - "8000"
     volumes:
       # Volumes persistentes
       - backend_data:/app/data
@@ -85,7 +110,11 @@ volumes:
   backend_logs:
     name: tr4ction_logs
     driver: local
-
+  certbot_conf:
+    name: tr4ction_certbot_conf
+    driver: local
+  certbot_www:
+    name: tr4ction_certbot_www
 # ===========================================
 #   Network
 # ===========================================
