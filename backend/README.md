@@ -197,4 +197,4 @@ Propriedade de TR4CTION.
 
 - GitHub Issues: https://github.com/lucasptrolesi-ai/Tr4ction-v2-Agent/issues
 - Documentação: Ver arquivos DEPLOY_*.md
-- Logs: `logs/backend.log
+- Logs: `logs/backend.log`
