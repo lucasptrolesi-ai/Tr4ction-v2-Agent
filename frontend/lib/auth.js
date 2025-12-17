@@ -41,7 +41,7 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     if (loading) return;
 
-    const publicPaths = ["/", "/login", "/register"];
+    const publicPaths = ["/", "/login", "/register", "/chat", "/widget"];
     const isPublicPath = publicPaths.includes(pathname);
 
     if (!user && !isPublicPath) {
