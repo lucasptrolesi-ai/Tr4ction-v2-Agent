@@ -3,7 +3,8 @@
  * Usa 127.0.0.1 ao invés de localhost para evitar problemas de DNS/cache
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
+// Aceita tanto NEXT_PUBLIC_API_URL quanto NEXT_PUBLIC_API_BASE_URL para compatibilidade
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
 const TOKEN_KEY = "tr4ction_token";
 
 /**
