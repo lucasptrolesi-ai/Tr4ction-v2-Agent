@@ -1,0 +1,48 @@
+# ======================================================
+# TR4CTION Agent V2 - Systemd Service File
+# ======================================================
+# Este arquivo configura o backend para iniciar automaticamente
+# 
+# INSTALAÇÃO:
+# 1. Edite os caminhos abaixo conforme sua instalação
+# 2. Copie para: sudo cp tr4ction-backend.service /etc/systemd/system/
+# 3. Recarregue: sudo systemctl daemon-reload
+# 4. Habilite: sudo systemctl enable tr4ction-backend
+# 5. Inicie: sudo systemctl start tr4ction-backend
+# 6. Verifique: sudo systemctl status tr4ction-backend
+#
+# LOGS:
+# - Ver logs: sudo journalctl -u tr4ction-backend -f
+# - Logs do app: /home/ubuntu/Tr4ction-v2-Agent/backend/logs/backend.log
+
+[Unit]
+Description=TR4CTION Agent V2 Backend API
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/Tr4ction-v2-Agent/backend
+Environment="PATH=/home/ubuntu/Tr4ction-v2-Agent/backend/venv/bin"
+ExecStart=/home/ubuntu/Tr4ction-v2-Agent/backend/venv/bin/python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --workers 2
+
+# Reiniciar automaticamente em caso de falha
+Restart=always
+RestartSec=10
+
+# Logs
+StandardOutput=append:/home/ubuntu/Tr4ction-v2-Agent/backend/logs/backend.log
+StandardError=append:/home/ubuntu/Tr4ction-v2-Agent/backend/logs/backend.error.log
+
+# Limites de segurança
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Timeout
+TimeoutStartSec=0
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
