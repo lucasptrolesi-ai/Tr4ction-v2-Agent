@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import axios from "axios";
 
 export default function FounderDashboard() {
@@ -16,43 +16,46 @@ export default function FounderDashboard() {
 
   const backendBase = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
 
-  async function handleSend(e) {
-    if (e && e.preventDefault) e.preventDefault();
-    if (!input.trim()) return;
+  const handleSend = useCallback(async (e) => {
+    if (e) {
+      e.preventDefault();
+    }
+    
+    const trimmedInput = input.trim();
+    if (!trimmedInput) return;
 
-    const question = input.trim();
     setInput("");
-    setHistory((prev) => [...prev, { role: "user", text: question }]);
+    setHistory((prev) => [...prev, { role: "user", text: trimmedInput }]);
     setLoading(true);
 
     try {
       console.log(`Enviando para: ${backendBase}/chat/`);
-      const res = await axios.post(
+      const response = await axios.post(
         `${backendBase}/chat/`,
-        { question },
+        { question: trimmedInput },
         { timeout: 30000 }
       );
 
       let answer = "";
-      if (res.data?.data?.answer) {
-        answer = res.data.data.answer;
-      } else if (res.data?.answer) {
-        answer = res.data.answer;
-      } else if (typeof res.data === "string") {
-        answer = res.data;
+      if (response?.data?.data?.answer) {
+        answer = response.data.data.answer;
+      } else if (response?.data?.answer) {
+        answer = response.data.answer;
+      } else if (typeof response?.data === "string") {
+        answer = response.data;
       } else {
-        answer = JSON.stringify(res.data);
+        answer = JSON.stringify(response?.data || "Sem resposta");
       }
 
       setHistory((prev) => [...prev, { role: "agent", text: answer }]);
-    } catch (err) {
-      console.error("Erro:", err);
-      const errorMsg = err.response?.data?.detail || err.message || "Erro ao comunicar com servidor";
-      setHistory((prev) => [...prev, { role: "agent", text: `❌ Erro: ${errorMsg}` }]);
+    } catch (error) {
+      console.error("Erro:", error);
+      const errorMessage = error?.response?.data?.detail || error?.message || "Erro ao comunicar com servidor";
+      setHistory((prev) => [...prev, { role: "agent", text: `❌ Erro: ${errorMessage}` }]);
     } finally {
       setLoading(false);
     }
-  }
+  }, [input, backendBase]);
 
   return (
     <div>
