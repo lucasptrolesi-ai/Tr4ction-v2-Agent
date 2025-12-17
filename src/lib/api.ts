@@ -5,7 +5,7 @@
 import { getToken, logout, isTokenExpired } from './auth';
 import { AuthResponse, ChatRequest, ChatResponse, Document, Trail } from './types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://54.144.92.71';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://54.144.92.71.sslip.io';
 
 class ApiError extends Error {
   status: number;
