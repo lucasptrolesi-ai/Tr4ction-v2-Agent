@@ -62,15 +62,24 @@ def create_app():
     # 3. Request Size Limit
     app.add_middleware(RequestSizeLimitMiddleware)
     
-    # 4. CORS - Configurado via ENV
+    # 4. CORS - Configurado via ENV com fallbacks
     cors_origins = get_cors_origins()
+    print(f"✅ [CORS] Origens permitidas: {cors_origins}")
+    
     app.add_middleware(
         CORSMiddleware,
         allow_origins=cors_origins,
         allow_credentials=True,
         allow_methods=["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-        allow_headers=["*"],
-        expose_headers=["X-RateLimit-Limit", "X-RateLimit-Remaining", "X-RateLimit-Reset"]
+        allow_headers=["Content-Type", "Authorization", "Accept", "X-Requested-With"],
+        expose_headers=[
+            "X-RateLimit-Limit", 
+            "X-RateLimit-Remaining", 
+            "X-RateLimit-Reset",
+            "Content-Type",
+            "X-Total-Count"
+        ],
+        max_age=3600,  # Preflight cache duration
     )
 
     app.middleware("http")(logging_middleware)

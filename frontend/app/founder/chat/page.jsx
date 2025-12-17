@@ -7,24 +7,32 @@ export default function FounderChat() {
   const [input, setInput] = useState("");
   const [history, setHistory] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
 
-  const backendBase = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+  const backendBase = process.env.NEXT_PUBLIC_BACKEND_URL || process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
+  const MAX_RETRIES = 2;
 
-  async function handleSend(e) {
+  async function handleSend(e, retryAttempt = 0) {
     e?.preventDefault();
     if (!input.trim()) return;
 
     const question = input.trim();
-    setInput("");
-    setHistory((prev) => [...prev, { role: "founder", text: question }]);
+    if (retryAttempt === 0) {
+      setInput("");
+      setHistory((prev) => [...prev, { role: "founder", text: question }]);
+    }
     setLoading(true);
 
     try {
-      console.log("Enviando para:", `${backendBase}/chat/`);
-      const res = await axios.post(`${backendBase}/chat/`, { question });
+      console.log(`[Tentativa ${retryAttempt + 1}] Enviando para: ${backendBase}/chat/`);
+      const res = await axios.post(
+        `${backendBase}/chat/`,
+        { question },
+        { timeout: 30000 } // 30 segundos de timeout
+      );
       console.log("Resposta completa:", res.data);
       
-      // Extrai o answer corretamente: res.data = {status: "success", data: {answer: "texto"}}
+      // Extrai o answer corretamente
       let answer = "";
       if (res.data?.data?.answer) {
         answer = res.data.data.answer;
@@ -37,17 +45,38 @@ export default function FounderChat() {
       }
 
       setHistory((prev) => [...prev, { role: "agent", text: answer }]);
+      setRetryCount(0);
     } catch (err) {
       console.error("Erro ao chamar backend:", err);
-      const errorMsg = err.response?.data?.detail || err.message || "Erro desconhecido";
+      
+      const isNetworkError = err.code === "ECONNABORTED" || err.code === "ENOTFOUND" || 
+                           (err.response?.status >= 500);
+      const shouldRetry = isNetworkError && retryAttempt < MAX_RETRIES;
+      
+      if (shouldRetry) {
+        console.log(`Retentando em 2s... (${retryAttempt + 1}/${MAX_RETRIES})`);
+        setRetryCount(retryAttempt + 1);
+        setTimeout(() => {
+          handleSend(e, retryAttempt + 1);
+        }, 2000);
+        return;
+      }
+
+      const errorMsg = err.response?.data?.detail || 
+                      err.message || 
+                      "Erro ao comunicar com o servidor";
+      
+      const retryInfo = shouldRetry ? "" : 
+        ` (Tentativas: ${retryAttempt}/${MAX_RETRIES})`;
       
       setHistory((prev) => [
         ...prev,
         {
           role: "agent",
-          text: `❌ Erro: ${errorMsg}\n\nBackend: ${backendBase}/chat/`
+          text: `❌ Erro: ${errorMsg}${retryInfo}\n\nDica: Verifique sua conexão e tente novamente.`
         }
       ]);
+      setRetryCount(0);
     } finally {
       setLoading(false);
     }

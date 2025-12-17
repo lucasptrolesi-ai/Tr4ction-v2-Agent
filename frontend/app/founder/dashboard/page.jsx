@@ -148,7 +148,7 @@ export default function FounderDashboard() {
       setTrails(data || []);
     } catch (err) {
       console.error("Erro ao carregar dashboard:", err);
-      setError(err.message);
+      setError(err.message || "Erro ao carregar dashboard. Tente novamente.");
     } finally {
       setLoading(false);
     }

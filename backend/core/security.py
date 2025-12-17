@@ -26,11 +26,25 @@ ALLOWED_EXTENSIONS = os.getenv(
 ).split(",")
 
 def get_cors_origins() -> List[str]:
-    """Retorna lista de origens CORS permitidas."""
-    origins_str = os.getenv("CORS_ORIGINS", "*")
-    if origins_str == "*":
-        return ["*"]
-    return [origin.strip() for origin in origins_str.split(",")]
+    """Retorna lista de origens CORS permitidas com fallbacks."""
+    origins_str = os.getenv("CORS_ORIGINS", "")
+    
+    if not origins_str or origins_str == "*":
+        # Em desenvolvimento: permite qualquer origem
+        if os.getenv("ENVIRONMENT") == "development":
+            return ["*"]
+        # Em produção: lista padrão segura
+        return [
+            "https://tr4ction-v2-agent.vercel.app",
+            "https://www.tr4ction-v2-agent.vercel.app",
+            "https://54.144.92.71.sslip.io",
+            "http://localhost:3000",
+            "http://127.0.0.1:3000",
+        ]
+    
+    # Parse customizado
+    origins = [origin.strip() for origin in origins_str.split(",") if origin.strip()]
+    return origins if origins else ["*"]
 
 
 # ======================================================
