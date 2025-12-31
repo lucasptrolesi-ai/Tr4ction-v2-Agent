@@ -92,3 +92,27 @@ class UserProgress(Base):
     is_completed = Column(Boolean, default=False)
     progress_percent = Column(Integer, default=0)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
+class TemplateDefinition(Base):
+    """
+    Definição de template Excel - gerado dinamicamente por admin
+    Suporta múltiplos cycles (Q1, Q2, Q3, Q4, etc.)
+    """
+    __tablename__ = "template_definitions"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    cycle = Column(String(50), nullable=False, index=True)  # Q1, Q2, Q3, Q4, etc.
+    template_key = Column(String(255), nullable=False, index=True)  # cronograma, persona_01, etc.
+    sheet_name = Column(String(255), nullable=False)  # Nome original da sheet no Excel
+    schema_path = Column(String(500), nullable=False)  # backend/templates/generated/{cycle}/{template_key}.json
+    image_path = Column(String(500), nullable=False)  # frontend/public/templates/{cycle}/{template_key}.png
+    status = Column(String(50), default="active", index=True)  # active, inactive, archived
+    description = Column(Text, nullable=True)
+    field_count = Column(Integer, default=0)  # Número de campos editáveis detectados
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Metadados do arquivo fonte
+    source_file = Column(String(500), nullable=True)  # Path do arquivo Excel original
+    ingestion_report = Column(Text, nullable=True)  # Relatório de warnings/errors durante ingestão

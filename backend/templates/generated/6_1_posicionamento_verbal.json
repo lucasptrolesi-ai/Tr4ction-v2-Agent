@@ -1,0 +1,81 @@
+{
+  "template_key": "6_1_posicionamento_verbal",
+  "sheet_name": "6.1 Posicionamento Verbal",
+  "sheet_width": 1312.5,
+  "sheet_height": 3850.35,
+  "title": "6.1 Posicionamento Verbal",
+  "description": "Auto-generated template for 6.1 Posicionamento Verbal",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_a18_0",
+      "label": "Quem você atende? \nQuem é o cliente ideal?",
+      "cell": "A18",
+      "type": "textarea",
+      "top": 424.94,
+      "left": 0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_d18_1",
+      "label": "Qual o problema urgente/recorrente que você resolve?",
+      "cell": "D18",
+      "type": "textarea",
+      "top": 424.94,
+      "left": 273.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_g18_2",
+      "label": "O que sua startup faz?",
+      "cell": "G18",
+      "type": "textarea",
+      "top": 424.94,
+      "left": 546.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_j18_3",
+      "label": "Qual o resultado percebido \npelo cliente?",
+      "cell": "J18",
+      "type": "textarea",
+      "top": 424.94,
+      "left": 819.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_m18_4",
+      "label": "O que te torna melhor ou diferente das alternativas?",
+      "cell": "M18",
+      "type": "textarea",
+      "top": 424.94,
+      "left": 1092.0,
+      "width": 175.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_d24_5",
+      "label": "Qual o problema urgente/recorrente que você resolve?",
+      "cell": "D24",
+      "type": "textarea",
+      "top": 604.49,
+      "left": 273.0,
+      "width": 728.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_d29_6",
+      "label": "Frase de Posicionamento",
+      "cell": "D29",
+      "type": "textarea",
+      "top": 754.11,
+      "left": 273.0,
+      "width": 728.0,
+      "height": 89.78
+    }
+  ]
+}

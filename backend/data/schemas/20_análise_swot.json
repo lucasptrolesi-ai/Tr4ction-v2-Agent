@@ -1,0 +1,1857 @@
+{
+  "template_key": "20_análise_swot",
+  "sheet_name": "2.0 Análise SWOT",
+  "sheet_width": 1312.5,
+  "sheet_height": 3482.2725,
+  "title": "2.0 Análise SWOT",
+  "description": "Template for 2.0 Análise SWOT",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "2.0 Análise SWOT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Análise SWOT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "Fatores positivos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "H13",
+      "label": "Fatores negativos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "A15",
+      "label": "Fatores Internos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "B15",
+      "label": "S",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "E15",
+      "label": "Strenght",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "H15",
+      "label": "W",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "K15",
+      "label": "Weaknesses",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "N15",
+      "label": "Fatores Internos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "E17",
+      "label": "(forças)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "K17",
+      "label": "(fraquezas)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "B19",
+      "label": "Alta retenção: churn < 1,5% ao mês",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "H19",
+      "label": "Aquisição 100% dependente de indicação e esforço m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "B20",
+      "label": "Plataforma com NPS 67 e bom suporte",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "H20",
+      "label": "Site institucional fraco e sem funil de conversão",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "B21",
+      "label": "Sistema leve e fácil de usar (comparado aos concor",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "H21",
+      "label": "Zero conteúdo e SEO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "B22",
+      "label": "Founder tem forte conhecimento no setor e boas con",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "H22",
+      "label": "CAC desconhecido, LTV estimado sem base",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "B23",
+      "label": "Dimitri: Quantidade ampla de hoteís plugadas na pl",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "H23",
+      "label": "Dimitri: A marca ainda é pouca reconhecida no merc",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "A26",
+      "label": "Fatores Externos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "B26",
+      "label": "O",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "E26",
+      "label": "Oportunities",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "H26",
+      "label": "T",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "K26",
+      "label": "Threats",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "N26",
+      "label": "Fatores Externos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "E28",
+      "label": "(oportunidades)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "K28",
+      "label": "(ameaças)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "B30",
+      "label": "Pequenas clínicas estão digitalizando a gestão pós",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "H30",
+      "label": "Um concorrente grande começou a oferecer plano gra",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "B31",
+      "label": "Concorrentes grandes são lentos e têm UX ruim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "H31",
+      "label": "Dependência de 3 redes de clínicas que representam",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "B32",
+      "label": "Existe demanda reprimida de integração com prontuá",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "H32",
+      "label": "Equipe técnica enxuta - risco de gargalo no suport",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "B33",
+      "label": "Dimitri: Existe um apetite das empresas em fornece",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "H33",
+      "label": "Dimitri: fenômenos adversos como panderia podem af",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "O36",
+      "label": "False",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "A37",
+      "label": "Fatores positivos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "H37",
+      "label": "Fatores negativos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "B41",
+      "label": "Conceito Análise SWOT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "B42",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "B45",
+      "label": "🟩 S = Strengths (força)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "B46",
+      "label": "O que você tem hoje que ajuda o crescimento do seu",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "B49",
+      "label": "🟥 W = Weaknesses (fraquezas)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "B50",
+      "label": "O que está limitando o seu crescimento hoje?\nListe",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1336.649999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "B53",
+      "label": "🟨 O = Opportunities (oportunidades)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "B54",
+      "label": "Quais fatores externos podem acelerar seu crescime",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "B57",
+      "label": "🟦 T = Threats (ameaças)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "B58",
+      "label": "O que pode atrapalhar seu crescimento - e você não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "B62",
+      "label": "Como avaliar? Método ICE Light",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "B63",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "B65",
+      "label": "Para cada item listado (principalmente em fraqueza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1806.4724999999983,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "B67",
+      "label": "Critério",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "C67",
+      "label": "Escala",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "D67",
+      "label": "Descrição",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "B68",
+      "label": "Impacto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "C68",
+      "label": "2025-05-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "D68",
+      "label": "Quanto isso afeta o crescimento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "I68",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "B69",
+      "label": "Confiança",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "C69",
+      "label": "2025-05-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "D69",
+      "label": "Quão certo estamos disso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "I69",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "B70",
+      "label": "Facilidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "C70",
+      "label": "2025-05-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "D70",
+      "label": "É fácil ou difícil resolver/atuar nisso? (inverso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "I70",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "B74",
+      "label": "Avaliação (impacto, confiança e facilidade)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2075.797499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B75",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "B77",
+      "label": "Vamos aplicar o Método ICE Light nas fraquezas e o",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "B79",
+      "label": "Tipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "C79",
+      "label": "Item",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "F79",
+      "label": "Impacto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "G79",
+      "label": "Confiança",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "H79",
+      "label": "Facilidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "I79",
+      "label": "Score",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "J79",
+      "label": "Observação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "B80",
+      "label": "Fraqueza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "C80",
+      "label": "Aquisição dependente de indicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "F80",
+      "label": "5.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "G80",
+      "label": "5.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "H80",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "J80",
+      "label": "Alta urgência, risco de estagnação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "B81",
+      "label": "Fraqueza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_93",
+      "cell": "C81",
+      "label": "CAC desconhecido",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_94",
+      "cell": "F81",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_95",
+      "cell": "G81",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_96",
+      "cell": "H81",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_97",
+      "cell": "J81",
+      "label": "Precisa de estrutura mínima pra medir",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_98",
+      "cell": "B82",
+      "label": "Fraqueza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_99",
+      "cell": "C82",
+      "label": "Site ruim, sem funil",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_100",
+      "cell": "F82",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_101",
+      "cell": "G82",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_102",
+      "cell": "H82",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_103",
+      "cell": "J82",
+      "label": "Atacável com esforço moderado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_104",
+      "cell": "B83",
+      "label": "Oportunidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_105",
+      "cell": "C83",
+      "label": "Clínicas buscando digitalização",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_106",
+      "cell": "F83",
+      "label": "5.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_107",
+      "cell": "G83",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_108",
+      "cell": "H83",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_109",
+      "cell": "J83",
+      "label": "Excelente timing de mercado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_110",
+      "cell": "B84",
+      "label": "Oportunidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_111",
+      "cell": "C84",
+      "label": "Integração com PEP",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_112",
+      "cell": "F84",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_113",
+      "cell": "G84",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_114",
+      "cell": "H84",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_115",
+      "cell": "J84",
+      "label": "Demanda esforço técnico",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_116",
+      "cell": "B85",
+      "label": "Oportunidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_117",
+      "cell": "C85",
+      "label": "SEO e conteúdo não explorados",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_118",
+      "cell": "F85",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_119",
+      "cell": "G85",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_120",
+      "cell": "H85",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_121",
+      "cell": "J85",
+      "label": "Pode trazer tráfego qualificado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_122",
+      "cell": "B87",
+      "label": "Você pode:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_123",
+      "cell": "B88",
+      "label": "Priorizar as principais fraquezas para resolver no",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_124",
+      "cell": "B89",
+      "label": "Mapear as oportunidades reais para explorar no Q3",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2524.6725000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_125",
+      "cell": "B93",
+      "label": "Como usar no dia a dia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2644.3725000000013,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_126",
+      "cell": "B94",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2674.2975000000015,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_127",
+      "cell": "B96",
+      "label": "1. Use as Forças e Oportunidades para direcionar s",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2734.147500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_128",
+      "cell": "B97",
+      "label": "Exemplo: Se você tem um canal com bom CAC → invist",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2764.072500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_129",
+      "cell": "B99",
+      "label": "2. Use as Fraquezas e Ameaças para definir suas pr",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_130",
+      "cell": "B100",
+      "label": "→ Fraquezas são gargalos internos que você pode e",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_131",
+      "cell": "B103",
+      "label": "3. Transforme SWOT em decisão:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2943.622500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_132",
+      "cell": "B104",
+      "label": "→ Toda força deve virar um diferencial de mensagem",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2973.5475000000033,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_133",
+      "cell": "B110",
+      "label": "Como aplicar continuamente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3153.0975000000044,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_134",
+      "cell": "B111",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_135",
+      "cell": "B113",
+      "label": "Quando revisar a SWOT?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_136",
+      "cell": "E113",
+      "label": "O que fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_137",
+      "cell": "B114",
+      "label": "A cada trimestre",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3272.797500000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_138",
+      "cell": "E114",
+      "label": "Reavalie cada quadrante com base em resultados rec",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3272.797500000005,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_139",
+      "cell": "B115",
+      "label": "Após mudanças de mercado ou produto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_140",
+      "cell": "E115",
+      "label": "Refaça Oportunidades e Ameaças",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_141",
+      "cell": "B116",
+      "label": "Ao planejar novo canal / campanha",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3332.6475000000055,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_142",
+      "cell": "E116",
+      "label": "Veja se há forças e fraquezas relacionadas ao plan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3332.6475000000055,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "template_key": "71_slogan",
+  "sheet_name": "7.1 Slogan",
+  "sheet_width": 1312.5,
+  "sheet_height": 2584.5225,
+  "title": "7.1 Slogan",
+  "description": "Template for 7.1 Slogan",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "7.1 Slogan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Slogan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A14",
+      "label": "ETAPA 1:\n\nRelembrando os fundamentos da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "C14",
+      "label": "Quem você ajuda? Quem é seu cliente ideal?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "I14",
+      "label": "Clínicas de pequeno e médio porte que querem mais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "C15",
+      "label": "Qual problema resolve? Qual a dor ou dificuldade c",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "I15",
+      "label": "Falta de organização, perda de tempo com tarefas m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "C17",
+      "label": "Que valor entrega? O que sua solução melhora na vi",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "I17",
+      "label": "Rotina mais organizada, menos estresse operacional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "C19",
+      "label": "Personalidade da marca. Como sua marca deve parece",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "I19",
+      "label": "Próxima, confiável, acolhedora e prática.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "C20",
+      "label": "Sentimento desejado. Que sentimento a marca quer p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "I20",
+      "label": "Tranquilidade, segurança e confiança para gerir a",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "A22",
+      "label": "ETAPA 2:\n\nBrainstorm de palavras \ne ideias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "C22",
+      "label": "Palavras-chave sobre o cliente. Como o cliente se",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "I22",
+      "label": "Correria, sobrecarga, burocracia, organização, sim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "C23",
+      "label": "Verbos de ação. Verbo que traduz sua proposta.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "I23",
+      "label": "Organizar, facilitar, cuidar, simplificar, conecta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "C24",
+      "label": "Adjetivos da sua solução. Como descreveria sua ent",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "I24",
+      "label": "Simples, confiável, ágil, humana, intuitiva.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "C25",
+      "label": "Diferenciais ou metáforas. Algo que só você faz ou",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "I25",
+      "label": "“O sistema que cuida da clínica para você cuidar d",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "A28",
+      "label": "ETAPA 3:\nEscolha o estilo \nde slogan desejado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "C28",
+      "label": "Promessa clara: [Benefício direto] sem [dor]",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "I28",
+      "label": "“Organização total sem complicação.”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "C29",
+      "label": "Propósito emocional: [Missão ou crença da marca]",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "I29",
+      "label": "“Porque clínicas bem organizadas cuidam melhor das",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "C30",
+      "label": "Verbo + impacto: [Ação] + [resultado]",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "I30",
+      "label": "“Organizamos sua clínica. Facilitamos sua vida.”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "C31",
+      "label": "Posicionamento leve: Somos a [X] para [Y]",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "I31",
+      "label": "“Somos a gestão simples para clínicas que querem c",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "C32",
+      "label": "Frase aspiracional: Algo que o cliente quer alcanç",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "I32",
+      "label": "“Mais tempo para cuidar. Menos tempo para se preoc",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "A34",
+      "label": "ETAPA 4:\nRascunhos e testes",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "C34",
+      "label": "Rascunho 1: Use as palavras-chave e escolha uma es",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "I34",
+      "label": "“Organização total sem complicação.”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "C35",
+      "label": "Rascunho 2: Tente uma variação mais emocional ou m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "I35",
+      "label": "“Mais tempo para cuidar. Menos tempo para se preoc",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "C36",
+      "label": "Rascunho 3: Teste com metáfora, provocação ou ling",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "I36",
+      "label": "“O sistema que cuida da clínica para você cuidar d",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "C38",
+      "label": "ETAPA 5:\nEscolha final",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "C40",
+      "label": "SLOGAN DEFINDO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "C41",
+      "label": "“O sistema que cuida da clínica para você cuidar d",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "B45",
+      "label": "Conceito Slogan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "B46",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "B48",
+      "label": "O que é um Slogan?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "B49",
+      "label": "→ Um slogan é uma frase curta que resume a promess",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "B55",
+      "label": "Como preencher e o que considerar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "B56",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "B60",
+      "label": "Campo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "E60",
+      "label": "Instruções",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "B61",
+      "label": "Slogan da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "E61",
+      "label": "Frase curta, clara e memorável.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "B62",
+      "label": "Tipo de slogan escolhido",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "E62",
+      "label": "Promessa, propósito, ação, posicionamento ou aspir",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "B63",
+      "label": "O que ela comunica?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "E63",
+      "label": "Explique em 1 linha qual a ideia central que essa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "B67",
+      "label": "Critério",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "E67",
+      "label": "O que observar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "B68",
+      "label": "Clareza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "E68",
+      "label": "Dá pra entender o que você faz ou promete em 5 seg",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "B69",
+      "label": "Memorabilidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "E69",
+      "label": "Soa bem? Gruda na cabeça?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "B70",
+      "label": "Alinhamento emocional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "E70",
+      "label": "Passa o sentimento certo (de acordo com o arquétip",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "B71",
+      "label": "Diferenciação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "E71",
+      "label": "É algo que qualquer concorrente poderia copiar? (S",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "B72",
+      "label": "Relevância para o cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "E72",
+      "label": "Fala sobre algo que o cliente realmente valoriza?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "B77",
+      "label": "Como aplicar no dia a dia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B78",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "B80",
+      "label": "Canal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "D80",
+      "label": "Como usar o slogan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "B81",
+      "label": "Site",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "D81",
+      "label": "Em destaque na homepage ou no topo da seção \"Sobre",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "B82",
+      "label": "Bio de Instagram / LinkedIn",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "D82",
+      "label": "Como frase de impacto para identificação da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "B83",
+      "label": "E-mails / newsletters",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "D83",
+      "label": "No rodapé ou em CTAs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "B84",
+      "label": "Pitch deck",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "D84",
+      "label": "Na capa ou encerramento do pitch",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "B85",
+      "label": "Materiais de vendas / folder / LP",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "D85",
+      "label": "Como chamada principal ou reforço emocional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

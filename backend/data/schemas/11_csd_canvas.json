@@ -1,0 +1,1207 @@
+{
+  "template_key": "11_csd_canvas",
+  "sheet_name": "1.1 CSD Canvas",
+  "sheet_width": 1312.5,
+  "sheet_height": 3153.0975000000003,
+  "title": "1.1 CSD Canvas",
+  "description": "Template for 1.1 CSD Canvas",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "1.1 CSD Canvas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "CSD Canvas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "Tipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "B13",
+      "label": "Descrição da ideia ou afirmação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "F13",
+      "label": "Contexto/Explicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "J13",
+      "label": "Fonte / Evidência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "N13",
+      "label": "Prioridade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "A14",
+      "label": "✅ Certeza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "B14",
+      "label": "Nossa plataforma tem churn mensal de 1,2%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "F14",
+      "label": "Dado real de cancelamentos nos últimos 6 meses",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "J14",
+      "label": "Planilha interna + Stripe",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "N14",
+      "label": "Alta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "B15",
+      "label": "Clientes citam suporte como principal diferencial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "F15",
+      "label": "Feedbacks coletados em NPS e WhatsApp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "J15",
+      "label": "Formulário NPS + Intercom",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "N15",
+      "label": "Média",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "A20",
+      "label": "⚠️ Suposição",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "B20",
+      "label": "Acreditamos que clínicas pequenas preferem planos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "F20",
+      "label": "Ainda não fizemos pesquisa, mas 80% possui plano m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "J20",
+      "label": "Observação informal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "N20",
+      "label": "Alta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "B21",
+      "label": "O Instagram pode se tornar um bom canal de aquisiç",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "F21",
+      "label": "Tem bom engajamento orgânico, mas nunca testamos a",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "J21",
+      "label": "Dados de alcance nos posts",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "N21",
+      "label": "Média",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "A26",
+      "label": "❓ Dúvida",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "B26",
+      "label": "Qual é o nosso LTV real?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "F26",
+      "label": "Não temos dados consistentes de tempo médio de per",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "J26",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "N26",
+      "label": "Alta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "B27",
+      "label": "O cliente entende claramente nosso diferencial?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "F27",
+      "label": "Nunca fizemos teste A/B ou pesquisa sobre proposta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "J27",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "N27",
+      "label": "Alta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "B33",
+      "label": "Conceito CSD Canvas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "B34",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "B36",
+      "label": "CSD = Certeza, Suposição e Dúvida",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "B39",
+      "label": "O que é uma certeza?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "B40",
+      "label": "Fatos validados com dados, testes ou experiências.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "B42",
+      "label": "O que é uma suposição?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "B43",
+      "label": "Hipóteses que ainda não foram validadas com dados",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "B45",
+      "label": "O que é uma dúvida?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "B46",
+      "label": "Questões que a equipe tem e ainda não sabe como re",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "B50",
+      "label": "Como cada coluna funciona",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1336.649999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "B51",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "B53",
+      "label": "Tipo: Categoriza se é uma Certeza, Suposição ou Dú",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "B54",
+      "label": "Descrição: Frase curta e objetiva da afirmação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "B55",
+      "label": "Contexto: Explica a origem ou racional do item",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "B56",
+      "label": "Fonte/Evidência: Links, ferramentas, entrevistas,",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "B57",
+      "label": "Prioridade: Alta, Média ou Baixa - com base no imp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "B61",
+      "label": "Avaliação do resultado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "B62",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "B64",
+      "label": "Avaliação do Resultado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1776.5474999999983,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "B65",
+      "label": "Depois de preenchido, faça o plano de ação com bas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1806.4724999999983,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "B67",
+      "label": "Tipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "C67",
+      "label": "Ação recomendada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "B68",
+      "label": "Suposição",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "C68",
+      "label": "Validar com experimento (campanha, pesquisa, entre",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "B69",
+      "label": "Dúvida",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "C69",
+      "label": "Investigar com dados, entrevistas, ou benchmark",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "B70",
+      "label": "Certeza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "C70",
+      "label": "Reforçar / escalar / automatizar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "B72",
+      "label": "Uso na Prática - Por Quarter",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "B73",
+      "label": "Q1 - Diagnóstico: preencher como parte do onboardi",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2045.872499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "B74",
+      "label": "Q2 - Validação: todas as suposições e dúvidas prio",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2075.797499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "B75",
+      "label": "Q3 - Escala: certezas viram ações priorizadas ou c",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "B76",
+      "label": "Q4 - Captação: CSD vira parte da narrativa (tramos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "B80",
+      "label": "Uso na prática - Dia a Dia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "B81",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "B83",
+      "label": "Uso na Prática - Dia a Dia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B84",
+      "label": "1. Transforme suposições em hipóteses de teste:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "B85",
+      "label": "Cada suposição pode virar uma pergunta real para v",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "B89",
+      "label": "2. Escolha 1 dúvida por semana para investigar ou",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2524.6725000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "B90",
+      "label": "→ Você não precisa resolver tudo de uma vez.\n→ Use",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2554.5975000000008,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "B93",
+      "label": "3. Use o CSD como pauta de priorização com time, m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2644.3725000000013,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "B94",
+      "label": "→ Em vez de decidir “no feeling”, baseie sua próxi",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2674.2975000000015,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "B99",
+      "label": "Como aplicar continuamente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "B100",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "B102",
+      "label": "Quando revisar o CSD?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "D102",
+      "label": "O que fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "B103",
+      "label": "A cada 30 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2943.622500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "D103",
+      "label": "Atualize as certezas validadas. Risque suposições",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2943.622500000003,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "B104",
+      "label": "Antes de lançar campanha",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2973.5475000000033,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "D104",
+      "label": "Verifique se você está baseando a ação em uma cert",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2973.5475000000033,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "B105",
+      "label": "Em reuniões estratégicas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3003.4725000000035,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "D105",
+      "label": "Use o CSD como base para discutir priorização e fo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3003.4725000000035,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

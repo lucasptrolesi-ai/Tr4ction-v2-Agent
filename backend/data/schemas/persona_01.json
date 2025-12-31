@@ -1,0 +1,546 @@
+{
+  "template_key": "persona_01",
+  "sheet_name": "Persona",
+  "sheet_width": 1200.5,
+  "sheet_height": 945.2,
+  "title": "Customer Persona Template",
+  "description": "Define a detailed customer persona for product/market fit analysis. This template helps you build a comprehensive understanding of your target customer segment through demographics, psychographics, behaviors, and pain points.",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "persona_name",
+      "cell": "B2",
+      "type": "text",
+      "label": "Persona Name",
+      "placeholder": "e.g., Young Urban Professional",
+      "required": true,
+      "section": "Identity",
+      "help_text": "Give this persona a memorable name that captures their essence. Examples: 'The Bootstrapper', 'Corporate Executive', 'Designer on a Budget'",
+      "position": {
+        "top": 18.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "min": 3,
+        "max": 100
+      }
+    },
+    {
+      "key": "age_range",
+      "cell": "B3",
+      "type": "text",
+      "label": "Age Range",
+      "placeholder": "e.g., 25-35",
+      "required": true,
+      "section": "Identity",
+      "help_text": "Typical age range for this persona",
+      "position": {
+        "top": 38.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "pattern": "^\\d+-\\d+$"
+      }
+    },
+    {
+      "key": "gender",
+      "cell": "B4",
+      "type": "enum",
+      "label": "Gender",
+      "required": false,
+      "section": "Identity",
+      "position": {
+        "top": 58.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Male", "Female", "Non-binary", "Prefer not to say"]
+      }
+    },
+    {
+      "key": "occupation",
+      "cell": "B5",
+      "type": "text",
+      "label": "Primary Occupation",
+      "placeholder": "e.g., Software Engineer, Product Manager",
+      "required": true,
+      "section": "Identity",
+      "help_text": "What is their main job title or role?",
+      "position": {
+        "top": 78.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "min": 3,
+        "max": 100
+      }
+    },
+    {
+      "key": "income_range",
+      "cell": "B6",
+      "type": "currency",
+      "label": "Annual Income Range",
+      "placeholder": "e.g., $50,000 - $100,000",
+      "required": false,
+      "section": "Identity",
+      "position": {
+        "top": 98.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {}
+    },
+    {
+      "key": "education",
+      "cell": "B7",
+      "type": "enum",
+      "label": "Education Level",
+      "required": false,
+      "section": "Identity",
+      "position": {
+        "top": 118.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["High School", "Bachelor's", "Master's", "PhD", "Other"]
+      }
+    },
+    {
+      "key": "location",
+      "cell": "B8",
+      "type": "text",
+      "label": "Geographic Location",
+      "placeholder": "e.g., San Francisco Bay Area, EU, Remote",
+      "required": false,
+      "section": "Identity",
+      "position": {
+        "top": 138.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "max": 150
+      }
+    },
+    {
+      "key": "values",
+      "cell": "B10",
+      "type": "textarea",
+      "label": "Core Values",
+      "placeholder": "What matters most to them? (List 3-5 values)",
+      "required": true,
+      "section": "Psychographics",
+      "help_text": "Examples: Innovation, Security, Sustainability, Work-life balance, Growth, Independence",
+      "position": {
+        "top": 178.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "min": 10,
+        "max": 500
+      }
+    },
+    {
+      "key": "pain_points",
+      "cell": "B12",
+      "type": "textarea",
+      "label": "Main Pain Points",
+      "placeholder": "What challenges do they face daily? (List top 5)",
+      "required": true,
+      "section": "Psychographics",
+      "help_text": "What problems keep them up at night? What are their biggest frustrations in their work or life?",
+      "position": {
+        "top": 258.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 100.0
+      },
+      "validation_rules": {
+        "min": 20,
+        "max": 1000
+      }
+    },
+    {
+      "key": "goals",
+      "cell": "B14",
+      "type": "textarea",
+      "label": "Primary Goals",
+      "placeholder": "What do they want to achieve? (List top 3)",
+      "required": true,
+      "section": "Psychographics",
+      "help_text": "Short-term (0-6 months) and long-term (1+ years) aspirations",
+      "position": {
+        "top": 358.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 100.0
+      },
+      "validation_rules": {
+        "min": 20,
+        "max": 1000
+      }
+    },
+    {
+      "key": "fears_objections",
+      "cell": "B16",
+      "type": "textarea",
+      "label": "Fears & Objections",
+      "placeholder": "What are they afraid of? (List 3-5)",
+      "required": false,
+      "section": "Psychographics",
+      "help_text": "What holds them back? What would make them hesitate to buy?",
+      "position": {
+        "top": 458.95,
+        "left": 49.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "preferred_channels",
+      "cell": "D2",
+      "type": "textarea",
+      "label": "Preferred Communication Channels",
+      "placeholder": "Social media, email, phone, in-person? (Rate by preference)",
+      "required": true,
+      "section": "Communication",
+      "help_text": "How do they prefer to learn and communicate?",
+      "position": {
+        "top": 18.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "min": 10,
+        "max": 500
+      }
+    },
+    {
+      "key": "content_preferences",
+      "cell": "D4",
+      "type": "textarea",
+      "label": "Content Type Preferences",
+      "placeholder": "Video, articles, podcasts, infographics, webinars?",
+      "required": false,
+      "section": "Communication",
+      "help_text": "What formats do they consume most?",
+      "position": {
+        "top": 98.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "social_media",
+      "cell": "D6",
+      "type": "textarea",
+      "label": "Social Media Presence",
+      "placeholder": "LinkedIn, Twitter, Instagram, TikTok, etc.",
+      "required": false,
+      "section": "Communication",
+      "help_text": "Which platforms are they active on?",
+      "position": {
+        "top": 178.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 60.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "technology_adoption",
+      "cell": "D8",
+      "type": "enum",
+      "label": "Technology Adoption",
+      "required": false,
+      "section": "Behavior",
+      "position": {
+        "top": 238.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Early Adopter", "Early Majority", "Late Majority", "Laggard"]
+      }
+    },
+    {
+      "key": "decision_making_style",
+      "cell": "D9",
+      "type": "enum",
+      "label": "Decision Making Style",
+      "required": false,
+      "section": "Behavior",
+      "position": {
+        "top": 258.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Analytical", "Intuitive", "Consensus-driven", "Fast & Decisive"]
+      }
+    },
+    {
+      "key": "buying_triggers",
+      "cell": "D11",
+      "type": "textarea",
+      "label": "Buying Triggers",
+      "placeholder": "What events or situations trigger a purchase decision?",
+      "required": false,
+      "section": "Behavior",
+      "help_text": "Seasonal, event-based, or circumstantial triggers",
+      "position": {
+        "top": 298.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "budget_availability",
+      "cell": "D13",
+      "type": "enum",
+      "label": "Budget Availability",
+      "required": false,
+      "section": "Behavior",
+      "position": {
+        "top": 378.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Unlimited", "Well-funded", "Limited", "Very tight budget"]
+      }
+    },
+    {
+      "key": "success_metrics",
+      "cell": "D15",
+      "type": "textarea",
+      "label": "How They Measure Success",
+      "placeholder": "What KPIs or metrics matter to them?",
+      "required": false,
+      "section": "Behavior",
+      "help_text": "Revenue, user retention, brand awareness, time saved, cost reduction?",
+      "position": {
+        "top": 398.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "timeline_urgency",
+      "cell": "D17",
+      "type": "enum",
+      "label": "Decision Timeline",
+      "required": false,
+      "section": "Behavior",
+      "position": {
+        "top": 478.95,
+        "left": 392.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Immediate (< 1 week)", "Short-term (1-4 weeks)", "Medium (1-3 months)", "Long-term (3+ months)"]
+      }
+    },
+    {
+      "key": "personal_interests",
+      "cell": "F2",
+      "type": "textarea",
+      "label": "Personal Interests & Hobbies",
+      "placeholder": "What do they do in their free time?",
+      "required": false,
+      "section": "Personal",
+      "help_text": "Sports, reading, travel, gaming, cooking, etc.",
+      "position": {
+        "top": 18.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 60.0
+      },
+      "validation_rules": {
+        "max": 300
+      }
+    },
+    {
+      "key": "industry_expertise",
+      "cell": "F4",
+      "type": "textarea",
+      "label": "Industry Expertise & Background",
+      "placeholder": "What's their professional background and expertise?",
+      "required": false,
+      "section": "Personal",
+      "position": {
+        "top": 78.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "role_in_buying",
+      "cell": "F6",
+      "type": "enum",
+      "label": "Role in Buying Decision",
+      "required": false,
+      "section": "Personal",
+      "position": {
+        "top": 158.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Decision Maker", "Influencer", "User/End-User", "Gatekeeper"]
+      }
+    },
+    {
+      "key": "influence_factors",
+      "cell": "F8",
+      "type": "textarea",
+      "label": "What Influences Them Most",
+      "placeholder": "Peer recommendations, expert opinions, data/ROI, brand reputation?",
+      "required": false,
+      "section": "Personal",
+      "position": {
+        "top": 178.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "brand_perception",
+      "cell": "F10",
+      "type": "textarea",
+      "label": "Brand Perception & Loyalty",
+      "placeholder": "How loyal are they? What brands do they trust?",
+      "required": false,
+      "section": "Personal",
+      "help_text": "Are they loyal to specific brands or always open to switching?",
+      "position": {
+        "top": 258.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "pricing_sensitivity",
+      "cell": "F12",
+      "type": "enum",
+      "label": "Price Sensitivity",
+      "required": false,
+      "section": "Personal",
+      "position": {
+        "top": 338.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 20.0
+      },
+      "validation_rules": {
+        "enum": ["Very price sensitive", "Price conscious", "Quality-focused", "Price insensitive"]
+      }
+    },
+    {
+      "key": "motivation_drivers",
+      "cell": "F14",
+      "type": "textarea",
+      "label": "Key Motivation Drivers",
+      "placeholder": "What motivates them most? (Power, status, security, autonomy, achievement)",
+      "required": false,
+      "section": "Personal",
+      "position": {
+        "top": 358.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "objection_overcoming",
+      "cell": "F16",
+      "type": "textarea",
+      "label": "How to Overcome Their Objections",
+      "placeholder": "What evidence, testimonials, or proof do they need?",
+      "required": false,
+      "section": "Personal",
+      "help_text": "Data, case studies, testimonials, free trial, guarantee?",
+      "position": {
+        "top": 438.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "max": 500
+      }
+    },
+    {
+      "key": "ideal_offer",
+      "cell": "F18",
+      "type": "textarea",
+      "label": "Ideal Offer or Solution",
+      "placeholder": "Describe the perfect solution for this persona",
+      "required": true,
+      "section": "Solution",
+      "help_text": "What would make them say 'YES' immediately?",
+      "position": {
+        "top": 518.95,
+        "left": 735.0,
+        "width": 343.0,
+        "height": 80.0
+      },
+      "validation_rules": {
+        "min": 20,
+        "max": 1000
+      }
+    }
+  ]
+}

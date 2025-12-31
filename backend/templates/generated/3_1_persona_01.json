@@ -1,0 +1,331 @@
+{
+  "template_key": "3_1_persona_01",
+  "sheet_name": "3.1 Persona 01",
+  "sheet_width": 1312.5,
+  "sheet_height": 3616.93,
+  "title": "3.1 Persona 01",
+  "description": "Auto-generated template for 3.1 Persona 01",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_i16_0",
+      "label": "O que ela faz no dia a dia?",
+      "cell": "I16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i18_1",
+      "label": "Como resolve o problema que sua startup soluciona?",
+      "cell": "I18",
+      "type": "textarea",
+      "top": 427.93,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i20_2",
+      "label": "Ferramentas / hábitos que já usa",
+      "cell": "I20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i22_3",
+      "label": "Nível de autonomia",
+      "cell": "I22",
+      "type": "textarea",
+      "top": 547.63,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c25_4",
+      "label": "Nome",
+      "cell": "C25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i27_5",
+      "label": "Dores práticas / visíveis",
+      "cell": "I27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c28_6",
+      "label": "Idade / faixa etária",
+      "cell": "C28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i29_7",
+      "label": "Dores emocionais",
+      "cell": "I29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c31_8",
+      "label": "Profissão",
+      "cell": "C31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i31_9",
+      "label": "Medos e objeções",
+      "cell": "I31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c34_10",
+      "label": "Gênero (se relevante)",
+      "cell": "C34",
+      "type": "textarea",
+      "top": 906.73,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i36_11",
+      "label": "Objetivos racionais",
+      "cell": "I36",
+      "type": "textarea",
+      "top": 966.58,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c37_12",
+      "label": "Localização / Região",
+      "cell": "C37",
+      "type": "textarea",
+      "top": 996.5,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i38_13",
+      "label": "Desejos emocionais",
+      "cell": "I38",
+      "type": "textarea",
+      "top": 1026.43,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c40_14",
+      "label": "Estágio da Vida",
+      "cell": "C40",
+      "type": "textarea",
+      "top": 1086.28,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i40_15",
+      "label": "Metas claras",
+      "cell": "I40",
+      "type": "textarea",
+      "top": 1086.28,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c43_16",
+      "label": "Carreira",
+      "cell": "C43",
+      "type": "textarea",
+      "top": 1176.05,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i45_17",
+      "label": "Como prefere se comunicar",
+      "cell": "I45",
+      "type": "textarea",
+      "top": 1235.9,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c46_18",
+      "label": "Classe Social",
+      "cell": "C46",
+      "type": "textarea",
+      "top": 1265.83,
+      "left": 182.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i47_19",
+      "label": "Tom ideal",
+      "cell": "I47",
+      "type": "textarea",
+      "top": 1295.75,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i49_20",
+      "label": "Linguagem a evitar",
+      "cell": "I49",
+      "type": "textarea",
+      "top": 1355.6,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_a51_21",
+      "label": "Frases típicas que essa persona diria",
+      "cell": "A51",
+      "type": "textarea",
+      "top": 1415.45,
+      "left": 0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i51_22",
+      "label": "Comunicação favorita",
+      "cell": "I51",
+      "type": "textarea",
+      "top": 1415.45,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_a53_23",
+      "label": "Frases típicas que essa persona diria",
+      "cell": "A53",
+      "type": "textarea",
+      "top": 1475.3,
+      "left": 0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_a55_24",
+      "label": "Frases típicas que essa persona diria",
+      "cell": "A55",
+      "type": "textarea",
+      "top": 1535.15,
+      "left": 0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i56_25",
+      "label": "Onde busca ajuda",
+      "cell": "I56",
+      "type": "textarea",
+      "top": 1565.08,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_a57_26",
+      "label": "Frases típicas que essa persona diria",
+      "cell": "A57",
+      "type": "textarea",
+      "top": 1595.0,
+      "left": 0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i58_27",
+      "label": "Onde consome conteúdo",
+      "cell": "I58",
+      "type": "textarea",
+      "top": 1624.93,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_a59_28",
+      "label": "Frases típicas que essa persona diria",
+      "cell": "A59",
+      "type": "textarea",
+      "top": 1654.85,
+      "left": 0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i60_29",
+      "label": "Como toma decisões",
+      "cell": "I60",
+      "type": "textarea",
+      "top": 1684.78,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_a61_30",
+      "label": "Frases típicas que essa persona diria",
+      "cell": "A61",
+      "type": "textarea",
+      "top": 1714.7,
+      "left": 0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_i62_31",
+      "label": "Nível de habilidade digital",
+      "cell": "I62",
+      "type": "text",
+      "top": 1744.63,
+      "left": 728.0,
+      "width": 539.0,
+      "height": 29.93
+    }
+  ]
+}

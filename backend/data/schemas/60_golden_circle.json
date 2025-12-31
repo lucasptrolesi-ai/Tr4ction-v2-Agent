@@ -1,0 +1,726 @@
+{
+  "template_key": "60_golden_circle",
+  "sheet_name": "6.0 Golden Circle",
+  "sheet_width": 1312.5,
+  "sheet_height": 1986.0225,
+  "title": "6.0 Golden Circle",
+  "description": "Template for 6.0 Golden Circle",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "6.0 Definição da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Golden Circle",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "E14",
+      "label": "WHY?\nPor que sua startup existe?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "G14",
+      "label": "Qual impacto positivo vocês querem gerar no mundo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "J14",
+      "label": "Porque pagar tão caro ou esperar tanto no sus por",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "E18",
+      "label": "HOW?\nComo sua solução gera esse impacto?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "G18",
+      "label": "Qual seu diferencial, método, abordagem, experiênc",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "J18",
+      "label": "Gerar valor para todos envolvidos como médicos e p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "E22",
+      "label": "WHAT?\nO que você entrega hoje?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "G22",
+      "label": "Produto, serviço, funcionalidade ou oferta de form",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "J22",
+      "label": "Gestão de agendamento mais ágil e eficiente.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "B27",
+      "label": "Conceito Golden Circle",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "B28",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "B30",
+      "label": "O Golden Circle (Círculo Dourado), criado por Simo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "B33",
+      "label": "→ Marcas fortes não vendem apenas produtos - elas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "B37",
+      "label": "Como preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "B38",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "B40",
+      "label": "Bloco",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "C40",
+      "label": "Pergunta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "F40",
+      "label": "O que colocar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "B41",
+      "label": "WHY",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "C41",
+      "label": "Qual o impacto positivo que queremos gerar no mund",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "F41",
+      "label": "Uma crença, uma causa ou um propósito mais profund",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "B43",
+      "label": "WHO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "C43",
+      "label": "O que torna nossa forma de entregar valor diferent",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "F43",
+      "label": "Seu método, diferencial, jeito de trabalhar. Pode",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "B45",
+      "label": "WHAT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "C45",
+      "label": "O que você vende ou oferece hoje, de forma objetiv",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "F45",
+      "label": "Produto, serviço, categoria. Ex: plataforma de ges",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "B51",
+      "label": "Onde aplicar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "B52",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "B54",
+      "label": "Aplicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "F54",
+      "label": "Qual parte do Golden Circle se destaca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "B55",
+      "label": "Site - Sobre nós",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "F55",
+      "label": "WHY + HOW + WHAT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "B56",
+      "label": "Headline do site",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "F56",
+      "label": "WHAT + HOW",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "B57",
+      "label": "Bio de redes sociais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "F57",
+      "label": "HOW + WHAT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "B58",
+      "label": "Pitch Deck (slide inicial)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "F58",
+      "label": "WHY + HOW",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "B59",
+      "label": "Posts institucionais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1605.9749999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "F59",
+      "label": "WHY",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1605.9749999999985,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "B60",
+      "label": "Scripts de vendas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "F60",
+      "label": "HOW + WHAT",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "B61",
+      "label": "Materiais de cultura interna",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "F61",
+      "label": "WHY + HOW",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "B62",
+      "label": "Slogan ou assinatura",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "F62",
+      "label": "Mini-resumo de HOW + WHY",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

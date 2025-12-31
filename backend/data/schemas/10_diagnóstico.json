@@ -1,0 +1,3131 @@
+{
+  "template_key": "10_diagnóstico",
+  "sheet_name": "1.0 Diagnóstico",
+  "sheet_width": 1312.5,
+  "sheet_height": 4230.3975,
+  "title": "1.0 Diagnóstico",
+  "description": "Template for 1.0 Diagnóstico",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "1.0 Diagnóstico",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Identificação da Startup",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A14",
+      "label": "Nome da Startup",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "C14",
+      "label": "ClínicaTech",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "H14",
+      "label": "Data de início (Q1)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "J14",
+      "label": "2025-07-07 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "A15",
+      "label": "Fundadores",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "C15",
+      "label": "Felipe Paiva",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "H15",
+      "label": "North Star Metric",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "J15",
+      "label": "Nº de agendas marcadas via sistema / Horas economi",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "A16",
+      "label": "Setor / Segmento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "C16",
+      "label": "SaaS / Saúde",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "H16",
+      "label": "Objetivo do Programa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "J16",
+      "label": "Validar canal / Crescer receita / Posicionar marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "A17",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "C17",
+      "label": "Felipe",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "H17",
+      "label": "Meta-Chave (até Q4)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "J17",
+      "label": "Atingir R$40k de MRR com CAC abaixo de R$400",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "A19",
+      "label": "Contexto Estratégico (dados qualitativo)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "A21",
+      "label": "Produto e Estágio",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "C21",
+      "label": "Já captou investimento?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "H21",
+      "label": "Sim (Anjo - R$300k)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "C22",
+      "label": "Possui produto validado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "H22",
+      "label": "Sim, com 22 clínicas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "C23",
+      "label": "Quais problemas principais ele resolve?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "H23",
+      "label": "Controle de prontuários eletrônicos; Agendamento d",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "C24",
+      "label": "Modelo de receita",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "H24",
+      "label": "SaaS (Software as a Service)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "K24",
+      "label": "Outros, quais?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "C25",
+      "label": "Estágio atual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "H25",
+      "label": "Tração",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "C26",
+      "label": "Canal principal de aquisição hoje",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "H26",
+      "label": "Indicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "C27",
+      "label": "Conhece seu CAC e LTV?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "H27",
+      "label": "Ainda não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "A29",
+      "label": "Time",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "C29",
+      "label": "Quantas pessoas estão no time hoje?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "H29",
+      "label": "11 pessoas no total",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "C30",
+      "label": "Time atual de marketing (funções + nº pessoas)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "H30",
+      "label": "1 Analista de Marketing, 1 Estagiário",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "C31",
+      "label": "Time atual de vendas (funções + nº pessoas)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "H31",
+      "label": "1 Comercial, 1 Suporte",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "C32",
+      "label": "Quem toma as decisões de comunicação e growth?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "H32",
+      "label": "CEO e Analista de Marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "A34",
+      "label": "Contexto Estratégico (dados quantitativo)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "H36",
+      "label": "Valor Atual (Q1)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "J36",
+      "label": "Fonte / Observação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "A37",
+      "label": "Métricas Gerais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "C37",
+      "label": "MRR",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "H37",
+      "label": "R$ 18.000,00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "J37",
+      "label": "Stripe",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "C38",
+      "label": "Nº de clientes pagantes",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "H38",
+      "label": "22.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "J38",
+      "label": "Planilha interna",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "C39",
+      "label": "Ticket médio / ARR estimado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "H39",
+      "label": "R$ 818,00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "J39",
+      "label": "Calculado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "C40",
+      "label": "CAC (Custo de Aquisição de Clientes) estimado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "H40",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "J40",
+      "label": "Não rastreado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "C41",
+      "label": "LTV (Lifetime Value) estimado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "H41",
+      "label": "R$ 4.000,00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "J41",
+      "label": "Base em churn",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "C42",
+      "label": "Churn médio mensal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "H42",
+      "label": "0.012",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "J42",
+      "label": "Média dos 3 últimos meses",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "C43",
+      "label": "Número de leads/mês",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "H43",
+      "label": "40.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "J43",
+      "label": "WhatsApp + CRM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "C44",
+      "label": "CPL (Custo por Lead)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "H44",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "J44",
+      "label": "Não mede ainda",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "C45",
+      "label": "Visitas no Site/mês",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "H45",
+      "label": "1020.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "J45",
+      "label": "GA-4",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "C46",
+      "label": "Número de LPs ativas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "H46",
+      "label": "0.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "J46",
+      "label": "Usa somente site institucional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "C47",
+      "label": "Campanhas rodando",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "H47",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "J47",
+      "label": "Google Ads - institucional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "C48",
+      "label": "Testes de canal executados",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "H48",
+      "label": "0.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "J48",
+      "label": "Nada validado ainda",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "C49",
+      "label": "NPS",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "H49",
+      "label": "67.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_93",
+      "cell": "J49",
+      "label": "Coletado via Typeform",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_94",
+      "cell": "H51",
+      "label": "Seguidores Atual (Q1)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_95",
+      "cell": "J51",
+      "label": "Fonte / Link",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_96",
+      "cell": "A52",
+      "label": "Métricas de Social",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_97",
+      "cell": "C52",
+      "label": "Facebook",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_98",
+      "cell": "H52",
+      "label": "1029.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_99",
+      "cell": "J52",
+      "label": "Inserir link",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_100",
+      "cell": "C53",
+      "label": "Instagram",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_101",
+      "cell": "H53",
+      "label": "5176.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_102",
+      "cell": "J53",
+      "label": "Inserir link",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_103",
+      "cell": "C54",
+      "label": "LinkedIn",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_104",
+      "cell": "H54",
+      "label": "103.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_105",
+      "cell": "J54",
+      "label": "Inserir link",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1456.3499999999988,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_106",
+      "cell": "C55",
+      "label": "YouTube",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_107",
+      "cell": "H55",
+      "label": "102.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_108",
+      "cell": "J55",
+      "label": "Inserir link",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_109",
+      "cell": "C56",
+      "label": "TikTok",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_110",
+      "cell": "H56",
+      "label": "10456.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_111",
+      "cell": "J56",
+      "label": "Inserir link",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_112",
+      "cell": "C57",
+      "label": "Twitter",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_113",
+      "cell": "H57",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_114",
+      "cell": "J57",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_115",
+      "cell": "C58",
+      "label": "Pinterest",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_116",
+      "cell": "H58",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_117",
+      "cell": "J58",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_118",
+      "cell": "C59",
+      "label": "Outros",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1605.9749999999985,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_119",
+      "cell": "A61",
+      "label": "Avaliação de Maturidade (dados qualitativo)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_120",
+      "cell": "A63",
+      "label": "Avaliação feita com base em evidência, não achismo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_121",
+      "cell": "F64",
+      "label": "1 = Inexistente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1776.5474999999983,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_122",
+      "cell": "G64",
+      "label": "2 = Iniciante",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1776.5474999999983,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_123",
+      "cell": "H64",
+      "label": "3 = Funcional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1776.5474999999983,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_124",
+      "cell": "I64",
+      "label": "4 = Escalável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1776.5474999999983,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_125",
+      "cell": "H66",
+      "label": "Nota (1-4)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1836.3974999999982,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_126",
+      "cell": "I66",
+      "label": "Comentário / Evidência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1836.3974999999982,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_127",
+      "cell": "A67",
+      "label": "Fundamentos \nEstratégicos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_128",
+      "cell": "C67",
+      "label": "Proposta Única de Valor definida?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_129",
+      "cell": "H67",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_130",
+      "cell": "I67",
+      "label": "Validada em reuniões, mas não está documentada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_131",
+      "cell": "C68",
+      "label": "Branding construído (logo, identidade, tom)?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_132",
+      "cell": "H68",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_133",
+      "cell": "I68",
+      "label": "Precisa melhorar e padronizar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_134",
+      "cell": "C69",
+      "label": "ICP (Perfil de Cliente Ideal) mapeado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_135",
+      "cell": "H69",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_136",
+      "cell": "I69",
+      "label": "Suposições, sem validação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_137",
+      "cell": "C70",
+      "label": "Persona definida?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_138",
+      "cell": "H70",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_139",
+      "cell": "I70",
+      "label": "Suposições, sem validação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_140",
+      "cell": "C71",
+      "label": "Jornada do Cliente desenhada?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_141",
+      "cell": "H71",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_142",
+      "cell": "I71",
+      "label": "Não mapeada formalmente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_143",
+      "cell": "C72",
+      "label": "Benchmarking",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_144",
+      "cell": "H72",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_145",
+      "cell": "I72",
+      "label": "Feito de forma informal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_146",
+      "cell": "C73",
+      "label": "Análise SWOT feita?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2045.872499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_147",
+      "cell": "H73",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2045.872499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_148",
+      "cell": "I73",
+      "label": "Preenchida com frases genéricas, sem conexão com p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2045.872499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_149",
+      "cell": "C74",
+      "label": "TAM / SAM / SOM estimado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2075.797499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_150",
+      "cell": "H74",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2075.797499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_151",
+      "cell": "I74",
+      "label": "Não existe ainda",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2075.797499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_152",
+      "cell": "C75",
+      "label": "CSD Canvas feito?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_153",
+      "cell": "H75",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_154",
+      "cell": "I75",
+      "label": "Canvas não foi preenchido",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_155",
+      "cell": "C76",
+      "label": "Meta SMART definida?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_156",
+      "cell": "H76",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_157",
+      "cell": "I76",
+      "label": "Meta definida (R$50k MRR até Q4), mas não temos pl",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_158",
+      "cell": "C77",
+      "label": "Funil de vendas estruturado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_159",
+      "cell": "H77",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_160",
+      "cell": "I77",
+      "label": "Temos ideia das etapas, mas não temos nada documen",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_161",
+      "cell": "C78",
+      "label": "Calendário de conteúdo ativo?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_162",
+      "cell": "H78",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_163",
+      "cell": "I78",
+      "label": "Não existe calendário nem produção recorrente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_164",
+      "cell": "C79",
+      "label": "Planejamento de marketing dos próximos 30 dias?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_165",
+      "cell": "H79",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_166",
+      "cell": "I79",
+      "label": "Sem plano claro, só ideias soltas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_167",
+      "cell": "C80",
+      "label": "Mídia paga rodando?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_168",
+      "cell": "H80",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_169",
+      "cell": "I80",
+      "label": "Nunca rodamos campanha paga",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_170",
+      "cell": "C81",
+      "label": "Análise de métricas?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_171",
+      "cell": "H81",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_172",
+      "cell": "I81",
+      "label": "Não temos dados confiáveis, nem dashboard simples",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_173",
+      "cell": "H84",
+      "label": "Nota (1-4)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_174",
+      "cell": "I84",
+      "label": "Comentário / Evidência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_175",
+      "cell": "A85",
+      "label": "Infraestrutura Digital",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_176",
+      "cell": "C85",
+      "label": "Website funcional?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_177",
+      "cell": "H85",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_178",
+      "cell": "I85",
+      "label": "Site institucional básico, sem captura de lead",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_179",
+      "cell": "C86",
+      "label": "Tagueamento (GA-4, Pixel)?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2434.8975,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_180",
+      "cell": "H86",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2434.8975,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_181",
+      "cell": "I86",
+      "label": "Sem rastreamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2434.8975,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_182",
+      "cell": "C87",
+      "label": "CRM implementado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_183",
+      "cell": "H87",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_184",
+      "cell": "I87",
+      "label": "Planilha compartilhada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_185",
+      "cell": "C88",
+      "label": "Ferramentas de automação?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_186",
+      "cell": "H88",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_187",
+      "cell": "I88",
+      "label": "Nenhuma ainda",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_188",
+      "cell": "H91",
+      "label": "Nota (1-4)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2584.522500000001,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_189",
+      "cell": "I91",
+      "label": "Comentário / Evidência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2584.522500000001,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_190",
+      "cell": "A92",
+      "label": "Aquisição de Clientes",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_191",
+      "cell": "C92",
+      "label": "Estratégia de canais definida",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_192",
+      "cell": "H92",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_193",
+      "cell": "I92",
+      "label": "Só usamos indicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_194",
+      "cell": "C93",
+      "label": "LPs com conversão",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2644.3725000000013,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_195",
+      "cell": "H93",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2644.3725000000013,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_196",
+      "cell": "I93",
+      "label": "Não temos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2644.3725000000013,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_197",
+      "cell": "C94",
+      "label": "Campanhas pagas rodando?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2674.2975000000015,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_198",
+      "cell": "H94",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2674.2975000000015,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_199",
+      "cell": "I94",
+      "label": "Nunca testamos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2674.2975000000015,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_200",
+      "cell": "C95",
+      "label": "Conteúdo planejado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2704.2225000000017,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_201",
+      "cell": "H95",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2704.2225000000017,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_202",
+      "cell": "I95",
+      "label": "Não produz nada atualmente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2704.2225000000017,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_203",
+      "cell": "H98",
+      "label": "Nota (1-4)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2793.997500000002,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_204",
+      "cell": "I98",
+      "label": "Comentário / Evidência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2793.997500000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_205",
+      "cell": "A99",
+      "label": "Dados e Métricas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_206",
+      "cell": "C99",
+      "label": "CAC, CPL rastreados",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_207",
+      "cell": "H99",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_208",
+      "cell": "I99",
+      "label": "Nenhum dado coletado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_209",
+      "cell": "C100",
+      "label": "LTV calculado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_210",
+      "cell": "H100",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_211",
+      "cell": "I100",
+      "label": "Estimado, sem precisão",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_212",
+      "cell": "C101",
+      "label": "Dashboards / relatórios",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2883.7725000000028,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_213",
+      "cell": "H101",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2883.7725000000028,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_214",
+      "cell": "I101",
+      "label": "Inexistente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2883.7725000000028,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_215",
+      "cell": "C102",
+      "label": "Cultura de uso de dados",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_216",
+      "cell": "H102",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_217",
+      "cell": "I102",
+      "label": "Baseado em feeling e anotações",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_218",
+      "cell": "H105",
+      "label": "Nota (1-4)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3003.4725000000035,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_219",
+      "cell": "I105",
+      "label": "Comentário / Evidência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3003.4725000000035,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_220",
+      "cell": "A106",
+      "label": "Retenção e Experiência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3033.3975000000037,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_221",
+      "cell": "C106",
+      "label": "Onboarding estruturado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3033.3975000000037,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_222",
+      "cell": "H106",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3033.3975000000037,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_223",
+      "cell": "I106",
+      "label": "Manual, via suporte",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3033.3975000000037,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_224",
+      "cell": "C107",
+      "label": "Retenção monitorada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3063.322500000004,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_225",
+      "cell": "H107",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3063.322500000004,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_226",
+      "cell": "I107",
+      "label": "Mede churn, mas sem profundidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3063.322500000004,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_227",
+      "cell": "C108",
+      "label": "CS ou suporte ativo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_228",
+      "cell": "H108",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_229",
+      "cell": "I108",
+      "label": "Via WhatsApp com tempo de resposta bom",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_230",
+      "cell": "C109",
+      "label": "Engajamento / feedback",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_231",
+      "cell": "H109",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_232",
+      "cell": "I109",
+      "label": "Coleta NPS mensalmente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_233",
+      "cell": "C112",
+      "label": "Como Preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3212.9475000000048,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_234",
+      "cell": "C113",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_235",
+      "cell": "C115",
+      "label": "Avaliação de Maturidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_236",
+      "cell": "C121",
+      "label": "Nota",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_237",
+      "cell": "D121",
+      "label": "Significado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_238",
+      "cell": "C132",
+      "label": "Cálculo do Score Geral de Maturidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3811.4475000000084,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_239",
+      "cell": "C133",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3841.3725000000086,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_240",
+      "cell": "C141",
+      "label": "Média",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4080.77250000001,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

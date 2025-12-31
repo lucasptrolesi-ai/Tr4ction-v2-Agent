@@ -1,0 +1,1064 @@
+{
+  "template_key": "61_posicionamento_verbal",
+  "sheet_name": "6.1 Posicionamento Verbal",
+  "sheet_width": 1312.5,
+  "sheet_height": 3841.3725,
+  "title": "6.1 Posicionamento Verbal",
+  "description": "Template for 6.1 Posicionamento Verbal",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "6.0 Definição da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Posicionamento Verbal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A14",
+      "label": "ICP",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "D14",
+      "label": "DOR PRINCIPAL",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "G14",
+      "label": "SOLUÇÃO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "J14",
+      "label": "BENEFÍCIO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "M14",
+      "label": "DIFERENCIAL",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "A16",
+      "label": "Quem você atende? \nQuem é o cliente ideal?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "D16",
+      "label": "Qual o problema urgente/recorrente que você resolv",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "G16",
+      "label": "O que sua startup faz?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "J16",
+      "label": "Qual o resultado percebido \npelo cliente?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "M16",
+      "label": "O que te torna melhor ou diferente das alternativa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "A18",
+      "label": "Mulheres inseridas no mercado de trabalho que estã",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "D18",
+      "label": "Falta de recursos suficiente para manter uma terap",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "G18",
+      "label": "Desenvolvemos IA (Agente) é uma terapeuta virtual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "J18",
+      "label": "Praticidade e de acolhimento.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "M18",
+      "label": "Forte posicionamento a valorização da mulher, igua",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "D22",
+      "label": "Fórmula para a frase de posicionamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "D24",
+      "label": "Ajudamos [ICP] que enfrentam [dor principal] a [be",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "D27",
+      "label": "Frase de Posicionamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "D29",
+      "label": "Ajudamos mulheres sobrecarregadas que enfrentam fa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "B35",
+      "label": "Conceito Posicionamento Verbal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "B36",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 917.6999999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "B40",
+      "label": "→ Quem você ajuda\n→ Que problema resolve\n→ Que val",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "B49",
+      "label": "Como preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "B50",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1336.649999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "B52",
+      "label": "Use linguagem simples, específica e baseada na rea",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "B55",
+      "label": "→ Seja objetivo. Foque no seu cliente ideal real,",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "B62",
+      "label": "→ Escolha uma dor específica, urgente, frequente -",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "B69",
+      "label": "→ Aqui você descreve o produto ou serviço, com cla",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "B77",
+      "label": "→ Pense no impacto final que o cliente consegue no",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "B84",
+      "label": "→ Aqui você reforça o que te diferencia das altern",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2375.0474999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "B92",
+      "label": "Onde aplicar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "B93",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2644.3725000000013,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "B95",
+      "label": "Onde aplicar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2704.2225000000017,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "F95",
+      "label": "Como usar a frase de posicionamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2704.2225000000017,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "B96",
+      "label": "Headline do site",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2734.147500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "F96",
+      "label": "Use a parte mais forte: benefício + diferencial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2734.147500000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "B97",
+      "label": "Pitch de vendas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2764.072500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "F97",
+      "label": "Use a frase completa como introdução",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2764.072500000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "B98",
+      "label": "Bio de Instagram ou LinkedIn",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2793.997500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "F98",
+      "label": "Versão enxuta e objetiva",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2793.997500000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "B99",
+      "label": "Campanhas de tráfego pago",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "F99",
+      "label": "Destaque o benefício concreto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "B100",
+      "label": "Conteúdo (blog, vídeos, social)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "F100",
+      "label": "Reforce os pilares da frase (problema, benefício)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2853.8475000000026,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "B101",
+      "label": "Equipe interna",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2883.7725000000028,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "F101",
+      "label": "Alinhe todo o time para comunicar a mesma mensagem",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2883.7725000000028,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "A107",
+      "label": "Golden Circle x Posicionamento Verbal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3063.322500000004,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "B114",
+      "label": "Canal / Aplicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3272.797500000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "E114",
+      "label": "Papel do Golden Circle",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3272.797500000005,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "I114",
+      "label": "Papel do Posicionamento Verbal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3272.797500000005,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "B115",
+      "label": "Pitch (slide inicial)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "E115",
+      "label": "Mostrar propósito e visão → criar conexão emociona",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "I115",
+      "label": "Explicar o que você faz de forma clara e específic",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "B116",
+      "label": "Site - Sobre Nós",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3332.6475000000055,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "E116",
+      "label": "Contar a história e a razão de existir da marca (W",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3332.6475000000055,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "I116",
+      "label": "Traduzir a proposta em linguagem de escolha (para",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3332.6475000000055,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "B117",
+      "label": "Site - Headline da home",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "E117",
+      "label": "Inspiração, aspiração (pode trazer o WHY resumido)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "I117",
+      "label": "Clareza total: “o que fazemos + para quem + benefí",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "B118",
+      "label": "Bio de rede social",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3392.497500000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "E118",
+      "label": "Em alguns casos, uma versão leve do WHY",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3392.497500000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "I118",
+      "label": "Versão reduzida e afiada da PUV (1 linha, objetivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3392.497500000006,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "B119",
+      "label": "Campanhas e anúncios",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "E119",
+      "label": "Storytelling e narrativa de fundo (se for emociona",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "I119",
+      "label": "Promessa direta: “ajudamos X a conseguir Y”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "B120",
+      "label": "Conteúdo institucional (vídeo, blog)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3452.347500000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "E120",
+      "label": "WHY vira tema central (\"Por que fazemos o que faze",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3452.347500000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "I120",
+      "label": "PUV e frase de posicionamento guiam chamadas, títu",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3452.347500000006,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B121",
+      "label": "Comunicação interna / onboarding",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "E121",
+      "label": "WHY e HOW formam cultura e diretrizes de atitude e",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "I121",
+      "label": "Posicionamento verbal vira pitch-padrão para time",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "B126",
+      "label": "→ Você usa ele como guia de tom, narrativa e direç",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3631.8975000000073,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "B130",
+      "label": "→ Você usa ele como mensagem de escolha (para clie",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3751.597500000008,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

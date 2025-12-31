@@ -1,0 +1,491 @@
+{
+  "template_key": "4_0_matriz_de_atributos",
+  "sheet_name": "4.0 Matriz de Atributos",
+  "sheet_width": 1312.5,
+  "sheet_height": 3270.8,
+  "title": "4.0 Matriz de Atributos",
+  "description": "Auto-generated template for 4.0 Matriz de Atributos",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_i15_0",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I15",
+      "type": "text",
+      "top": 338.15,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i16_1",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I16",
+      "type": "text",
+      "top": 368.08,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i17_2",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I17",
+      "type": "text",
+      "top": 398.0,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i18_3",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I18",
+      "type": "text",
+      "top": 427.93,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b20_4",
+      "label": "Atendimento / Suporte",
+      "cell": "B20",
+      "type": "text",
+      "top": 487.78,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f20_5",
+      "label": "Atendimento / Suporte",
+      "cell": "F20",
+      "type": "text",
+      "top": 487.78,
+      "left": 455.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i20_6",
+      "label": "Atendimento / Suporte",
+      "cell": "I20",
+      "type": "text",
+      "top": 487.78,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b21_7",
+      "label": "Atributo",
+      "cell": "B21",
+      "type": "text",
+      "top": 517.7,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i21_8",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I21",
+      "type": "text",
+      "top": 517.7,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b22_9",
+      "label": "Atributo",
+      "cell": "B22",
+      "type": "text",
+      "top": 547.63,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i22_10",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I22",
+      "type": "text",
+      "top": 547.63,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b23_11",
+      "label": "Atributo",
+      "cell": "B23",
+      "type": "text",
+      "top": 577.55,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i23_12",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I23",
+      "type": "text",
+      "top": 577.55,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b24_13",
+      "label": "Atributo",
+      "cell": "B24",
+      "type": "text",
+      "top": 607.48,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i24_14",
+      "label": "Nível de entrega atual (1 a 5)",
+      "cell": "I24",
+      "type": "text",
+      "top": 607.48,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b26_15",
+      "label": "Modelo de Negócio / Preço",
+      "cell": "B26",
+      "type": "text",
+      "top": 667.33,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f26_16",
+      "label": "Modelo de Negócio / Preço",
+      "cell": "F26",
+      "type": "text",
+      "top": 667.33,
+      "left": 455.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i26_17",
+      "label": "Modelo de Negócio / Preço",
+      "cell": "I26",
+      "type": "text",
+      "top": 667.33,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b27_18",
+      "label": "Field B27",
+      "cell": "B27",
+      "type": "text",
+      "top": 697.25,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i27_19",
+      "label": "Field I27",
+      "cell": "I27",
+      "type": "text",
+      "top": 697.25,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b28_20",
+      "label": "Field B28",
+      "cell": "B28",
+      "type": "text",
+      "top": 727.18,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i28_21",
+      "label": "Field I28",
+      "cell": "I28",
+      "type": "text",
+      "top": 727.18,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b29_22",
+      "label": "Field B29",
+      "cell": "B29",
+      "type": "text",
+      "top": 757.1,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i29_23",
+      "label": "Field I29",
+      "cell": "I29",
+      "type": "text",
+      "top": 757.1,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b30_24",
+      "label": "Field B30",
+      "cell": "B30",
+      "type": "text",
+      "top": 787.03,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i30_25",
+      "label": "Field I30",
+      "cell": "I30",
+      "type": "text",
+      "top": 787.03,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b32_26",
+      "label": "Resultado / Valor Entregue",
+      "cell": "B32",
+      "type": "text",
+      "top": 846.88,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f32_27",
+      "label": "Resultado / Valor Entregue",
+      "cell": "F32",
+      "type": "text",
+      "top": 846.88,
+      "left": 455.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i32_28",
+      "label": "Resultado / Valor Entregue",
+      "cell": "I32",
+      "type": "text",
+      "top": 846.88,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b33_29",
+      "label": "Field B33",
+      "cell": "B33",
+      "type": "text",
+      "top": 876.8,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i33_30",
+      "label": "Field I33",
+      "cell": "I33",
+      "type": "text",
+      "top": 876.8,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b34_31",
+      "label": "Field B34",
+      "cell": "B34",
+      "type": "text",
+      "top": 906.73,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i34_32",
+      "label": "Field I34",
+      "cell": "I34",
+      "type": "text",
+      "top": 906.73,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b35_33",
+      "label": "Field B35",
+      "cell": "B35",
+      "type": "text",
+      "top": 936.65,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i35_34",
+      "label": "Field I35",
+      "cell": "I35",
+      "type": "text",
+      "top": 936.65,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b36_35",
+      "label": "Field B36",
+      "cell": "B36",
+      "type": "text",
+      "top": 966.58,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i36_36",
+      "label": "Field I36",
+      "cell": "I36",
+      "type": "text",
+      "top": 966.58,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b38_37",
+      "label": "Experiência / Marca / Relacional",
+      "cell": "B38",
+      "type": "text",
+      "top": 1026.43,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f38_38",
+      "label": "Experiência / Marca / Relacional",
+      "cell": "F38",
+      "type": "text",
+      "top": 1026.43,
+      "left": 455.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i38_39",
+      "label": "Experiência / Marca / Relacional",
+      "cell": "I38",
+      "type": "text",
+      "top": 1026.43,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b39_40",
+      "label": "Field B39",
+      "cell": "B39",
+      "type": "text",
+      "top": 1056.35,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i39_41",
+      "label": "Field I39",
+      "cell": "I39",
+      "type": "text",
+      "top": 1056.35,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b40_42",
+      "label": "Field B40",
+      "cell": "B40",
+      "type": "text",
+      "top": 1086.28,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i40_43",
+      "label": "Field I40",
+      "cell": "I40",
+      "type": "text",
+      "top": 1086.28,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b41_44",
+      "label": "Field B41",
+      "cell": "B41",
+      "type": "text",
+      "top": 1116.2,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i41_45",
+      "label": "Field I41",
+      "cell": "I41",
+      "type": "text",
+      "top": 1116.2,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b42_46",
+      "label": "Field B42",
+      "cell": "B42",
+      "type": "text",
+      "top": 1146.13,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_i42_47",
+      "label": "Field I42",
+      "cell": "I42",
+      "type": "text",
+      "top": 1146.13,
+      "left": 728.0,
+      "width": 273.0,
+      "height": 29.93
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "template_key": "1_0_diagnostico",
+  "sheet_name": "1.0 Diagnóstico",
+  "sheet_width": 1364.16,
+  "sheet_height": 4315.19,
+  "title": "1.0 Diagnóstico",
+  "description": "Auto-generated template for 1.0 Diagnóstico",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_m7_0",
+      "label": "Status:",
+      "cell": "M7",
+      "type": "text",
+      "top": 119.7,
+      "left": 1091.16,
+      "width": 182.0,
+      "height": 39.9
+    }
+  ]
+}

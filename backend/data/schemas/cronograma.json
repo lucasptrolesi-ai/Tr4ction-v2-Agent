@@ -1,0 +1,713 @@
+{
+  "template_key": "cronograma",
+  "sheet_name": "Cronograma",
+  "sheet_width": 1312.5,
+  "sheet_height": 1127.175,
+  "title": "Cronograma",
+  "description": "Template for Cronograma",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "D3",
+      "label": "Cronograma",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "B10",
+      "label": "Q1 - Fundação: Organizar a casa e construir as bas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 179.55,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "B11",
+      "label": "Objetivo do Quarter: Organizar a estrutura básica",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 199.5,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "B14",
+      "label": "Semana",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "C14",
+      "label": "Aula",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "G14",
+      "label": "Objetivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "K14",
+      "label": "Framework",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "B15",
+      "label": "1.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "C15",
+      "label": "Diagnóstico Estratégico: onde sua startup está e o",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "G15",
+      "label": "Mapear o estágio atual da startup, identificando p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "K15",
+      "label": "Diagnóstico Estratégico + CSD Canvas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "B17",
+      "label": "2.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "C17",
+      "label": "SWOT + ICP: entendendo sua vantagem e seu cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "G17",
+      "label": "Analisar forças, fraquezas e definir o cliente ide",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "K17",
+      "label": "SWOT + ICP",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "B19",
+      "label": "3.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "C19",
+      "label": "Persona, JTBD e Jornada: o que seu cliente quer e",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "G19",
+      "label": "Entender profundamente o que o cliente quer resolv",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "K19",
+      "label": "JTBD + Persona + Jornada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "B21",
+      "label": "4.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "C21",
+      "label": "Proposta de Valor: o que faz seu cliente escolher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "G21",
+      "label": "Definir a proposta de valor baseada no que realmen",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "K21",
+      "label": "Matriz de Atributos + PUV",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "B23",
+      "label": "5.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "C23",
+      "label": "Mercado e Concorrência: TAM, Benchmark e Diferenci",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "G23",
+      "label": "Analisar mercado, concorrência e posicionar a star",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "K23",
+      "label": "TAM/SAM/SOM + Benchmark + Canvas Diferenciação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "B25",
+      "label": "6.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "C25",
+      "label": "Narrativa Estratégica: Golden Circle + Posicioname",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "G25",
+      "label": "Construir a narrativa da marca: propósito, posicio",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "K25",
+      "label": "Definição da Marca: Golden Circle + Posicionamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 588.525,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "B27",
+      "label": "7.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "C27",
+      "label": "Marca com Personalidade: Arquétipo, Atributos, Tom",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "G27",
+      "label": "Definir a identidade emocional e verbal da marca:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "K27",
+      "label": "Arquétipo + Atributos + Tom + Slogan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 648.3749999999999,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "B29",
+      "label": "8.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "C29",
+      "label": "Checklist de Marca e Materiais: sua identidade apl",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "G29",
+      "label": "Garantir consistência na aplicação da marca e alin",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "K29",
+      "label": "Checklist Marca + Materiais + Briefing Visuais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "B31",
+      "label": "9.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "C31",
+      "label": "Diagrama da Estratégia: o mapa visual da sua estra",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "G31",
+      "label": "Organizar visualmente a estratégia completa da sta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "K31",
+      "label": "Diagrama da Estratégia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "B33",
+      "label": "10.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "C33",
+      "label": "Metas, KPIs e Canais: Bullseye Framework + Meta SM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "G33",
+      "label": "Transformar estratégia em metas SMART, KPIs e esco",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "K33",
+      "label": "Meta SMART + Bullseye + KPIs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "B35",
+      "label": "11.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "C35",
+      "label": "Roadmap + Briefing de Campanha: Plano Claro, Execu",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "G35",
+      "label": "Construir o briefing da campanha inicial e desenha",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "K35",
+      "label": "Briefing de Campanha + RoadMap",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "B37",
+      "label": "12.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "C37",
+      "label": "Aula de Encerramento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "G37",
+      "label": "Preparação para o Q1, entender experiência e etc",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

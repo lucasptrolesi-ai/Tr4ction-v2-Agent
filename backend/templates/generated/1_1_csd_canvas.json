@@ -1,0 +1,471 @@
+{
+  "template_key": "1_1_csd_canvas",
+  "sheet_name": "1.1 CSD Canvas",
+  "sheet_width": 1343.16,
+  "sheet_height": 3181.03,
+  "title": "1.1 CSD Canvas",
+  "description": "Auto-generated template for 1.1 CSD Canvas",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_m7_0",
+      "label": "Status:",
+      "cell": "M7",
+      "type": "text",
+      "top": 119.7,
+      "left": 1092.0,
+      "width": 205.66,
+      "height": 39.9
+    },
+    {
+      "key": "field_b14_1",
+      "label": "✅ Certeza",
+      "cell": "B14",
+      "type": "text",
+      "top": 308.23,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f14_2",
+      "label": "✅ Certeza",
+      "cell": "F14",
+      "type": "text",
+      "top": 308.23,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j14_3",
+      "label": "Fonte / Evidência",
+      "cell": "J14",
+      "type": "text",
+      "top": 308.23,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b15_4",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B15",
+      "type": "text",
+      "top": 338.15,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f15_5",
+      "label": "Contexto/Explicação",
+      "cell": "F15",
+      "type": "text",
+      "top": 338.15,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j15_6",
+      "label": "Fonte / Evidência",
+      "cell": "J15",
+      "type": "text",
+      "top": 338.15,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b16_7",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B16",
+      "type": "text",
+      "top": 368.08,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f16_8",
+      "label": "Contexto/Explicação",
+      "cell": "F16",
+      "type": "text",
+      "top": 368.08,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j16_9",
+      "label": "Fonte / Evidência",
+      "cell": "J16",
+      "type": "text",
+      "top": 368.08,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b17_10",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B17",
+      "type": "text",
+      "top": 398.0,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f17_11",
+      "label": "Contexto/Explicação",
+      "cell": "F17",
+      "type": "text",
+      "top": 398.0,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j17_12",
+      "label": "Fonte / Evidência",
+      "cell": "J17",
+      "type": "text",
+      "top": 398.0,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b18_13",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B18",
+      "type": "text",
+      "top": 427.93,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f18_14",
+      "label": "Contexto/Explicação",
+      "cell": "F18",
+      "type": "text",
+      "top": 427.93,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j18_15",
+      "label": "Fonte / Evidência",
+      "cell": "J18",
+      "type": "text",
+      "top": 427.93,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b20_16",
+      "label": "⚠️ Suposição",
+      "cell": "B20",
+      "type": "text",
+      "top": 487.78,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f20_17",
+      "label": "⚠️ Suposição",
+      "cell": "F20",
+      "type": "text",
+      "top": 487.78,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j20_18",
+      "label": "Fonte / Evidência",
+      "cell": "J20",
+      "type": "text",
+      "top": 487.78,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b21_19",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B21",
+      "type": "text",
+      "top": 517.7,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f21_20",
+      "label": "Contexto/Explicação",
+      "cell": "F21",
+      "type": "text",
+      "top": 517.7,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j21_21",
+      "label": "Fonte / Evidência",
+      "cell": "J21",
+      "type": "text",
+      "top": 517.7,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b22_22",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B22",
+      "type": "text",
+      "top": 547.63,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f22_23",
+      "label": "Contexto/Explicação",
+      "cell": "F22",
+      "type": "text",
+      "top": 547.63,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j22_24",
+      "label": "Fonte / Evidência",
+      "cell": "J22",
+      "type": "text",
+      "top": 547.63,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b23_25",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B23",
+      "type": "text",
+      "top": 577.55,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f23_26",
+      "label": "Contexto/Explicação",
+      "cell": "F23",
+      "type": "text",
+      "top": 577.55,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j23_27",
+      "label": "Fonte / Evidência",
+      "cell": "J23",
+      "type": "text",
+      "top": 577.55,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b24_28",
+      "label": "Descrição da ideia ou afirmação",
+      "cell": "B24",
+      "type": "text",
+      "top": 607.48,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f24_29",
+      "label": "Contexto/Explicação",
+      "cell": "F24",
+      "type": "text",
+      "top": 607.48,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j24_30",
+      "label": "Fonte / Evidência",
+      "cell": "J24",
+      "type": "text",
+      "top": 607.48,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b26_31",
+      "label": "❓ Dúvida",
+      "cell": "B26",
+      "type": "text",
+      "top": 667.33,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f26_32",
+      "label": "❓ Dúvida",
+      "cell": "F26",
+      "type": "text",
+      "top": 667.33,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j26_33",
+      "label": "Field J26",
+      "cell": "J26",
+      "type": "text",
+      "top": 667.33,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b27_34",
+      "label": "Field B27",
+      "cell": "B27",
+      "type": "text",
+      "top": 697.25,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f27_35",
+      "label": "Field F27",
+      "cell": "F27",
+      "type": "text",
+      "top": 697.25,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j27_36",
+      "label": "Field J27",
+      "cell": "J27",
+      "type": "text",
+      "top": 697.25,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b28_37",
+      "label": "Field B28",
+      "cell": "B28",
+      "type": "text",
+      "top": 727.18,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f28_38",
+      "label": "Field F28",
+      "cell": "F28",
+      "type": "text",
+      "top": 727.18,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j28_39",
+      "label": "Field J28",
+      "cell": "J28",
+      "type": "text",
+      "top": 727.18,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b29_40",
+      "label": "Field B29",
+      "cell": "B29",
+      "type": "text",
+      "top": 757.1,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f29_41",
+      "label": "Field F29",
+      "cell": "F29",
+      "type": "text",
+      "top": 757.1,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j29_42",
+      "label": "Field J29",
+      "cell": "J29",
+      "type": "text",
+      "top": 757.1,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b30_43",
+      "label": "Field B30",
+      "cell": "B30",
+      "type": "text",
+      "top": 787.03,
+      "left": 91.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_f30_44",
+      "label": "Field F30",
+      "cell": "F30",
+      "type": "text",
+      "top": 787.03,
+      "left": 455.0,
+      "width": 364.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_j30_45",
+      "label": "Field J30",
+      "cell": "J30",
+      "type": "text",
+      "top": 787.03,
+      "left": 819.0,
+      "width": 364.0,
+      "height": 29.93
+    }
+  ]
+}

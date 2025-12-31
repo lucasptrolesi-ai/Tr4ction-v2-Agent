@@ -1,0 +1,167 @@
+{
+  "template_key": "90_diagrama_com_estratégia",
+  "sheet_name": "9.0 Diagrama com Estratégia",
+  "sheet_width": 1631.91,
+  "sheet_height": 2015.9475,
+  "title": "9.0 Diagrama com Estratégia",
+  "description": "Template for 9.0 Diagrama com Estratégia",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "9.0 Diagrama com Estratégia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "A12",
+      "label": "Diagrama Estratégia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "B50",
+      "label": "Link para Diagrama no Miro",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1336.649999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "B51",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "B53",
+      "label": "Link do Diagrama apresentado na aula:\n→ https://mi",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "B58",
+      "label": "Ferramentas:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "B59",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1605.9749999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "B60",
+      "label": "Ferramentas para construir o diagrama:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "B62",
+      "label": "→ Miro\n→ Lucidchart\n→ Clickup \n→ Draw.io",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

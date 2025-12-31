@@ -1,0 +1,121 @@
+{
+  "template_key": "3_0_jtbd_canvas",
+  "sheet_name": "3.0 JTBD Canvas",
+  "sheet_width": 896.63,
+  "sheet_height": 2651.355,
+  "title": "3.0 JTBD Canvas",
+  "description": "Auto-generated template from sheet '3.0 JTBD Canvas'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_i14_0",
+      "label": "Job principal a ser feito. \nQual problema prático seu cliente quer resolver com sua solução?",
+      "cell": "I14",
+      "type": "textarea",
+      "top": 308.2275,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i17_1",
+      "label": "O que ele(a) fazia antes? \nComo resolvia isso hoje? (se é que resolvia)",
+      "cell": "I17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i19_2",
+      "label": "Como ele se sentia? \nEmoções negativas antes da solução",
+      "cell": "I19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i21_3",
+      "label": "Obstáculos encontrados. \nO que atrapalhava? Por que ele ainda não resolveu?",
+      "cell": "I21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i24_4",
+      "label": "O que ele espera conquistar? \nResultado prático.",
+      "cell": "I24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i26_5",
+      "label": "Como saberá que funcionou?\nQuais evidências mostram que a solução deu certo?",
+      "cell": "I26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i29_6",
+      "label": "O que pode travar a decisão?\nMedos e inseguranças que ele tem com a solução proposta",
+      "cell": "I29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i31_7",
+      "label": "Quais experiências ruins anteriores influenciam? \nJá tentou resolver? Deu errado? O que aprendeu?",
+      "cell": "I31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i34_8",
+      "label": "O que ele faz hoje pra tentar resolver?\nPode ser software, gambiarra ou até nada",
+      "cell": "I34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i36_9",
+      "label": "Por que ainda usa isso?\nConforto, hábito, medo, preço, “é o que tem”",
+      "cell": "I36",
+      "type": "textarea",
+      "top": 966.5775000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_c44_10",
+      "label": "Preencha esse campo como uma frase simples que define a motivação real do seu cliente:\n“Quando [situação], quero [resultado] para que eu me sinta [emoção positiva].”",
+      "cell": "C44",
+      "type": "textarea",
+      "top": 1205.9775,
+      "left": 118.02,
+      "width": 590.1,
+      "height": 59.85
+    }
+  ]
+}

@@ -1,0 +1,1987 @@
+{
+  "template_key": "70_arquétipo",
+  "sheet_name": "7.0 Arquétipo",
+  "sheet_width": 1312.5,
+  "sheet_height": 5487.2475,
+  "title": "7.0 Arquétipo",
+  "description": "Template for 7.0 Arquétipo",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "7.0 Arquétipo da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Arquétipo da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A14",
+      "label": "Arquétipo principal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "E14",
+      "label": "Qual arquétipo mais representa sua marca? \nQual pa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "H14",
+      "label": "O Sábio\nBusca trazer uma base teórica/científica p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "A21",
+      "label": "Mensagem emocional que a marca transmite",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "E21",
+      "label": "Qual sentimento sua marca quer provocar no cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "H21",
+      "label": "→ “Você pensa na digitalização da sua marca, a pon",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "A28",
+      "label": "Por que esse arquétipo faz sentido?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "E28",
+      "label": "Relacione com sua proposta de valor, forma de atua",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "H28",
+      "label": "A proposta de valor é alavancar resultados através",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "A35",
+      "label": "Como isso já aparece hoje?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "E35",
+      "label": "Onde esses traços estão visíveis? No conteúdo, no",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "H35",
+      "label": "→ No produto: trazer as melhores práticas de incen",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "A42",
+      "label": "O que precisa ser reforçado ou ajustado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "E42",
+      "label": "Existe alguma área que está desalinhada com essa p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "H42",
+      "label": "→ O site ainda foca muito em “funcionalidades” e p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "A49",
+      "label": "Atributos de personalidade (3-5)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "E49",
+      "label": "Descreva a marca como se fosse uma pessoa. Use adj",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "H49",
+      "label": "→ Responsiva\n→ Ágil\n→ Confiável\n→ Especialista\n→ I",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "A56",
+      "label": "Tom de voz",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "E56",
+      "label": "Como sua marca fala? Pense no estilo: direto? leve",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "H56",
+      "label": "→ Técnico, mas direto - sem excesso de termos form",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "A63",
+      "label": "Palavras que reforçam essa personalidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "E63",
+      "label": "Liste palavras, expressões e temas que devem ser u",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "H63",
+      "label": "Plataforma de incentivo, noção de programa de ince",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "A70",
+      "label": "Palavras a evitar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "E70",
+      "label": "Palavras que não combinam com a personalidade e de",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "H70",
+      "label": "→ Evitar campanha de incentivo (micro), usar progr",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "B78",
+      "label": "Conceito Arquétipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "B79",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "B81",
+      "label": "Arquétipos são modelos universais de personalidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "B83",
+      "label": "→ Pense no arquétipo como a alma da marca: uma \"pe",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "B88",
+      "label": "→ Ser mais consistente em tudo que comunica\n→ Ser",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "B92",
+      "label": "→ Um bom arquétipo não limita a marca - ele guia.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "B98",
+      "label": "Tipos de Arquétipos e como escolher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2793.997500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "B99",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2823.9225000000024,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "B102",
+      "label": "1. Pense no impacto emocional que sua marca quer c",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "B103",
+      "label": "2. Relembre seu WHY e seus atributos de personalid",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2943.622500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "B104",
+      "label": "3. Reflita: se sua marca fosse uma pessoa, como el",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2973.5475000000033,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "B108",
+      "label": "Arquétipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "C108",
+      "label": "Desejo Central",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "E108",
+      "label": "Tom de Voz Sugerido",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "G108",
+      "label": "Estilo Visual Típico",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "I108",
+      "label": "Comportamento da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "K108",
+      "label": "Exemplo de Marcas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "B109",
+      "label": "O Cuidador",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "C109",
+      "label": "Ajudar, proteger, servir",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "E109",
+      "label": "Empático, acolhedor, humano",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "G109",
+      "label": "Visual leve, calor humano, rostos reais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "I109",
+      "label": "Se antecipa a necessidades, guia com gentileza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "K109",
+      "label": "Johnson & Johnson, Cruz Vermelha",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "B111",
+      "label": "O Sábio",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "C111",
+      "label": "Entendimento, conhecimento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "E111",
+      "label": "Determinado, motivador",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "G111",
+      "label": "Minimalismo, clareza, infográficos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "I111",
+      "label": "Ensina, educa, guia com fatos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "K111",
+      "label": "Google, TED",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3183.0225000000046,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "B113",
+      "label": "O Herói",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "C113",
+      "label": "Superar desafios, inspirar, vencer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "E113",
+      "label": "Determinado, motivador",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "G113",
+      "label": "Contraste forte, imagens de movimento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "I113",
+      "label": "Mostra conquistas, desafios vencidos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "K113",
+      "label": "Nike, FedEx",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3242.872500000005,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "B115",
+      "label": "O Inocente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "C115",
+      "label": "Simplicidade, pureza, otimismo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "E115",
+      "label": "Positivo, leve, esperançoso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "G115",
+      "label": "Cores claras, muita luz, suavidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "I115",
+      "label": "Evita conflitos, traz conforto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "K115",
+      "label": "Dove, Natura",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3302.7225000000053,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B117",
+      "label": "O Rebelde",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "C117",
+      "label": "Desafiar o sistema, quebrar regra",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "E117",
+      "label": "Direto, provocador, ousado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "G117",
+      "label": "Preto, vermelho, fontes agressivas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "I117",
+      "label": "Corta o ruído, contesta normas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "K117",
+      "label": "Harley-Davidson, Tesla",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3362.5725000000057,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "B119",
+      "label": "O Criador",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "C119",
+      "label": "Expressar, criar, inventar, inovar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "E119",
+      "label": "Inspirador, artístico, sensível",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "G119",
+      "label": "Design, formas livres, handmade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "I119",
+      "label": "Valoriza originalidade, estimula colaboração",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "K119",
+      "label": "Lego, Adobe",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3422.422500000006,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "B121",
+      "label": "O Explorador",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "C121",
+      "label": "Liberdade, descoberta, experimentar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "E121",
+      "label": "Curioso, encorajador",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "G121",
+      "label": "Fotos em movimento, horizontes, espaços abertos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_93",
+      "cell": "I121",
+      "label": "Estimula autonomia, apresenta caminhos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_94",
+      "cell": "K121",
+      "label": "The North Face, Red Bull",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3482.2725000000064,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_95",
+      "cell": "B123",
+      "label": "O Amante",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3542.1225000000068,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_96",
+      "cell": "C123",
+      "label": "Conexão, intimidade, beleza, cuidado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3542.1225000000068,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_97",
+      "cell": "E123",
+      "label": "Sensual, emocional, delicado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3542.1225000000068,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_98",
+      "cell": "G123",
+      "label": "Estética refinada, cores quentes",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3542.1225000000068,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_99",
+      "cell": "I123",
+      "label": "Convida à proximidade, trabalha desejo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3542.1225000000068,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_100",
+      "cell": "K123",
+      "label": "Chanel, Häagen-Dazs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3542.1225000000068,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_101",
+      "cell": "B125",
+      "label": "O Bobo da Corte",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3601.972500000007,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_102",
+      "cell": "C125",
+      "label": "Alegria, leveza, irreverência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3601.972500000007,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_103",
+      "cell": "E125",
+      "label": "Divertido, espontâneo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3601.972500000007,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_104",
+      "cell": "G125",
+      "label": "Ícones, GIFs, humor visual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3601.972500000007,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_105",
+      "cell": "I125",
+      "label": "Quebra o gelo, humaniza processos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3601.972500000007,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_106",
+      "cell": "K125",
+      "label": "Netflix, Skol",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3601.972500000007,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_107",
+      "cell": "B127",
+      "label": "O Governante",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3661.8225000000075,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_108",
+      "cell": "C127",
+      "label": "Controle, estabilidade, liderança",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3661.8225000000075,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_109",
+      "cell": "E127",
+      "label": "Formal, assertivo, confiável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3661.8225000000075,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_110",
+      "cell": "G127",
+      "label": "Layouts estruturados, tipografia elegante",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3661.8225000000075,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_111",
+      "cell": "I127",
+      "label": "Estabelece regras, garante excelência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3661.8225000000075,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_112",
+      "cell": "K127",
+      "label": "Mercedes-Benz, IBM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3661.8225000000075,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_113",
+      "cell": "B129",
+      "label": "O Cara Comum",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3721.672500000008,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_114",
+      "cell": "C129",
+      "label": "Pertencer, ser acessível",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3721.672500000008,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_115",
+      "cell": "E129",
+      "label": "Simples, direto, honesto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3721.672500000008,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_116",
+      "cell": "G129",
+      "label": "Fotos reais, tom coloquial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3721.672500000008,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_117",
+      "cell": "I129",
+      "label": "Fala como o público, não complica",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3721.672500000008,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_118",
+      "cell": "K129",
+      "label": "Havaianas, Magalu",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3721.672500000008,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_119",
+      "cell": "B131",
+      "label": "O Mago",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3781.522500000008,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_120",
+      "cell": "C131",
+      "label": "Transformar, inspirar mudança",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3781.522500000008,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_121",
+      "cell": "E131",
+      "label": "Visionário, simbólico",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3781.522500000008,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_122",
+      "cell": "G131",
+      "label": "Misticismo moderno, transições, misturas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3781.522500000008,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_123",
+      "cell": "I131",
+      "label": "Leva o cliente a algo novo, revela o \"oculto\"",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3781.522500000008,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_124",
+      "cell": "K131",
+      "label": "Apple, Disney",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3781.522500000008,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_125",
+      "cell": "B136",
+      "label": "Elemento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3931.147500000009,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_126",
+      "cell": "D136",
+      "label": "O que define",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3931.147500000009,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_127",
+      "cell": "G136",
+      "label": "Pode ter nuances?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3931.147500000009,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_128",
+      "cell": "B137",
+      "label": "Arquétipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3961.0725000000093,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_129",
+      "cell": "D137",
+      "label": "A essência da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3961.0725000000093,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_130",
+      "cell": "F137",
+      "label": "Não deve mudar - é a base emocional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3961.0725000000093,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_131",
+      "cell": "B138",
+      "label": "Tom de voz",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3990.9975000000095,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_132",
+      "cell": "D138",
+      "label": "Como a marca se expressa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3990.9975000000095,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_133",
+      "cell": "F138",
+      "label": "Pode combinar traços de até 2 arquétipos, desde qu",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3990.9975000000095,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_134",
+      "cell": "B139",
+      "label": "Atributos de personalidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4020.9225000000097,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_135",
+      "cell": "D139",
+      "label": "Ajuda a modular o tom de voz",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4020.9225000000097,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_136",
+      "cell": "F139",
+      "label": "Deve ser coerente com o arquétipo dominante",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4020.9225000000097,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_137",
+      "cell": "B145",
+      "label": "Como preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4200.472500000011,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_138",
+      "cell": "B146",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4230.397500000011,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_139",
+      "cell": "B169",
+      "label": "Como aplicar no dia a dia",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4918.672500000015,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_140",
+      "cell": "B170",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 4948.597500000015,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_141",
+      "cell": "B172",
+      "label": "Onde aplicar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5008.447500000016,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_142",
+      "cell": "D172",
+      "label": "Como usar o arquétipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5008.447500000016,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_143",
+      "cell": "B173",
+      "label": "Site e redes sociais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5038.372500000016,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_144",
+      "cell": "D173",
+      "label": "Oriente a linguagem dos títulos, CTAs, bios e post",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5038.372500000016,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_145",
+      "cell": "B175",
+      "label": "Conteúdo (blog, vídeos, campanhas)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5098.222500000016,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_146",
+      "cell": "D175",
+      "label": "Use o arquétipo para guiar o tom, o tipo de pauta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5098.222500000016,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_147",
+      "cell": "B177",
+      "label": "Atendimento e relacionamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5158.072500000017,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_148",
+      "cell": "D177",
+      "label": "Alinhe a postura do time com o arquétipo: mais aco",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5158.072500000017,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_149",
+      "cell": "B179",
+      "label": "Visual da marca (identidade)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5217.922500000017,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_150",
+      "cell": "D179",
+      "label": "Garanta que o design, cores, imagens e fontes este",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5217.922500000017,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_151",
+      "cell": "B181",
+      "label": "Cultura e onboarding de time",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5277.772500000017,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_152",
+      "cell": "D181",
+      "label": "Compartilhe o arquétipo com o time para orientar d",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 5277.772500000017,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

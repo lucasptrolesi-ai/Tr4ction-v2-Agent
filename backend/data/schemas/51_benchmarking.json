@@ -1,0 +1,1168 @@
+{
+  "template_key": "51_benchmarking",
+  "sheet_name": "5.1 Benchmarking",
+  "sheet_width": 1806.91,
+  "sheet_height": 2704.2225000000003,
+  "title": "5.1 Benchmarking",
+  "description": "Template for 5.1 Benchmarking",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "5.1 Benchmarking Competitivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Benchmarking Competitivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "Concorrente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "C13",
+      "label": "Tipo de Solução\nÉ um sistema, serviço, plataforma,",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "E13",
+      "label": "Produto\nQuais funcionalidades ou entregas principa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "G13",
+      "label": "Marketing\nComo se comunicam? Canais ativos? Posici",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "I13",
+      "label": "Vendas\nExiste demo? Onboarding? Processo consultiv",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "K13",
+      "label": "Atendimento/Suporte\nQual o canal? É rápido? Tem re",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "M13",
+      "label": "Preço\nÉ transparente? Qual modelo (mensal, por uso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "O13",
+      "label": "Forças Percebidas\nO que o cliente vê como positivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "Q13",
+      "label": "Fraquezas Percebidas\nO que clientes reclamam? Pont",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "S13",
+      "label": "Oportunidades para sua Startup\nOnde você pode faze",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1514.66,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "A16",
+      "label": "ClinicaApp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "C16",
+      "label": "SaaS premium",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "E16",
+      "label": "Completo, mas complexo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "G16",
+      "label": "Instagram forte, sem conteúdo técnico",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "I16",
+      "label": "Foco em demo com SDR",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "K16",
+      "label": "Suporte só por e-mail",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "M16",
+      "label": "R$299/mês",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "O16",
+      "label": "Marca forte, produto robusto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "Q16",
+      "label": "Atendimento lento, onboarding fraco",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "S16",
+      "label": "Atacar nicho de clínicas pequenas com atendimento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 1514.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "A20",
+      "label": "Planilha + WhatsApp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "C20",
+      "label": "Não solução",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "E20",
+      "label": "Limitado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "G20",
+      "label": "Não há",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "I20",
+      "label": "Improvisado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "K20",
+      "label": "Totalmente manual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "M20",
+      "label": "Gratuito",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "O20",
+      "label": "Já está no dia a dia do cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "Q20",
+      "label": "Sem escala, sem dados, sem controle",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "S20",
+      "label": "Mostrar ganho de produtividade e segurança",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 438.90000000000003,
+        "left": 1514.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "A24",
+      "label": "ERPdoSetor",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "C24",
+      "label": "ERP tradicional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "E24",
+      "label": "Muito completo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "G24",
+      "label": "Pouca presença online",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "I24",
+      "label": "Comercial agressivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "K24",
+      "label": "Call center demorado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "M24",
+      "label": "A partir de R$599",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "O24",
+      "label": "Funcionalidade total, reputação antiga",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "Q24",
+      "label": "Difícil de usar, longo onboarding",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "S24",
+      "label": "Ser a opção simples e moderna, com onboarding ágil",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 558.6,
+        "left": 1514.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "A28",
+      "label": "HealthStart",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "C28",
+      "label": "Healthtech freemium",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "E28",
+      "label": "Funcional, mas limitado no plano gratuito",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "G28",
+      "label": "Fortes em SEO, YouTube e blog",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "I28",
+      "label": "Inbound passivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "K28",
+      "label": "Suporte só no plano pago",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "M28",
+      "label": "Grátis até 3 usuários",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "O28",
+      "label": "Conteúdo educativo e tráfego orgânico",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "Q28",
+      "label": "Recursos bloqueados no plano gratuito, suporte fra",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "S28",
+      "label": "Focar em plano pago direto com suporte humano e si",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 1514.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "A32",
+      "label": "Nome Concorrente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "B37",
+      "label": "Conceito do Benchmarking Competitivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "B38",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "B40",
+      "label": "O Benchmarking Competitivo ajuda você a entender:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1037.3999999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "B41",
+      "label": "→ Quem são os concorrentes que disputam a atenção",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "B49",
+      "label": "Como Preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "B50",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1336.649999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "B52",
+      "label": "1. Liste de 3 a 5 concorrentes que o seu cliente p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1396.4999999999989,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "B53",
+      "label": "→ Pode incluir: players diretos, indiretos, soluçõ",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "B56",
+      "label": "2. Avalie cada concorrente em áreas-chave:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "B57",
+      "label": "→ Produto: estabilidade, funcionalidades, experiên",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "B61",
+      "label": "3. Descreva as forças e fraquezas percebidas pelo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "B62",
+      "label": "→ Use dados reais de entrevistas, pesquisas ou obs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1716.6974999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "B65",
+      "label": "4. Identifique oportunidades para a sua startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1806.4724999999983,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "B66",
+      "label": "→ Pergunte: O que eles estão deixando passar? Onde",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1836.3974999999982,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "B70",
+      "label": "Como interpretar as oportunidades",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "B71",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "B73",
+      "label": "Exemplos práticos de oportunidades descobertas em",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2045.872499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B74",
+      "label": "“Concorrente tem muitas funcionalidades, mas é dif",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2075.797499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "B82",
+      "label": "Como usar isso continuamente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "B83",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2345.1224999999995,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "B85",
+      "label": "Quando usar?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "E85",
+      "label": "O que revisar ou atualizar?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2404.9725,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "B86",
+      "label": "A cada 2-3 meses",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2434.8975,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "E86",
+      "label": "Ver se surgiram novos concorrentes ou mudanças de",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2434.8975,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "B87",
+      "label": "Ao preparar uma nova campanha",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "E87",
+      "label": "Ver que narrativa você pode usar que os concorrent",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "B88",
+      "label": "Ao rever sua proposta de valor",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "E88",
+      "label": "Ver se ainda está se diferenciando nos pontos cert",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "B89",
+      "label": "Em reuniões de posicionamento ou produto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2524.6725000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "E89",
+      "label": "Validar onde vale a pena melhorar ou simplificar p",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2524.6725000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

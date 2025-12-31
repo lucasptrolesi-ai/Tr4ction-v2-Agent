@@ -1,0 +1,411 @@
+{
+  "template_key": "5_1_benchmarking",
+  "sheet_name": "5.1 Benchmarking",
+  "sheet_width": 1309.7,
+  "sheet_height": 2711.205,
+  "title": "5.1 Benchmarking",
+  "description": "Auto-generated template from sheet '5.1 Benchmarking'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_e16_0",
+      "label": "SaaS premium",
+      "cell": "E16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 236.04,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_g16_1",
+      "label": "Completo, mas complexo",
+      "cell": "G16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 354.06,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_i16_2",
+      "label": "Instagram forte, sem conteúdo técnico",
+      "cell": "I16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 472.08,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_k16_3",
+      "label": "Foco em demo com SDR",
+      "cell": "K16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 590.1,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_m16_4",
+      "label": "Suporte só por e-mail",
+      "cell": "M16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 708.12,
+      "width": 143.01,
+      "height": 89.775
+    },
+    {
+      "key": "field_o16_5",
+      "label": "R$299/mês",
+      "cell": "O16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 851.13,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_q16_6",
+      "label": "Marca forte, produto robusto",
+      "cell": "Q16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 969.15,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_s16_7",
+      "label": "Atendimento lento, onboarding fraco",
+      "cell": "S16",
+      "type": "textarea",
+      "top": 368.07750000000004,
+      "left": 1087.17,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_e20_8",
+      "label": "Não solução",
+      "cell": "E20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 236.04,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_g20_9",
+      "label": "Limitado",
+      "cell": "G20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 354.06,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_i20_10",
+      "label": "Não há",
+      "cell": "I20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 472.08,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_k20_11",
+      "label": "Improvisado",
+      "cell": "K20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 590.1,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_m20_12",
+      "label": "Totalmente manual",
+      "cell": "M20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 708.12,
+      "width": 143.01,
+      "height": 89.775
+    },
+    {
+      "key": "field_o20_13",
+      "label": "Gratuito",
+      "cell": "O20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 851.13,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_q20_14",
+      "label": "Já está no dia a dia do cliente",
+      "cell": "Q20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 969.15,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_s20_15",
+      "label": "Sem escala, sem dados, sem controle",
+      "cell": "S20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 1087.17,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_e24_16",
+      "label": "ERP tradicional",
+      "cell": "E24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 236.04,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_g24_17",
+      "label": "Muito completo",
+      "cell": "G24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 354.06,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_i24_18",
+      "label": "Pouca presença online",
+      "cell": "I24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 472.08,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_k24_19",
+      "label": "Comercial agressivo",
+      "cell": "K24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 590.1,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_m24_20",
+      "label": "Call center demorado",
+      "cell": "M24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 708.12,
+      "width": 143.01,
+      "height": 89.775
+    },
+    {
+      "key": "field_o24_21",
+      "label": "A partir de R$599",
+      "cell": "O24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 851.13,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_q24_22",
+      "label": "Funcionalidade total, reputação antiga",
+      "cell": "Q24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 969.15,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_s24_23",
+      "label": "Difícil de usar, longo onboarding",
+      "cell": "S24",
+      "type": "textarea",
+      "top": 607.4775000000001,
+      "left": 1087.17,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_e28_24",
+      "label": "Healthtech freemium",
+      "cell": "E28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 236.04,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_g28_25",
+      "label": "Funcional, mas limitado no plano gratuito",
+      "cell": "G28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 354.06,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_i28_26",
+      "label": "Fortes em SEO, YouTube e blog",
+      "cell": "I28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 472.08,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_k28_27",
+      "label": "Inbound passivo",
+      "cell": "K28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 590.1,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_m28_28",
+      "label": "Suporte só no plano pago",
+      "cell": "M28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 708.12,
+      "width": 143.01,
+      "height": 89.775
+    },
+    {
+      "key": "field_o28_29",
+      "label": "Grátis até 3 usuários",
+      "cell": "O28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 851.13,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_q28_30",
+      "label": "Conteúdo educativo e tráfego orgânico",
+      "cell": "Q28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 969.15,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_s28_31",
+      "label": "Recursos bloqueados no plano gratuito, suporte fraco",
+      "cell": "S28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 1087.17,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_e32_32",
+      "label": "Nome Concorrente",
+      "cell": "E32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 236.04,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_g32_33",
+      "label": "Nome Concorrente",
+      "cell": "G32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 354.06,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_i32_34",
+      "label": "Nome Concorrente",
+      "cell": "I32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 472.08,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_k32_35",
+      "label": "Suporte só no plano pago",
+      "cell": "K32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 590.1,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_m32_36",
+      "label": "Grátis até 3 usuários",
+      "cell": "M32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 708.12,
+      "width": 143.01,
+      "height": 89.775
+    },
+    {
+      "key": "field_o32_37",
+      "label": "Conteúdo educativo e tráfego orgânico",
+      "cell": "O32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 851.13,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_q32_38",
+      "label": "Recursos bloqueados no plano gratuito, suporte fraco",
+      "cell": "Q32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 969.15,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_s32_39",
+      "label": "Focar em plano pago direto com suporte humano e simples",
+      "cell": "S32",
+      "type": "textarea",
+      "top": 846.8775,
+      "left": 1087.17,
+      "width": 177.03,
+      "height": 89.775
+    }
+  ]
+}

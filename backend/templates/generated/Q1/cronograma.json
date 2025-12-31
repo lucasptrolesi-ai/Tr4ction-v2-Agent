@@ -1,0 +1,371 @@
+{
+  "template_key": "cronograma",
+  "sheet_name": "Cronograma",
+  "sheet_width": 896.63,
+  "sheet_height": 1127.175,
+  "title": "Cronograma",
+  "description": "Auto-generated template from sheet 'Cronograma'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_c15_0",
+      "label": "1.0",
+      "cell": "C15",
+      "type": "textarea",
+      "top": 289.27500000000003,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g15_1",
+      "label": "Diagnóstico Estratégico: onde sua startup está e o que precisa destravar",
+      "cell": "G15",
+      "type": "textarea",
+      "top": 289.27500000000003,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k15_2",
+      "label": "Mapear o estágio atual da startup, identificando pontos críticos, certezas, suposições e dúvidas.",
+      "cell": "K15",
+      "type": "textarea",
+      "top": 289.27500000000003,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c17_3",
+      "label": "2.0",
+      "cell": "C17",
+      "type": "textarea",
+      "top": 349.12500000000006,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g17_4",
+      "label": "SWOT + ICP: entendendo sua vantagem e seu cliente ideal",
+      "cell": "G17",
+      "type": "textarea",
+      "top": 349.12500000000006,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k17_5",
+      "label": "Analisar forças, fraquezas e definir o cliente ideal (ICP) com clareza.",
+      "cell": "K17",
+      "type": "textarea",
+      "top": 349.12500000000006,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c19_6",
+      "label": "3.0",
+      "cell": "C19",
+      "type": "textarea",
+      "top": 408.975,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g19_7",
+      "label": "Persona, JTBD e Jornada: o que seu cliente quer e como ele compra",
+      "cell": "G19",
+      "type": "textarea",
+      "top": 408.975,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k19_8",
+      "label": "Entender profundamente o que o cliente quer resolver (JTBD), quem ele é (Persona) e como ele compra (Jornada).",
+      "cell": "K19",
+      "type": "textarea",
+      "top": 408.975,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c21_9",
+      "label": "4.0",
+      "cell": "C21",
+      "type": "textarea",
+      "top": 468.82500000000005,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g21_10",
+      "label": "Proposta de Valor: o que faz seu cliente escolher você",
+      "cell": "G21",
+      "type": "textarea",
+      "top": 468.82500000000005,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k21_11",
+      "label": "Definir a proposta de valor baseada no que realmente importa para o cliente.",
+      "cell": "K21",
+      "type": "textarea",
+      "top": 468.82500000000005,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c23_12",
+      "label": "5.0",
+      "cell": "C23",
+      "type": "textarea",
+      "top": 528.6750000000001,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g23_13",
+      "label": "Mercado e Concorrência: TAM, Benchmark e Diferenciação na Prática",
+      "cell": "G23",
+      "type": "textarea",
+      "top": 528.6750000000001,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k23_14",
+      "label": "Analisar mercado, concorrência e posicionar a startup com diferenciação.",
+      "cell": "K23",
+      "type": "textarea",
+      "top": 528.6750000000001,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c25_15",
+      "label": "6.0",
+      "cell": "C25",
+      "type": "textarea",
+      "top": 588.5250000000001,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g25_16",
+      "label": "Narrativa Estratégica: Golden Circle + Posicionamento Verbal",
+      "cell": "G25",
+      "type": "textarea",
+      "top": 588.5250000000001,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k25_17",
+      "label": "Construir a narrativa da marca: propósito, posicionamento e como ela se comunica.",
+      "cell": "K25",
+      "type": "textarea",
+      "top": 588.5250000000001,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c27_18",
+      "label": "7.0",
+      "cell": "C27",
+      "type": "textarea",
+      "top": 648.375,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g27_19",
+      "label": "Marca com Personalidade: Arquétipo, Atributos, Tom de Voz e Slogan",
+      "cell": "G27",
+      "type": "textarea",
+      "top": 648.375,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k27_20",
+      "label": "Definir a identidade emocional e verbal da marca: arquétipo, tom, atributos e slogan.",
+      "cell": "K27",
+      "type": "textarea",
+      "top": 648.375,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c29_21",
+      "label": "8.0",
+      "cell": "C29",
+      "type": "textarea",
+      "top": 708.225,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g29_22",
+      "label": "Checklist de Marca e Materiais: sua identidade aplicada no mundo real",
+      "cell": "G29",
+      "type": "textarea",
+      "top": 708.225,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k29_23",
+      "label": "Garantir consistência na aplicação da marca e alinhar todos os materiais visuais.",
+      "cell": "K29",
+      "type": "textarea",
+      "top": 708.225,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c31_24",
+      "label": "9.0",
+      "cell": "C31",
+      "type": "textarea",
+      "top": 768.075,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g31_25",
+      "label": "Diagrama da Estratégia: o mapa visual da sua estratégia e do seu crescimento",
+      "cell": "G31",
+      "type": "textarea",
+      "top": 768.075,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k31_26",
+      "label": "Organizar visualmente a estratégia completa da startup em um mapa claro e acionável.",
+      "cell": "K31",
+      "type": "textarea",
+      "top": 768.075,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c33_27",
+      "label": "10.0",
+      "cell": "C33",
+      "type": "textarea",
+      "top": 827.9250000000001,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g33_28",
+      "label": "Metas, KPIs e Canais: Bullseye Framework + Meta SMART na prática",
+      "cell": "G33",
+      "type": "textarea",
+      "top": 827.9250000000001,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k33_29",
+      "label": "Transformar estratégia em metas SMART, KPIs e escolher os canais prioritários com o Bullseye.",
+      "cell": "K33",
+      "type": "textarea",
+      "top": 827.9250000000001,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c35_30",
+      "label": "11.0",
+      "cell": "C35",
+      "type": "textarea",
+      "top": 887.7750000000001,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g35_31",
+      "label": "Roadmap + Briefing de Campanha: Plano Claro, Execução Real",
+      "cell": "G35",
+      "type": "textarea",
+      "top": 887.7750000000001,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k35_32",
+      "label": "Construir o briefing da campanha inicial e desenhar o roadmap dos próximos 90 dias.",
+      "cell": "K35",
+      "type": "textarea",
+      "top": 887.7750000000001,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    },
+    {
+      "key": "field_c37_33",
+      "label": "12.0",
+      "cell": "C37",
+      "type": "textarea",
+      "top": 947.625,
+      "left": 118.02,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_g37_34",
+      "label": "Aula de Encerramento",
+      "cell": "G37",
+      "type": "textarea",
+      "top": 947.625,
+      "left": 354.06,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_k37_35",
+      "label": "Preparação para o Q1, entender experiência e etc",
+      "cell": "K37",
+      "type": "textarea",
+      "top": 947.625,
+      "left": 590.1,
+      "width": 261.03,
+      "height": 59.85
+    }
+  ]
+}

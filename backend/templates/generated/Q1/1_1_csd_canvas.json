@@ -1,0 +1,461 @@
+{
+  "template_key": "1_1_csd_canvas",
+  "sheet_name": "1.1 CSD Canvas",
+  "sheet_width": 927.29,
+  "sheet_height": 3181.0275,
+  "title": "1.1 CSD Canvas",
+  "description": "Auto-generated template from sheet '1.1 CSD Canvas'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_b14_0",
+      "label": "✅ Certeza",
+      "cell": "B14",
+      "type": "text",
+      "top": 308.2275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f14_1",
+      "label": "Nossa plataforma tem churn mensal de 1,2%",
+      "cell": "F14",
+      "type": "text",
+      "top": 308.2275,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j14_2",
+      "label": "Dado real de cancelamentos nos últimos 6 meses",
+      "cell": "J14",
+      "type": "text",
+      "top": 308.2275,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b15_3",
+      "label": "Nossa plataforma tem churn mensal de 1,2%",
+      "cell": "B15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f15_4",
+      "label": "Clientes citam suporte como principal diferencial",
+      "cell": "F15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j15_5",
+      "label": "Feedbacks coletados em NPS e WhatsApp",
+      "cell": "J15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b16_6",
+      "label": "Clientes citam suporte como principal diferencial",
+      "cell": "B16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f16_7",
+      "label": "Feedbacks coletados em NPS e WhatsApp",
+      "cell": "F16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j16_8",
+      "label": "Formulário NPS + Intercom",
+      "cell": "J16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b17_9",
+      "label": "Clientes citam suporte como principal diferencial",
+      "cell": "B17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f17_10",
+      "label": "Feedbacks coletados em NPS e WhatsApp",
+      "cell": "F17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j17_11",
+      "label": "Formulário NPS + Intercom",
+      "cell": "J17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b18_12",
+      "label": "Clientes citam suporte como principal diferencial",
+      "cell": "B18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f18_13",
+      "label": "Feedbacks coletados em NPS e WhatsApp",
+      "cell": "F18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j18_14",
+      "label": "Formulário NPS + Intercom",
+      "cell": "J18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b20_15",
+      "label": "⚠️ Suposição",
+      "cell": "B20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f20_16",
+      "label": "Acreditamos que clínicas pequenas preferem planos mensais",
+      "cell": "F20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j20_17",
+      "label": "Ainda não fizemos pesquisa, mas 80% possui plano mensal",
+      "cell": "J20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b21_18",
+      "label": "Acreditamos que clínicas pequenas preferem planos mensais",
+      "cell": "B21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f21_19",
+      "label": "O Instagram pode se tornar um bom canal de aquisição",
+      "cell": "F21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j21_20",
+      "label": "Tem bom engajamento orgânico, mas nunca testamos anúncios",
+      "cell": "J21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b22_21",
+      "label": "O Instagram pode se tornar um bom canal de aquisição",
+      "cell": "B22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f22_22",
+      "label": "Tem bom engajamento orgânico, mas nunca testamos anúncios",
+      "cell": "F22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j22_23",
+      "label": "Dados de alcance nos posts",
+      "cell": "J22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b23_24",
+      "label": "O Instagram pode se tornar um bom canal de aquisição",
+      "cell": "B23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f23_25",
+      "label": "Tem bom engajamento orgânico, mas nunca testamos anúncios",
+      "cell": "F23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j23_26",
+      "label": "Dados de alcance nos posts",
+      "cell": "J23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b24_27",
+      "label": "O Instagram pode se tornar um bom canal de aquisição",
+      "cell": "B24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f24_28",
+      "label": "Tem bom engajamento orgânico, mas nunca testamos anúncios",
+      "cell": "F24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j24_29",
+      "label": "Dados de alcance nos posts",
+      "cell": "J24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b26_30",
+      "label": "❓ Dúvida",
+      "cell": "B26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f26_31",
+      "label": "Qual é o nosso LTV real?",
+      "cell": "F26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j26_32",
+      "label": "Não temos dados consistentes de tempo médio de permanência",
+      "cell": "J26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b27_33",
+      "label": "Qual é o nosso LTV real?",
+      "cell": "B27",
+      "type": "text",
+      "top": 697.2525,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f27_34",
+      "label": "O cliente entende claramente nosso diferencial?",
+      "cell": "F27",
+      "type": "text",
+      "top": 697.2525,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j27_35",
+      "label": "Nunca fizemos teste A/B ou pesquisa sobre proposta de valor",
+      "cell": "J27",
+      "type": "text",
+      "top": 697.2525,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b28_36",
+      "label": "O cliente entende claramente nosso diferencial?",
+      "cell": "B28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f28_37",
+      "label": "Nunca fizemos teste A/B ou pesquisa sobre proposta de valor",
+      "cell": "F28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j28_38",
+      "label": "-",
+      "cell": "J28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b29_39",
+      "label": "O cliente entende claramente nosso diferencial?",
+      "cell": "B29",
+      "type": "text",
+      "top": 757.1025000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f29_40",
+      "label": "Nunca fizemos teste A/B ou pesquisa sobre proposta de valor",
+      "cell": "F29",
+      "type": "text",
+      "top": 757.1025000000001,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j29_41",
+      "label": "-",
+      "cell": "J29",
+      "type": "text",
+      "top": 757.1025000000001,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_b30_42",
+      "label": "O cliente entende claramente nosso diferencial?",
+      "cell": "B30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f30_43",
+      "label": "Nunca fizemos teste A/B ou pesquisa sobre proposta de valor",
+      "cell": "F30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 295.05,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_j30_44",
+      "label": "-",
+      "cell": "J30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 531.09,
+      "width": 236.04,
+      "height": 29.925
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "template_key": "8_0_consistencia_da_marca",
+  "sheet_name": "8.0 Consistência da Marca",
+  "sheet_width": 1403.5,
+  "sheet_height": 3273.8,
+  "title": "8.0 Consistência da Marca",
+  "description": "Auto-generated template for 8.0 Consistência da Marca",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_f26_0",
+      "label": "Reflete arquétipo e mensagem emocional",
+      "cell": "F26",
+      "type": "textarea",
+      "top": 667.33,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h26_1",
+      "label": "Reflete arquétipo e mensagem emocional",
+      "cell": "H26",
+      "type": "textarea",
+      "top": 667.33,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m26_2",
+      "label": "Field M26",
+      "cell": "M26",
+      "type": "textarea",
+      "top": 667.33,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n26_3",
+      "label": "Field N26",
+      "cell": "N26",
+      "type": "textarea",
+      "top": 667.33,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f28_4",
+      "label": "Field F28",
+      "cell": "F28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h28_5",
+      "label": "Field H28",
+      "cell": "H28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m28_6",
+      "label": "Field M28",
+      "cell": "M28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n28_7",
+      "label": "Field N28",
+      "cell": "N28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f30_8",
+      "label": "Field F30",
+      "cell": "F30",
+      "type": "textarea",
+      "top": 787.03,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n30_9",
+      "label": "Field N30",
+      "cell": "N30",
+      "type": "textarea",
+      "top": 787.03,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f35_10",
+      "label": "Bio transmite PUV e benefício claro",
+      "cell": "F35",
+      "type": "textarea",
+      "top": 936.65,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h35_11",
+      "label": "Bio transmite PUV e benefício claro",
+      "cell": "H35",
+      "type": "textarea",
+      "top": 936.65,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m35_12",
+      "label": "Field M35",
+      "cell": "M35",
+      "type": "textarea",
+      "top": 936.65,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n35_13",
+      "label": "Field N35",
+      "cell": "N35",
+      "type": "textarea",
+      "top": 936.65,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f44_14",
+      "label": "Slide inicial com PUV/slogan",
+      "cell": "F44",
+      "type": "textarea",
+      "top": 1205.98,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h44_15",
+      "label": "Slide inicial com PUV/slogan",
+      "cell": "H44",
+      "type": "textarea",
+      "top": 1205.98,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m44_16",
+      "label": "Field M44",
+      "cell": "M44",
+      "type": "textarea",
+      "top": 1205.98,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n44_17",
+      "label": "Field N44",
+      "cell": "N44",
+      "type": "textarea",
+      "top": 1205.98,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f53_18",
+      "label": "Tom de voz e assinatura visível",
+      "cell": "F53",
+      "type": "textarea",
+      "top": 1475.3,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h53_19",
+      "label": "Tom de voz e assinatura visível",
+      "cell": "H53",
+      "type": "textarea",
+      "top": 1475.3,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m53_20",
+      "label": "Field M53",
+      "cell": "M53",
+      "type": "textarea",
+      "top": 1475.3,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n53_21",
+      "label": "Field N53",
+      "cell": "N53",
+      "type": "textarea",
+      "top": 1475.3,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f60_22",
+      "label": "Postura e estilo coerente com atributos da marca",
+      "cell": "F60",
+      "type": "textarea",
+      "top": 1684.78,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h60_23",
+      "label": "Postura e estilo coerente com atributos da marca",
+      "cell": "H60",
+      "type": "textarea",
+      "top": 1684.78,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m60_24",
+      "label": "Field M60",
+      "cell": "M60",
+      "type": "textarea",
+      "top": 1684.78,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n60_25",
+      "label": "Field N60",
+      "cell": "N60",
+      "type": "textarea",
+      "top": 1684.78,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f67_26",
+      "label": "Linguagem e tom coerente com atributos da marca",
+      "cell": "F67",
+      "type": "textarea",
+      "top": 1894.25,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h67_27",
+      "label": "Linguagem e tom coerente com atributos da marca",
+      "cell": "H67",
+      "type": "textarea",
+      "top": 1894.25,
+      "left": 637.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m67_28",
+      "label": "Field M67",
+      "cell": "M67",
+      "type": "textarea",
+      "top": 1894.25,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n67_29",
+      "label": "Field N67",
+      "cell": "N67",
+      "type": "textarea",
+      "top": 1894.25,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f69_30",
+      "label": "Visual alinhado com identidade visual",
+      "cell": "F69",
+      "type": "textarea",
+      "top": 1954.1,
+      "left": 455.0,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m69_31",
+      "label": "Field M69",
+      "cell": "M69",
+      "type": "textarea",
+      "top": 1954.1,
+      "left": 1092.0,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_n69_32",
+      "label": "Field N69",
+      "cell": "N69",
+      "type": "textarea",
+      "top": 1954.1,
+      "left": 1183.0,
+      "width": 175.0,
+      "height": 59.85
+    }
+  ]
+}

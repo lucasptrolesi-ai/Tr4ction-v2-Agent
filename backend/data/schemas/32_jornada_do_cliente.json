@@ -1,0 +1,1246 @@
+{
+  "template_key": "32_jornada_do_cliente",
+  "sheet_name": "3.2 Jornada do Cliente",
+  "sheet_width": 2239.16,
+  "sheet_height": 2764.0725,
+  "title": "3.2 Jornada do Cliente",
+  "description": "Template for 3.2 Jornada do Cliente",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "F3",
+      "label": "3.2 Jornada do Cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "F7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "G7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "K7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "L7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "O7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "P7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Jornada do Cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A14",
+      "label": "Etapa da Jornada\nQual etapa da experiência do clie",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "E14",
+      "label": "Descoberta\nO que despertou o interesse \nou a neces",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "I14",
+      "label": "Interesse\nO que fez o cliente querer saber mais so",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "M14",
+      "label": "Conversão\nO que motivou o cliente a dar o primeiro",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "Q14",
+      "label": "Onboarding / Ativação\nO que faria o cliente se sen",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "U14",
+      "label": "Valor recorrente\nO que mantém o cliente ativo e en",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "Y14",
+      "label": "Indicação / Retenção\nPor que esse cliente indicari",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "D15",
+      "label": ">",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "H15",
+      "label": ">",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "L15",
+      "label": ">",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "P15",
+      "label": ">",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "T15",
+      "label": ">",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1605.66,
+        "width": 26.25,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "X15",
+      "label": ">",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1897.91,
+        "width": 29.75,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "A18",
+      "label": "Ações\nO que o seu cliente faz? Quais informações",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "E18",
+      "label": "Pesquisa, vê um post sobre “como reduzir tempo de",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "I18",
+      "label": "Acessa o site, navega pelas funcionalidades, conso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "M18",
+      "label": "Solicita uma demonstração da plataforma.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "Q18",
+      "label": "Participa do onboarding, começa a usar o dashboard",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "U18",
+      "label": "Gera relatórios mensais, consegue reduzir o tempo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "Y18",
+      "label": "Indica para um colega dono de consultório.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "A22",
+      "label": "Necessidades e Dores\nO que o cliente quer alcançar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "E22",
+      "label": "Está sobrecarregado com processos manuais e excess",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "I22",
+      "label": "Quer entender se a solução vai resolver sua dor es",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "M22",
+      "label": "Busca algo prático, acessível e que não tome muito",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "Q22",
+      "label": "Quer começar sem depender da equipe técnica da clí",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "U22",
+      "label": "Quer ver retorno no dia a dia sem complicação.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "Y22",
+      "label": "Ganhou tempo e quer ajudar outros profissionais da",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "A26",
+      "label": "Pontos de contato\nQual a parte do serviço que o se",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "E26",
+      "label": "Instagram, Google, eventos da área de saúde",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "I26",
+      "label": "Site, ebook, redes sociais, WhatsApp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "M26",
+      "label": "Formulário, WhatsApp, call com time comercial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "Q26",
+      "label": "E-mail, vídeo tutorial, onboarding call",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "U26",
+      "label": "Painel da plataforma, e-mail de insights",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "Y26",
+      "label": "E-mail, WhatsApp, boca a boca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "A30",
+      "label": "Sentimentos / Emoções\nQual o sentimento do seu cli",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "E30",
+      "label": "😩 Estressado, curioso, desconfiado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "I30",
+      "label": "🧐 Interessado, avaliando, ainda inseguro",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "M30",
+      "label": "😬 Cauteloso, curioso, esperançoso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "Q30",
+      "label": "😅 Esperançoso, um pouco confuso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "U30",
+      "label": "😌 Aliviado, confiante",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "Y30",
+      "label": "😍 Orgulhoso, satisfeito",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "A34",
+      "label": "Bastidores\nAções da Startup",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "E34",
+      "label": "Campanha paga segmentada, conteúdo blog, SEO médic",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "I34",
+      "label": "LP com comparação com ERPs tradicionais, depoiment",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "M34",
+      "label": "Roteiro de demo consultiva, qualificação via CRM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "Q34",
+      "label": "Fluxo automatizado de boas-vindas + suporte humani",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "U34",
+      "label": "Envio automático de KPIs + notificações de uso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "Y34",
+      "label": "Programa de indicação via CRM + mensagens automáti",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 857.8499999999996,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "A38",
+      "label": "Oportunidades de Melhorias\nO que podemos melhorar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "E38",
+      "label": "Clareza na mensagem, proposta visível. Título mais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "I38",
+      "label": "Mais prova social e clareza sobre diferenciais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "M38",
+      "label": "Reduzir etapas para agendamento e automatizar foll",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "Q38",
+      "label": "Onboarding interativo e mais visual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "U38",
+      "label": "Comunicar valor entregue com frequência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "Y38",
+      "label": "Incluir gamificação leve no programa de indicação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "A42",
+      "label": "Dono do Processo\nQuem lidera essa etapa?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "E42",
+      "label": "Marketing / Growth",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "I42",
+      "label": "Marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "M42",
+      "label": "Vendas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "Q42",
+      "label": "CS / Produto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 1339.66,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "U42",
+      "label": "Produto / CS",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 1631.91,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "Y42",
+      "label": "CS / Marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 1927.66,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "B48",
+      "label": "Conceito Jornada do Cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "B49",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "B51",
+      "label": "A Jornada do Cliente é o mapeamento da experiência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "B56",
+      "label": "→ Canais e mensagens\n→ Onboarding e suporte\n→ Prod",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "B63",
+      "label": "Como preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1746.6224999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "B64",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1776.5474999999983,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "B75",
+      "label": "Campo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "D75",
+      "label": "O que preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "B76",
+      "label": "Ações do Cliente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "D76",
+      "label": "O que ele faz nessa etapa? Ex: visita site, agenda",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "B77",
+      "label": "Necessidades e Dores",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "D77",
+      "label": "O que ele quer resolver ou evitar? Quais dúvidas o",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2165.5724999999984,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "B78",
+      "label": "Pontos de Contato",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "D78",
+      "label": "Onde ele interage com sua marca? Ex: site, WhatsAp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "B79",
+      "label": "Sentimentos / Emoções",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "D79",
+      "label": "Emoções reais do cliente nessa fase. Use emojis se",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "B80",
+      "label": "Bastidores",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "D80",
+      "label": "O que sua startup faz nessa etapa? Ex: automação,",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "B81",
+      "label": "Oportunidades de Melhoria",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "D81",
+      "label": "O que pode ser otimizado, removido ou criado para",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "B82",
+      "label": "Dono da Etapa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "D82",
+      "label": "Qual time é responsável por essa etapa? Ex: Market",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_93",
+      "cell": "B86",
+      "label": "Dica",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2434.8975,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_94",
+      "cell": "B87",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_95",
+      "cell": "B89",
+      "label": "→ Pense do ponto de vista do cliente, não da start",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2524.6725000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

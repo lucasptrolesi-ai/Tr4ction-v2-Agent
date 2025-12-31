@@ -1,0 +1,131 @@
+{
+  "template_key": "11_0_briefing_campanha",
+  "sheet_name": "11.0 Briefing Campanha",
+  "sheet_width": 1102.08,
+  "sheet_height": 2941.6275,
+  "title": "11.0 Briefing Campanha",
+  "description": "Auto-generated template from sheet '11.0 Briefing Campanha'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_i15_0",
+      "label": "Dê um título curto e claro",
+      "cell": "I15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i20_1",
+      "label": "Qual meta essa campanha quer atingir?\nConexão Meta SMART",
+      "cell": "I20",
+      "type": "textarea",
+      "top": 487.77750000000003,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i25_2",
+      "label": "Segmento específico (ICP, recorte de persona)",
+      "cell": "I25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i30_3",
+      "label": "Qual problema dessa persona você vai atacar nesta campanha?",
+      "cell": "I30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i35_4",
+      "label": "Proposta única de valor adaptada para a campanha\nTom de voz e emoção principal",
+      "cell": "I35",
+      "type": "textarea",
+      "top": 936.6525,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i40_5",
+      "label": "O que será oferecido (ebook, diagnóstico, teste grátis, desconto)\nQual a ação esperada (baixar, agendar, comprar etc.)",
+      "cell": "I40",
+      "type": "textarea",
+      "top": 1086.2775000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i45_6",
+      "label": "Onde a campanha será veiculada?",
+      "cell": "I45",
+      "type": "textarea",
+      "top": 1235.9025000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i50_7",
+      "label": "Quais peças serão criadas? \nBanners, vídeos, landing page, e-mails, posts..",
+      "cell": "I50",
+      "type": "textarea",
+      "top": 1385.5275000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i55_8",
+      "label": "Como medir sucesso?",
+      "cell": "I55",
+      "type": "textarea",
+      "top": 1535.1525000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i60_9",
+      "label": "Data de início e fim da campanha",
+      "cell": "I60",
+      "type": "textarea",
+      "top": 1684.7775000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i65_10",
+      "label": "Quem vai tocar cada frente",
+      "cell": "I65",
+      "type": "textarea",
+      "top": 1834.4025000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    },
+    {
+      "key": "field_i70_11",
+      "label": "Qualquer nota importante",
+      "cell": "I70",
+      "type": "textarea",
+      "top": 1984.0275000000001,
+      "left": 486.22,
+      "width": 523.95,
+      "height": 119.7
+    }
+  ]
+}

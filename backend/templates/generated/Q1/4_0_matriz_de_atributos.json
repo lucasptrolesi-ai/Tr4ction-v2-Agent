@@ -1,0 +1,491 @@
+{
+  "template_key": "4_0_matriz_de_atributos",
+  "sheet_name": "4.0 Matriz de Atributos",
+  "sheet_width": 896.63,
+  "sheet_height": 3270.8025000000002,
+  "title": "4.0 Matriz de Atributos",
+  "description": "Auto-generated template from sheet '4.0 Matriz de Atributos'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_i15_0",
+      "label": "2.0",
+      "cell": "I15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i16_1",
+      "label": "2.0",
+      "cell": "I16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i17_2",
+      "label": "5.0",
+      "cell": "I17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i18_3",
+      "label": "2.0",
+      "cell": "I18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b20_4",
+      "label": "Atendimento / Suporte",
+      "cell": "B20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f20_5",
+      "label": "Onboarding / implantação",
+      "cell": "F20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 295.05,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i20_6",
+      "label": "3.0",
+      "cell": "I20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b21_7",
+      "label": "Onboarding / implantação",
+      "cell": "B21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i21_8",
+      "label": "1.0",
+      "cell": "I21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b22_9",
+      "label": "Suporte humano rápido",
+      "cell": "B22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i22_10",
+      "label": "4.0",
+      "cell": "I22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b23_11",
+      "label": "Tempo de resposta",
+      "cell": "B23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i23_12",
+      "label": "5.0",
+      "cell": "I23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b24_13",
+      "label": "Disponibilidade de equipe técnica",
+      "cell": "B24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i24_14",
+      "label": "2.0",
+      "cell": "I24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b26_15",
+      "label": "Modelo de Negócio / Preço",
+      "cell": "B26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f26_16",
+      "label": "Preço acessível",
+      "cell": "F26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 295.05,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i26_17",
+      "label": "3.0",
+      "cell": "I26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b27_18",
+      "label": "Preço acessível",
+      "cell": "B27",
+      "type": "text",
+      "top": 697.2525,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i27_19",
+      "label": "5.0",
+      "cell": "I27",
+      "type": "text",
+      "top": 697.2525,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b28_20",
+      "label": "Modelo de cobrança (mensal, por uso etc.)",
+      "cell": "B28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i28_21",
+      "label": "4.0",
+      "cell": "I28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b29_22",
+      "label": "Clareza no plano e no que está incluso",
+      "cell": "B29",
+      "type": "text",
+      "top": 757.1025000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i29_23",
+      "label": "3.0",
+      "cell": "I29",
+      "type": "text",
+      "top": 757.1025000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b30_24",
+      "label": "Possibilidade de escalar sem custo extra",
+      "cell": "B30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i30_25",
+      "label": "3.0",
+      "cell": "I30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b32_26",
+      "label": "Resultado / Valor Entregue",
+      "cell": "B32",
+      "type": "text",
+      "top": 846.8775,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f32_27",
+      "label": "Redução de tempo",
+      "cell": "F32",
+      "type": "text",
+      "top": 846.8775,
+      "left": 295.05,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i32_28",
+      "label": "2.0",
+      "cell": "I32",
+      "type": "text",
+      "top": 846.8775,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b33_29",
+      "label": "Redução de tempo",
+      "cell": "B33",
+      "type": "text",
+      "top": 876.8025,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i33_30",
+      "label": "3.0",
+      "cell": "I33",
+      "type": "text",
+      "top": 876.8025,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b34_31",
+      "label": "Aumento de receita / produtividade",
+      "cell": "B34",
+      "type": "text",
+      "top": 906.7275000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i34_32",
+      "label": "1.0",
+      "cell": "I34",
+      "type": "text",
+      "top": 906.7275000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b35_33",
+      "label": "Economia operacional",
+      "cell": "B35",
+      "type": "text",
+      "top": 936.6525,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i35_34",
+      "label": "5.0",
+      "cell": "I35",
+      "type": "text",
+      "top": 936.6525,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b36_35",
+      "label": "Resolução do problema-chave",
+      "cell": "B36",
+      "type": "text",
+      "top": 966.5775000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i36_36",
+      "label": "2.0",
+      "cell": "I36",
+      "type": "text",
+      "top": 966.5775000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b38_37",
+      "label": "Experiência / Marca / Relacional",
+      "cell": "B38",
+      "type": "text",
+      "top": 1026.4275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_f38_38",
+      "label": "Confiança na marca",
+      "cell": "F38",
+      "type": "text",
+      "top": 1026.4275,
+      "left": 295.05,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_i38_39",
+      "label": "4.0",
+      "cell": "I38",
+      "type": "text",
+      "top": 1026.4275,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b39_40",
+      "label": "Confiança na marca",
+      "cell": "B39",
+      "type": "text",
+      "top": 1056.3525,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i39_41",
+      "label": "2.0",
+      "cell": "I39",
+      "type": "text",
+      "top": 1056.3525,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b40_42",
+      "label": "Tom de voz e comunicação",
+      "cell": "B40",
+      "type": "text",
+      "top": 1086.2775000000001,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i40_43",
+      "label": "5.0",
+      "cell": "I40",
+      "type": "text",
+      "top": 1086.2775000000001,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b41_44",
+      "label": "Reputação no mercado",
+      "cell": "B41",
+      "type": "text",
+      "top": 1116.2025,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i41_45",
+      "label": "3.0",
+      "cell": "I41",
+      "type": "text",
+      "top": 1116.2025,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    },
+    {
+      "key": "field_b42_46",
+      "label": "Simpatia no atendimento",
+      "cell": "B42",
+      "type": "text",
+      "top": 1146.1275,
+      "left": 59.01,
+      "width": 236.04,
+      "height": 29.925
+    },
+    {
+      "key": "field_i42_47",
+      "label": "1.0",
+      "cell": "I42",
+      "type": "text",
+      "top": 1146.1275,
+      "left": 472.08,
+      "width": 177.03,
+      "height": 29.925
+    }
+  ]
+}

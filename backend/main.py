@@ -25,6 +25,7 @@ from routers import (
     test_router,
     founder_router,
     auth_router,
+    template_discovery_router,
 )
 
 # Database
@@ -107,6 +108,7 @@ def create_app():
     app.include_router(files_router)
     app.include_router(diagnostics_router)
     app.include_router(test_router)
+    app.include_router(template_discovery_router)  # Template discovery (generic)
     
     # Seed usuários padrão
     try:

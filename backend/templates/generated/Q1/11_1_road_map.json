@@ -1,0 +1,711 @@
+{
+  "template_key": "11_1_road_map",
+  "sheet_name": "11.1 Road Map",
+  "sheet_width": 1182.37,
+  "sheet_height": 2041.8825000000002,
+  "title": "11.1 Road Map",
+  "description": "Auto-generated template from sheet '11.1 Road Map'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_d15_0",
+      "label": "Lançamento do e-book “Guia da Clínica Digital”",
+      "cell": "D15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f15_1",
+      "label": "Geração de leads (Topo Funil)",
+      "cell": "F15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h15_2",
+      "label": "Donos de clínicas pequenas",
+      "cell": "H15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j15_3",
+      "label": "LinkedIn + Instagram Ads",
+      "cell": "J15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l15_4",
+      "label": "Marketing",
+      "cell": "L15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m15_5",
+      "label": "2025-10-01 00:00:00",
+      "cell": "M15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p15_6",
+      "label": "Otimização",
+      "cell": "P15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d17_7",
+      "label": "Webinar “Automatização na Saúde”",
+      "cell": "D17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f17_8",
+      "label": "Nutrição (Meio Funil)",
+      "cell": "F17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h17_9",
+      "label": "Leads captados no e-book",
+      "cell": "H17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j17_10",
+      "label": "Zoom + E-mail",
+      "cell": "J17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l17_11",
+      "label": "Founder + Marketing",
+      "cell": "L17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m17_12",
+      "label": "2025-10-22 00:00:00",
+      "cell": "M17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p17_13",
+      "label": "Execução",
+      "cell": "P17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d19_14",
+      "label": "Teste grátis 14 dias",
+      "cell": "D19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f19_15",
+      "label": "Conversão (Fundo Funil)",
+      "cell": "F19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h19_16",
+      "label": "Leads quentes",
+      "cell": "H19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j19_17",
+      "label": "Site + E-mail marketing",
+      "cell": "J19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l19_18",
+      "label": "Growth",
+      "cell": "L19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m19_19",
+      "label": "2025-11-01 00:00:00",
+      "cell": "M19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p19_20",
+      "label": "Produção",
+      "cell": "P19",
+      "type": "textarea",
+      "top": 457.8525,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d21_21",
+      "label": "Sequência de onboarding automatizada",
+      "cell": "D21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f21_22",
+      "label": "Retenção inicial",
+      "cell": "F21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h21_23",
+      "label": "Novos clientes",
+      "cell": "H21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j21_24",
+      "label": "E-mail + WhatsApp",
+      "cell": "J21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l21_25",
+      "label": "Suporte",
+      "cell": "L21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m21_26",
+      "label": "2025-11-10 00:00:00",
+      "cell": "M21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p21_27",
+      "label": "Planejamento",
+      "cell": "P21",
+      "type": "textarea",
+      "top": 517.7025000000001,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d23_28",
+      "label": "Campanha de indicação “Clínica que Indica”",
+      "cell": "D23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f23_29",
+      "label": "Expansão (growth loop)",
+      "cell": "F23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h23_30",
+      "label": "Clientes ativos",
+      "cell": "H23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j23_31",
+      "label": "E-mail + WhatsApp",
+      "cell": "J23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l23_32",
+      "label": "CS",
+      "cell": "L23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m23_33",
+      "label": "2025-11-05 00:00:00",
+      "cell": "M23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p23_34",
+      "label": "Planejamento",
+      "cell": "P23",
+      "type": "textarea",
+      "top": 577.5525,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d25_35",
+      "label": "Expansão (growth loop)",
+      "cell": "D25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f25_36",
+      "label": "Clientes ativos",
+      "cell": "F25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h25_37",
+      "label": "E-mail + WhatsApp",
+      "cell": "H25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j25_38",
+      "label": "CS",
+      "cell": "J25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l25_39",
+      "label": "2025-11-05 00:00:00",
+      "cell": "L25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m25_40",
+      "label": "2025-11-30 00:00:00",
+      "cell": "M25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p25_41",
+      "label": "20 novas indicações",
+      "cell": "P25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d27_42",
+      "label": "Expansão (growth loop)",
+      "cell": "D27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f27_43",
+      "label": "Clientes ativos",
+      "cell": "F27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h27_44",
+      "label": "E-mail + WhatsApp",
+      "cell": "H27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j27_45",
+      "label": "CS",
+      "cell": "J27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l27_46",
+      "label": "2025-11-05 00:00:00",
+      "cell": "L27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m27_47",
+      "label": "2025-11-30 00:00:00",
+      "cell": "M27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p27_48",
+      "label": "20 novas indicações",
+      "cell": "P27",
+      "type": "textarea",
+      "top": 697.2525,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d29_49",
+      "label": "Expansão (growth loop)",
+      "cell": "D29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f29_50",
+      "label": "Clientes ativos",
+      "cell": "F29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h29_51",
+      "label": "E-mail + WhatsApp",
+      "cell": "H29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j29_52",
+      "label": "CS",
+      "cell": "J29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l29_53",
+      "label": "2025-11-05 00:00:00",
+      "cell": "L29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m29_54",
+      "label": "2025-11-30 00:00:00",
+      "cell": "M29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p29_55",
+      "label": "20 novas indicações",
+      "cell": "P29",
+      "type": "textarea",
+      "top": 757.1025000000001,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d31_56",
+      "label": "Expansão (growth loop)",
+      "cell": "D31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f31_57",
+      "label": "Clientes ativos",
+      "cell": "F31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h31_58",
+      "label": "E-mail + WhatsApp",
+      "cell": "H31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j31_59",
+      "label": "CS",
+      "cell": "J31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l31_60",
+      "label": "2025-11-05 00:00:00",
+      "cell": "L31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m31_61",
+      "label": "2025-11-30 00:00:00",
+      "cell": "M31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p31_62",
+      "label": "20 novas indicações",
+      "cell": "P31",
+      "type": "textarea",
+      "top": 816.9525000000001,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    },
+    {
+      "key": "field_d33_63",
+      "label": "Expansão (growth loop)",
+      "cell": "D33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 236.67000000000002,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_f33_64",
+      "label": "Clientes ativos",
+      "cell": "F33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 354.69,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h33_65",
+      "label": "E-mail + WhatsApp",
+      "cell": "H33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 472.71,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_j33_66",
+      "label": "CS",
+      "cell": "J33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 590.73,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_l33_67",
+      "label": "2025-11-05 00:00:00",
+      "cell": "L33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_m33_68",
+      "label": "2025-11-30 00:00:00",
+      "cell": "M33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_p33_69",
+      "label": "20 novas indicações",
+      "cell": "P33",
+      "type": "textarea",
+      "top": 876.8025,
+      "left": 972.44,
+      "width": 150.92000000000002,
+      "height": 59.85
+    }
+  ]
+}

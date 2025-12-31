@@ -1,0 +1,391 @@
+{
+  "template_key": "cronograma",
+  "sheet_name": "Cronograma",
+  "sheet_width": 1312.5,
+  "sheet_height": 1127.17,
+  "title": "Cronograma",
+  "description": "Auto-generated template for Cronograma",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_b10_0",
+      "label": "Field B10",
+      "cell": "B10",
+      "type": "text",
+      "top": 179.55,
+      "left": 91.0,
+      "width": 1092.0,
+      "height": 19.95
+    },
+    {
+      "key": "field_b11_1",
+      "label": "Q1 - Fundação: Organizar a casa e construir as bases para o crescimento",
+      "cell": "B11",
+      "type": "text",
+      "top": 199.5,
+      "left": 91.0,
+      "width": 819.0,
+      "height": 19.95
+    },
+    {
+      "key": "field_c15_2",
+      "label": "1.0",
+      "cell": "C15",
+      "type": "textarea",
+      "top": 289.28,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g15_3",
+      "label": "1.0",
+      "cell": "G15",
+      "type": "textarea",
+      "top": 289.28,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k15_4",
+      "label": "Framework",
+      "cell": "K15",
+      "type": "textarea",
+      "top": 289.28,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c17_5",
+      "label": "2.0",
+      "cell": "C17",
+      "type": "textarea",
+      "top": 349.13,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g17_6",
+      "label": "2.0",
+      "cell": "G17",
+      "type": "textarea",
+      "top": 349.13,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k17_7",
+      "label": "Framework",
+      "cell": "K17",
+      "type": "textarea",
+      "top": 349.13,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c19_8",
+      "label": "3.0",
+      "cell": "C19",
+      "type": "textarea",
+      "top": 408.98,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g19_9",
+      "label": "3.0",
+      "cell": "G19",
+      "type": "textarea",
+      "top": 408.98,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k19_10",
+      "label": "Framework",
+      "cell": "K19",
+      "type": "textarea",
+      "top": 408.98,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c21_11",
+      "label": "4.0",
+      "cell": "C21",
+      "type": "textarea",
+      "top": 468.83,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g21_12",
+      "label": "4.0",
+      "cell": "G21",
+      "type": "textarea",
+      "top": 468.83,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k21_13",
+      "label": "Framework",
+      "cell": "K21",
+      "type": "textarea",
+      "top": 468.83,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c23_14",
+      "label": "5.0",
+      "cell": "C23",
+      "type": "textarea",
+      "top": 528.68,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g23_15",
+      "label": "5.0",
+      "cell": "G23",
+      "type": "textarea",
+      "top": 528.68,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k23_16",
+      "label": "Framework",
+      "cell": "K23",
+      "type": "textarea",
+      "top": 528.68,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c25_17",
+      "label": "6.0",
+      "cell": "C25",
+      "type": "textarea",
+      "top": 588.53,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g25_18",
+      "label": "6.0",
+      "cell": "G25",
+      "type": "textarea",
+      "top": 588.53,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k25_19",
+      "label": "Framework",
+      "cell": "K25",
+      "type": "textarea",
+      "top": 588.53,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c27_20",
+      "label": "7.0",
+      "cell": "C27",
+      "type": "textarea",
+      "top": 648.38,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g27_21",
+      "label": "7.0",
+      "cell": "G27",
+      "type": "textarea",
+      "top": 648.38,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k27_22",
+      "label": "Field K27",
+      "cell": "K27",
+      "type": "textarea",
+      "top": 648.38,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c29_23",
+      "label": "8.0",
+      "cell": "C29",
+      "type": "textarea",
+      "top": 708.23,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g29_24",
+      "label": "8.0",
+      "cell": "G29",
+      "type": "textarea",
+      "top": 708.23,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k29_25",
+      "label": "Field K29",
+      "cell": "K29",
+      "type": "textarea",
+      "top": 708.23,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c31_26",
+      "label": "9.0",
+      "cell": "C31",
+      "type": "textarea",
+      "top": 768.08,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g31_27",
+      "label": "9.0",
+      "cell": "G31",
+      "type": "textarea",
+      "top": 768.08,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k31_28",
+      "label": "Field K31",
+      "cell": "K31",
+      "type": "textarea",
+      "top": 768.08,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c33_29",
+      "label": "10.0",
+      "cell": "C33",
+      "type": "textarea",
+      "top": 827.93,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g33_30",
+      "label": "10.0",
+      "cell": "G33",
+      "type": "textarea",
+      "top": 827.93,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k33_31",
+      "label": "Field K33",
+      "cell": "K33",
+      "type": "textarea",
+      "top": 827.93,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c35_32",
+      "label": "11.0",
+      "cell": "C35",
+      "type": "textarea",
+      "top": 887.78,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g35_33",
+      "label": "11.0",
+      "cell": "G35",
+      "type": "textarea",
+      "top": 887.78,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k35_34",
+      "label": "Field K35",
+      "cell": "K35",
+      "type": "textarea",
+      "top": 887.78,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_c37_35",
+      "label": "12.0",
+      "cell": "C37",
+      "type": "textarea",
+      "top": 947.62,
+      "left": 182.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_g37_36",
+      "label": "12.0",
+      "cell": "G37",
+      "type": "textarea",
+      "top": 947.62,
+      "left": 546.0,
+      "width": 364.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_k37_37",
+      "label": "Field K37",
+      "cell": "K37",
+      "type": "textarea",
+      "top": 947.62,
+      "left": 910.0,
+      "width": 357.0,
+      "height": 59.85
+    }
+  ]
+}

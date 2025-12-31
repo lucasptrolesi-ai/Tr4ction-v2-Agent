@@ -1,0 +1,778 @@
+{
+  "template_key": "50_tam__sam__som",
+  "sheet_name": "5.0 TAM  SAM  SOM",
+  "sheet_width": 1312.5,
+  "sheet_height": 2135.6475,
+  "title": "5.0 TAM  SAM  SOM",
+  "description": "Template for 5.0 TAM  SAM  SOM",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "5.0 TAM / SAM / SOM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "TAM / SAM / SOM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "Camada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "B13",
+      "label": "Descrição",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "G13",
+      "label": "Estimativa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "K13",
+      "label": "Fonte / Referência",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "A14",
+      "label": "TAM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "B14",
+      "label": "TAM (Total Addressable Market): todo o mercado pos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "G14",
+      "label": "120 mil clínicas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "K14",
+      "label": "IBGE, Sebrae, Statista, etc.",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 259.34999999999997,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "A18",
+      "label": "SAM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "B18",
+      "label": "SAM (Serviceable Available Market): parte do merca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "G18",
+      "label": "35 mil clínicas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "K18",
+      "label": "Segmento-alvo, perfil, nicho",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "A22",
+      "label": "SOM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "B22",
+      "label": "SOM (Serviceable Obtainable Market): parte que voc",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "G22",
+      "label": "1.500 clínicas em 18 meses",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "K22",
+      "label": "Base ativa, canais atuais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 498.75000000000006,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "B28",
+      "label": "Conceito TAM / SAM / SOM",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 678.2999999999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "B29",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 708.2249999999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "B31",
+      "label": "Este template ajuda você a entender o tamanho e a",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "B32",
+      "label": "A análise TAM / SAM / SOM é usada para:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 797.9999999999997,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "B33",
+      "label": "→ Delimitar sua oportunidade real de crescimento\n→",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "B38",
+      "label": "Como Preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "B39",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "B41",
+      "label": "Campo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "D41",
+      "label": "Pergunta-chave que responde",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "G41",
+      "label": "Como fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "B42",
+      "label": "TAM (mercado total)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "D42",
+      "label": "Se todo mundo que precisa da solução comprasse, qu",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "G42",
+      "label": "Use dados públicos (IBGE, Sebrae, Statista, associ",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1097.2499999999993,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "B44",
+      "label": "SAM (mercado que sua solução atende)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "D44",
+      "label": "Dentro desse universo, quem realmente pode ser ate",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "G44",
+      "label": "Aplique recortes: localização, tamanho, segmento,",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "B46",
+      "label": "SOM (mercado que você consegue alcançar hoje)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "D46",
+      "label": "Dessa parte, quem você consegue atingir hoje com o",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "G46",
+      "label": "Use sua estrutura atual: base de leads, acesso via",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "B49",
+      "label": "Dica: Se não tiver dados exatos, use estimativas c",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "B55",
+      "label": "Como interpretar os números",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "B56",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1516.1999999999987,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "B58",
+      "label": "→ TAM alto não é diferencial competitivo. Serve pa",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1576.0499999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "B65",
+      "label": "Como usar isso continuamente",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1806.4724999999983,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "B66",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1836.3974999999982,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "B68",
+      "label": "Momento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "E68",
+      "label": "Como usar a análise",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "B69",
+      "label": "Ao planejar aquisição",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "E69",
+      "label": "Mire no SOM atual: quem você consegue atingir?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "B70",
+      "label": "Ao revisar ICP",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "E70",
+      "label": "O SAM pode mudar conforme sua proposta evolui",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "B71",
+      "label": "Ao apresentar para investidor",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "E71",
+      "label": "TAM/SAM/SOM mostram que você tem clareza de mercad",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1986.022499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "B72",
+      "label": "A cada trimestre",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "E72",
+      "label": "Atualize com novos dados, leads, clientes ou canai",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2015.947499999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

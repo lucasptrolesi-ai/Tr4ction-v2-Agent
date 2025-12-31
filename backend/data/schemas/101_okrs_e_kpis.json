@@ -1,0 +1,2455 @@
+{
+  "template_key": "101_okrs_e_kpis",
+  "sheet_name": "10.1 OKRs e KPIs",
+  "sheet_width": 1339.66,
+  "sheet_height": 2823.9225,
+  "title": "10.1 OKRs e KPIs",
+  "description": "Template for 10.1 OKRs e KPIs",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "10.1 KPIs e OKRs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "KPIs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "KPIs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "C13",
+      "label": "Meta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "D13",
+      "label": "2025-01-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "E13",
+      "label": "2025-02-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "F13",
+      "label": "2025-03-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "G13",
+      "label": "2025-04-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "H13",
+      "label": "2025-05-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "I13",
+      "label": "2025-06-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "J13",
+      "label": "2025-07-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "K13",
+      "label": "2025-08-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "L13",
+      "label": "2025-09-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "M13",
+      "label": "2025-10-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "N13",
+      "label": "2025-11-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "O13",
+      "label": "2025-12-25 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1267.0,
+        "width": 45.5,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "A15",
+      "label": "Visitantes para leads (%)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "C15",
+      "label": "Meta: ≥ 5%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "D15",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "E15",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "F15",
+      "label": "3.0%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "G15",
+      "label": "3.3%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "H15",
+      "label": "3.7%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "I15",
+      "label": "3.8%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "J15",
+      "label": "4.1%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "K15",
+      "label": "4.1%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "A16",
+      "label": "CAC",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "C16",
+      "label": "Meta: ≤ 350",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "D16",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "E16",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "F16",
+      "label": "420.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "G16",
+      "label": "395.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "H16",
+      "label": "380.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "I16",
+      "label": "370.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "J16",
+      "label": "367.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "K16",
+      "label": "358.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 319.2,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "A17",
+      "label": "Churn mensal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "C17",
+      "label": "Meta: ≤ 1,5%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "D17",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "E17",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "F17",
+      "label": "2.20%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "G17",
+      "label": "2.12%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "H17",
+      "label": "2.00%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "I17",
+      "label": "1.93%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "J17",
+      "label": "1.84%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "K17",
+      "label": "1.79%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "A18",
+      "label": "MRR",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "C18",
+      "label": "Meta: 40.000",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "D18",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "E18",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "F18",
+      "label": "25000.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "G18",
+      "label": "26000.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "H18",
+      "label": "27350.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "I18",
+      "label": "28500.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "J18",
+      "label": "32100.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "K18",
+      "label": "34600.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 379.05,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "A19",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "C19",
+      "label": "Meta: ≥ 25%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "D19",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "E19",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "F19",
+      "label": "19.80%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "G19",
+      "label": "20.10%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "H19",
+      "label": "22.00%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "I19",
+      "label": "23.10%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "J19",
+      "label": "22.70%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "K19",
+      "label": "23.40%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "A30",
+      "label": "OKRs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 738.1499999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "A31",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "C31",
+      "label": "Objetivo 1 : Aumentar aquisição de assinaturas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "F31",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "G31",
+      "label": "Valor Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "H31",
+      "label": "Valor Alcançado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "I31",
+      "label": "Meta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "J31",
+      "label": "Data Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "K31",
+      "label": "Data Final",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "L31",
+      "label": "Progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "M31",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 768.0749999999997,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "A33",
+      "label": "KR 1.1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "C33",
+      "label": "Fechar 40 assinaturas ativas no trimestre",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "F33",
+      "label": "Nome",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "G33",
+      "label": "0.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "H33",
+      "label": "10.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "I33",
+      "label": "40.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "J33",
+      "label": "2025-06-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "K33",
+      "label": "2025-09-03 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "L33",
+      "label": "0.15",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_93",
+      "cell": "M33",
+      "label": "Em progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 827.9249999999996,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_94",
+      "cell": "A35",
+      "label": "KR 1.2",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_95",
+      "cell": "C35",
+      "label": "Gerar 1.000 leads qualificados no trimestre",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_96",
+      "cell": "F35",
+      "label": "Nome",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_97",
+      "cell": "G35",
+      "label": "0.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_98",
+      "cell": "H35",
+      "label": "120.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_99",
+      "cell": "I35",
+      "label": "1000.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_100",
+      "cell": "J35",
+      "label": "2025-06-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_101",
+      "cell": "K35",
+      "label": "2025-09-03 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_102",
+      "cell": "L35",
+      "label": "0.12",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_103",
+      "cell": "M35",
+      "label": "Em progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_104",
+      "cell": "A37",
+      "label": "KR 1.3",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_105",
+      "cell": "C37",
+      "label": "Taxa site → trial ≥ 8%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_106",
+      "cell": "F37",
+      "label": "Nome",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_107",
+      "cell": "G37",
+      "label": "0.04",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_108",
+      "cell": "H37",
+      "label": "0.06",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_109",
+      "cell": "I37",
+      "label": "0.08",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_110",
+      "cell": "J37",
+      "label": "2025-06-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_111",
+      "cell": "K37",
+      "label": "2025-09-03 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_112",
+      "cell": "L37",
+      "label": "0.5",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_113",
+      "cell": "M37",
+      "label": "Em progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_114",
+      "cell": "A39",
+      "label": "Q2",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_115",
+      "cell": "C39",
+      "label": "Objetivo 2 : Reduzir churn e melhorar onboarding",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_116",
+      "cell": "F39",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_117",
+      "cell": "G39",
+      "label": "Valor Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_118",
+      "cell": "H39",
+      "label": "Valor Alcançado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_119",
+      "cell": "I39",
+      "label": "Meta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_120",
+      "cell": "J39",
+      "label": "Data Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_121",
+      "cell": "K39",
+      "label": "Data Final",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_122",
+      "cell": "L39",
+      "label": "Progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_123",
+      "cell": "M39",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_124",
+      "cell": "A41",
+      "label": "KR 2.1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_125",
+      "cell": "C41",
+      "label": "Churn mensal ≤ 1,5%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_126",
+      "cell": "F41",
+      "label": "Nome",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_127",
+      "cell": "G41",
+      "label": "2.0%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_128",
+      "cell": "H41",
+      "label": "1.7%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_129",
+      "cell": "I41",
+      "label": "2.0%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_130",
+      "cell": "J41",
+      "label": "2025-06-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_131",
+      "cell": "K41",
+      "label": "2025-09-03 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_132",
+      "cell": "L41",
+      "label": "0.25",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_133",
+      "cell": "M41",
+      "label": "Em progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_134",
+      "cell": "A43",
+      "label": "KR 2.2",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_135",
+      "cell": "C43",
+      "label": "Nível de uso ativo ≥ 60% dos clientes ativos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_136",
+      "cell": "F43",
+      "label": "Nome",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_137",
+      "cell": "G43",
+      "label": "50.0%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_138",
+      "cell": "H43",
+      "label": "58.0%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_139",
+      "cell": "I43",
+      "label": "60.0%",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_140",
+      "cell": "J43",
+      "label": "2025-06-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_141",
+      "cell": "K43",
+      "label": "2025-09-03 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_142",
+      "cell": "L43",
+      "label": "0.6",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_143",
+      "cell": "M43",
+      "label": "Em progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1127.1749999999993,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_144",
+      "cell": "A45",
+      "label": "KR 2.3",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_145",
+      "cell": "C45",
+      "label": "NPS ≥ 60 após 90 dias de onboarding",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_146",
+      "cell": "F45",
+      "label": "Nome",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_147",
+      "cell": "G45",
+      "label": "55.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_148",
+      "cell": "H45",
+      "label": "58.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_149",
+      "cell": "I45",
+      "label": "60.0",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_150",
+      "cell": "J45",
+      "label": "2025-06-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_151",
+      "cell": "K45",
+      "label": "2025-09-03 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_152",
+      "cell": "L45",
+      "label": "0.4",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_153",
+      "cell": "M45",
+      "label": "Em progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1187.0249999999992,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_154",
+      "cell": "A47",
+      "label": "Q3",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_155",
+      "cell": "C47",
+      "label": "Objetivo 3 : COLOCAR OBJETIVO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_156",
+      "cell": "F47",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_157",
+      "cell": "G47",
+      "label": "Valor Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_158",
+      "cell": "H47",
+      "label": "Valor Alcançado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_159",
+      "cell": "I47",
+      "label": "Meta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_160",
+      "cell": "J47",
+      "label": "Data Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_161",
+      "cell": "K47",
+      "label": "Data Final",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_162",
+      "cell": "L47",
+      "label": "Progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_163",
+      "cell": "M47",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_164",
+      "cell": "A49",
+      "label": "KR 3.1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1306.724999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_165",
+      "cell": "A51",
+      "label": "KR 3.2",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1366.574999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_166",
+      "cell": "A53",
+      "label": "KR 3.3",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_167",
+      "cell": "A55",
+      "label": "Q4",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_168",
+      "cell": "C55",
+      "label": "Objetivo 4 : COLOCAR OBJETIVO",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_169",
+      "cell": "F55",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_170",
+      "cell": "G55",
+      "label": "Valor Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 546.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_171",
+      "cell": "H55",
+      "label": "Valor Alcançado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_172",
+      "cell": "I55",
+      "label": "Meta",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_173",
+      "cell": "J55",
+      "label": "Data Inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_174",
+      "cell": "K55",
+      "label": "Data Final",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 910.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_175",
+      "cell": "L55",
+      "label": "Progresso",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_176",
+      "cell": "M55",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1486.2749999999987,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_177",
+      "cell": "A57",
+      "label": "KR 4.1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1546.1249999999986,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_178",
+      "cell": "A59",
+      "label": "KR 4.2",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1605.9749999999985,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_179",
+      "cell": "A61",
+      "label": "KR 4.3",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1665.8249999999985,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 50.8725
+      }
+    },
+    {
+      "key": "field_180",
+      "cell": "B67",
+      "label": "Conceito de KPIs e OKRs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_181",
+      "cell": "B68",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1896.2474999999981,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_182",
+      "cell": "B70",
+      "label": "KPI (Key Performance Indicators):\n- Um KPI é uma m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1956.097499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_183",
+      "cell": "B78",
+      "label": "Como preencher:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_184",
+      "cell": "B79",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2225.4224999999988,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_185",
+      "cell": "B80",
+      "label": "Passo a passo: KPIs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2255.347499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_186",
+      "cell": "B81",
+      "label": "Como preencher na prática:\n- Primeiro, defina 3-5",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_187",
+      "cell": "B87",
+      "label": "Passo a passo: OKRs",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2464.8225,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_188",
+      "cell": "B88",
+      "label": "Como preencher na prática:\n- Defina o objetivo do",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2494.7475000000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

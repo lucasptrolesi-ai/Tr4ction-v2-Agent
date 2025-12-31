@@ -1,0 +1,1987 @@
+{
+  "template_key": "80_consistência_da_marca",
+  "sheet_name": "8.0 Consistência da Marca",
+  "sheet_width": 1339.66,
+  "sheet_height": 3302.7225000000003,
+  "title": "8.0 Consistência da Marca",
+  "description": "Template for 8.0 Consistência da Marca",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "8.0 Checklist de Consistência da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Checklist de Consistência da Marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "Canal / Material",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "C13",
+      "label": "Elemento a ser avaliado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "F13",
+      "label": "Está aplicado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "H13",
+      "label": "Comentário / Ajustes necessários",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "L13",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "M13",
+      "label": "Prazo de ajuste",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "N13",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "A15",
+      "label": "Site - Home",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "C15",
+      "label": "Headline reflete a PUV",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "F15",
+      "label": "❌ Não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "H15",
+      "label": "A headline atual é genérica: “Sistema completo par",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "L15",
+      "label": "Founder",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "M15",
+      "label": "3 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "N15",
+      "label": "A fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "C17",
+      "label": "Slogan visível e com destaque",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "F17",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "H17",
+      "label": "O slogan aparece no rodapé, mas não tem destaque -",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "L17",
+      "label": "Designer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "M17",
+      "label": "5 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "N17",
+      "label": "Em andamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "C19",
+      "label": "Paleta de cores condiz com arquétipo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "F19",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "H19",
+      "label": "Ajustar tons escuros - precisam transmitir leveza",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "L19",
+      "label": "Designer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "M19",
+      "label": "6 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "N19",
+      "label": "Em andamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "C21",
+      "label": "Tipografia é legível e adequada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "F21",
+      "label": "✅ Sim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "H21",
+      "label": "Fonte leve e arredondada combina com proposta da m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "L21",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "M21",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "N21",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "C23",
+      "label": "Ícones/imagens condizem com tom da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "F23",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "H23",
+      "label": "Algumas imagens genéricas - substituir por fotos m",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "L23",
+      "label": "Designer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "M23",
+      "label": "7 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "N23",
+      "label": "Em andamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "A26",
+      "label": "Site - Sobre nós",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "C26",
+      "label": "Reflete arquétipo e mensagem emocional",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "F26",
+      "label": "✅ Sim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "H26",
+      "label": "Página apresenta a história com foco em cuidado, t",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "L26",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "M26",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "N26",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 618.4499999999999,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "A35",
+      "label": "Redes Sociais",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "C35",
+      "label": "Bio transmite PUV e benefício claro",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "F35",
+      "label": "✅ Sim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "H35",
+      "label": "Bio usa o slogan + benefício direto: “Simplifique",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "L35",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "M35",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "N35",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 887.7749999999995,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "C37",
+      "label": "Tom de voz nos últimos posts",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "F37",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "H37",
+      "label": "Posts informativos estão bons, mas CTAs ainda soam",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "L37",
+      "label": "Social Media",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "M37",
+      "label": "4 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "N37",
+      "label": "A fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 947.6249999999994,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "C39",
+      "label": "Estilo visual do feed é consistente com identidade",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "F39",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_69",
+      "cell": "H39",
+      "label": "Paleta e fontes precisam ser padronizadas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_70",
+      "cell": "L39",
+      "label": "Designer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_71",
+      "cell": "M39",
+      "label": "5 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_72",
+      "cell": "N39",
+      "label": "A fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_73",
+      "cell": "C41",
+      "label": "Imagem de capa/perfil condiz com identidade visual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_74",
+      "cell": "F41",
+      "label": "❌ Não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_75",
+      "cell": "H41",
+      "label": "Visual desatualizado - precisa refletir tom da mar",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_76",
+      "cell": "L41",
+      "label": "Social Media",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_77",
+      "cell": "M41",
+      "label": "5 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_78",
+      "cell": "N41",
+      "label": "A fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_79",
+      "cell": "A44",
+      "label": "Pitch Deck",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_80",
+      "cell": "C44",
+      "label": "Slide inicial com PUV/slogan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_81",
+      "cell": "F44",
+      "label": "✅ Sim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_82",
+      "cell": "H44",
+      "label": "O slide 1 já traz o slogan + frase de impacto",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_83",
+      "cell": "L44",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_84",
+      "cell": "M44",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_85",
+      "cell": "N44",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1157.0999999999992,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_86",
+      "cell": "C46",
+      "label": "Slide final com reforço emocional / CTA",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_87",
+      "cell": "F46",
+      "label": "❌ Não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_88",
+      "cell": "H46",
+      "label": "Final está neutro - incluir chamada com emoção",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_89",
+      "cell": "L46",
+      "label": "Founder",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_90",
+      "cell": "M46",
+      "label": "3 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_91",
+      "cell": "N46",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1216.9499999999991,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_92",
+      "cell": "C48",
+      "label": "Visual alinhado com identidade definida",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_93",
+      "cell": "F48",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_94",
+      "cell": "H48",
+      "label": "Estilo ainda muito técnico - ajustar ícones e core",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_95",
+      "cell": "L48",
+      "label": "Designer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_96",
+      "cell": "M48",
+      "label": "6 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_97",
+      "cell": "N48",
+      "label": "Em andamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_98",
+      "cell": "A53",
+      "label": "E-mail / Newsletter",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_99",
+      "cell": "C53",
+      "label": "Tom de voz e assinatura visível",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_100",
+      "cell": "F53",
+      "label": "❌ Não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_101",
+      "cell": "H53",
+      "label": "E-mails estão com linguagem padrão e assinatura se",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_102",
+      "cell": "L53",
+      "label": "Marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_103",
+      "cell": "M53",
+      "label": "4 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_104",
+      "cell": "N53",
+      "label": "A fazer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1426.4249999999988,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_105",
+      "cell": "A60",
+      "label": "WhatsApp / Atendimento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_106",
+      "cell": "C60",
+      "label": "Postura e estilo coerente com atributos da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_107",
+      "cell": "F60",
+      "label": "✅ Sim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_108",
+      "cell": "H60",
+      "label": "Time de atendimento usa emoji, nome próprio e ling",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_109",
+      "cell": "L60",
+      "label": "Suporte",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_110",
+      "cell": "M60",
+      "label": "-",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_111",
+      "cell": "N60",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1635.8999999999985,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_112",
+      "cell": "A67",
+      "label": "Materiais Institucionais - Apresentação comercial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_113",
+      "cell": "C67",
+      "label": "Linguagem e tom coerente com atributos da marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_114",
+      "cell": "F67",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_115",
+      "cell": "H67",
+      "label": "Estrutura boa, mas falta padronizar vocabulário",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_116",
+      "cell": "L67",
+      "label": "Vendas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_117",
+      "cell": "M67",
+      "label": "6 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_118",
+      "cell": "N67",
+      "label": "Em andamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1866.3224999999982,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_119",
+      "cell": "C69",
+      "label": "Visual alinhado com identidade visual",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_120",
+      "cell": "F69",
+      "label": "🟡 Parcial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_121",
+      "cell": "H69",
+      "label": "Paleta muito neutra - adaptar para refletir marca",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_122",
+      "cell": "L69",
+      "label": "Designer",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_123",
+      "cell": "M69",
+      "label": "6 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_124",
+      "cell": "N69",
+      "label": "Em andamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1926.172499999998,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_125",
+      "cell": "B75",
+      "label": "O que é este checklist?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2105.722499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_126",
+      "cell": "B76",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2135.647499999998,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_127",
+      "cell": "B78",
+      "label": "Este é um instrumento de auditoria rápida e prátic",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2195.4974999999986,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_128",
+      "cell": "B81",
+      "label": "Objetivo:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2285.272499999999,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_129",
+      "cell": "B82",
+      "label": "→ Avaliar se sua Proposta Única de Valor (PUV), to",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2315.1974999999993,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_130",
+      "cell": "B89",
+      "label": "Como Preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2524.6725000000006,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_131",
+      "cell": "B90",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2554.5975000000008,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_132",
+      "cell": "B92",
+      "label": "1. Acesse os seus canais reais (site, redes sociai",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2614.447500000001,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_133",
+      "cell": "B94",
+      "label": "2. Compare cada ponto com os elementos definidos n",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2674.2975000000015,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_134",
+      "cell": "B95",
+      "label": "→ PUV; Tom de voz; Atributos de personalidade; Slo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2704.2225000000017,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_135",
+      "cell": "B97",
+      "label": "3. Para cada item avaliado:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2764.072500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_136",
+      "cell": "B98",
+      "label": "→ Marque: Sim, Parcial ou Não\n→ Descreva o ajuste",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2793.997500000002,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_137",
+      "cell": "B102",
+      "label": "Coluna",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_138",
+      "cell": "D102",
+      "label": "O que preencher",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2913.697500000003,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_139",
+      "cell": "B103",
+      "label": "Canal / Material",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2943.622500000003,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_140",
+      "cell": "D103",
+      "label": "Onde você está avaliando (ex: site, Instagram, dec",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2943.622500000003,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_141",
+      "cell": "B104",
+      "label": "Elemento avaliado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2973.5475000000033,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_142",
+      "cell": "D104",
+      "label": "O que está sendo checado (ex: headline, bio, tom d",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 2973.5475000000033,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_143",
+      "cell": "B105",
+      "label": "Está aplicado?",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3003.4725000000035,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_144",
+      "cell": "D105",
+      "label": "Escolha: ✅ Sim / 🟡 Parcial / ❌ Não",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3003.4725000000035,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_145",
+      "cell": "B106",
+      "label": "Comentário / Ajuste",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3033.3975000000037,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_146",
+      "cell": "D106",
+      "label": "Descreva o que precisa ser corrigido ou validado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3033.3975000000037,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_147",
+      "cell": "B107",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3063.322500000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_148",
+      "cell": "D107",
+      "label": "Quem fará o ajuste",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3063.322500000004,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_149",
+      "cell": "B108",
+      "label": "Prazo de correção",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_150",
+      "cell": "D108",
+      "label": "Quando isso será revisado ou ajustado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3093.247500000004,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_151",
+      "cell": "B109",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 91.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_152",
+      "cell": "D109",
+      "label": "Atualizar com: A fazer / Em andamento / Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 3123.172500000004,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

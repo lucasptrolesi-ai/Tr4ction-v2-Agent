@@ -1,0 +1,261 @@
+{
+  "template_key": "2_0_analise_swot",
+  "sheet_name": "2.0 Análise SWOT",
+  "sheet_width": 1343.16,
+  "sheet_height": 3516.19,
+  "title": "2.0 Análise SWOT",
+  "description": "Auto-generated template for 2.0 Análise SWOT",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_m7_0",
+      "label": "Status:",
+      "cell": "M7",
+      "type": "text",
+      "top": 119.7,
+      "left": 1092.0,
+      "width": 205.66,
+      "height": 39.9
+    },
+    {
+      "key": "field_b19_1",
+      "label": "S",
+      "cell": "B19",
+      "type": "text",
+      "top": 457.85,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h19_2",
+      "label": "W",
+      "cell": "H19",
+      "type": "text",
+      "top": 457.85,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b20_3",
+      "label": "S",
+      "cell": "B20",
+      "type": "text",
+      "top": 487.78,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h20_4",
+      "label": "W",
+      "cell": "H20",
+      "type": "text",
+      "top": 487.78,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b21_5",
+      "label": "S",
+      "cell": "B21",
+      "type": "text",
+      "top": 517.7,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h21_6",
+      "label": "W",
+      "cell": "H21",
+      "type": "text",
+      "top": 517.7,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b22_7",
+      "label": "S",
+      "cell": "B22",
+      "type": "text",
+      "top": 547.63,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h22_8",
+      "label": "W",
+      "cell": "H22",
+      "type": "text",
+      "top": 547.63,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b24_9",
+      "label": "Dimitri: Quantidade ampla de hoteís plugadas na plataforma",
+      "cell": "B24",
+      "type": "text",
+      "top": 607.48,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h24_10",
+      "label": "Dimitri: A marca ainda é pouca reconhecida no mercado - Parcerias com Influenciadores e portais pra gererem awareness e conteúdos da marca.",
+      "cell": "H24",
+      "type": "text",
+      "top": 607.48,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b25_11",
+      "label": "Dimitri: Quantidade ampla de hoteís plugadas na plataforma",
+      "cell": "B25",
+      "type": "text",
+      "top": 637.4,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h25_12",
+      "label": "Dimitri: A marca ainda é pouca reconhecida no mercado - Parcerias com Influenciadores e portais pra gererem awareness e conteúdos da marca.",
+      "cell": "H25",
+      "type": "text",
+      "top": 637.4,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b30_13",
+      "label": "O",
+      "cell": "B30",
+      "type": "text",
+      "top": 787.03,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h30_14",
+      "label": "T",
+      "cell": "H30",
+      "type": "text",
+      "top": 787.03,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b31_15",
+      "label": "O",
+      "cell": "B31",
+      "type": "text",
+      "top": 816.95,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h31_16",
+      "label": "T",
+      "cell": "H31",
+      "type": "text",
+      "top": 816.95,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b32_17",
+      "label": "O",
+      "cell": "B32",
+      "type": "text",
+      "top": 846.88,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h32_18",
+      "label": "T",
+      "cell": "H32",
+      "type": "text",
+      "top": 846.88,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b34_19",
+      "label": "Dimitri: Existe um apetite das empresas em fornecer soluções e experiência para seus colaboradores (lazer e bem estar)",
+      "cell": "B34",
+      "type": "text",
+      "top": 906.73,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h34_20",
+      "label": "Dimitri: fenômenos adversos como panderia podem afetar o turismo.",
+      "cell": "H34",
+      "type": "text",
+      "top": 906.73,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b35_21",
+      "label": "Dimitri: Existe um apetite das empresas em fornecer soluções e experiência para seus colaboradores (lazer e bem estar)",
+      "cell": "B35",
+      "type": "text",
+      "top": 936.65,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h35_22",
+      "label": "Dimitri: fenômenos adversos como panderia podem afetar o turismo.",
+      "cell": "H35",
+      "type": "text",
+      "top": 936.65,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_b36_23",
+      "label": "Dimitri: Existe um apetite das empresas em fornecer soluções e experiência para seus colaboradores (lazer e bem estar)",
+      "cell": "B36",
+      "type": "text",
+      "top": 966.58,
+      "left": 91.0,
+      "width": 546.0,
+      "height": 29.93
+    },
+    {
+      "key": "field_h36_24",
+      "label": "Dimitri: fenômenos adversos como panderia podem afetar o turismo.",
+      "cell": "H36",
+      "type": "text",
+      "top": 966.58,
+      "left": 637.0,
+      "width": 546.0,
+      "height": 29.93
+    }
+  ]
+}

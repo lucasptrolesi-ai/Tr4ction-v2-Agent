@@ -1,0 +1,191 @@
+{
+  "template_key": "7_1_slogan",
+  "sheet_name": "7.1 Slogan",
+  "sheet_width": 896.63,
+  "sheet_height": 2587.515,
+  "title": "7.1 Slogan",
+  "description": "Auto-generated template from sheet '7.1 Slogan'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_i14_0",
+      "label": "Quem você ajuda? Quem é seu cliente ideal?",
+      "cell": "I14",
+      "type": "text",
+      "top": 308.2275,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i15_1",
+      "label": "Qual problema resolve? Qual a dor ou dificuldade central que você resolve para esse público?",
+      "cell": "I15",
+      "type": "textarea",
+      "top": 338.15250000000003,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i17_2",
+      "label": "Que valor entrega? O que sua solução melhora na vida do cliente?",
+      "cell": "I17",
+      "type": "textarea",
+      "top": 398.00250000000005,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i19_3",
+      "label": "Personalidade da marca. Como sua marca deve parecer para o cliente?",
+      "cell": "I19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i20_4",
+      "label": "Sentimento desejado. Que sentimento a marca quer provocar?",
+      "cell": "I20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i22_5",
+      "label": "Palavras-chave sobre o cliente. Como o cliente se sente? O que busca?",
+      "cell": "I22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i23_6",
+      "label": "Verbos de ação. Verbo que traduz sua proposta.",
+      "cell": "I23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i24_7",
+      "label": "Adjetivos da sua solução. Como descreveria sua entrega em 1 palavra?",
+      "cell": "I24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i25_8",
+      "label": "Diferenciais ou metáforas. Algo que só você faz ou uma imagem fácil de lembrar",
+      "cell": "I25",
+      "type": "textarea",
+      "top": 637.4025,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 59.85
+    },
+    {
+      "key": "field_i28_9",
+      "label": "Promessa clara: [Benefício direto] sem [dor]",
+      "cell": "I28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i29_10",
+      "label": "Propósito emocional: [Missão ou crença da marca]",
+      "cell": "I29",
+      "type": "text",
+      "top": 757.1025000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i30_11",
+      "label": "Verbo + impacto: [Ação] + [resultado]",
+      "cell": "I30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i31_12",
+      "label": "Posicionamento leve: Somos a [X] para [Y]",
+      "cell": "I31",
+      "type": "text",
+      "top": 816.9525000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i32_13",
+      "label": "Frase aspiracional: Algo que o cliente quer alcançar/sentir",
+      "cell": "I32",
+      "type": "text",
+      "top": 846.8775,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i34_14",
+      "label": "Rascunho 1: Use as palavras-chave e escolha uma estrutura comum (promessa, benefício, ação)",
+      "cell": "I34",
+      "type": "text",
+      "top": 906.7275000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i35_15",
+      "label": "Rascunho 2: Tente uma variação mais emocional ou mais direta",
+      "cell": "I35",
+      "type": "text",
+      "top": 936.6525,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_i36_16",
+      "label": "Rascunho 3: Teste com metáfora, provocação ou linguagem visual",
+      "cell": "I36",
+      "type": "text",
+      "top": 966.5775000000001,
+      "left": 472.08,
+      "width": 379.05,
+      "height": 29.925
+    },
+    {
+      "key": "field_c41_17",
+      "label": "SLOGAN DEFINDO",
+      "cell": "C41",
+      "type": "textarea",
+      "top": 1116.2025,
+      "left": 118.02,
+      "width": 590.1,
+      "height": 59.85
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "template_key": "3_2_jornada_do_cliente",
+  "sheet_name": "3.2 Jornada do Cliente",
+  "sheet_width": 1519.07,
+  "sheet_height": 2779.0350000000003,
+  "title": "3.2 Jornada do Cliente",
+  "description": "Auto-generated template from sheet '3.2 Jornada do Cliente'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_e18_0",
+      "label": "Ações\nO que o seu cliente faz? Quais informações \nele procura? Qual o contexto envolvido \nem cada etapa?",
+      "cell": "E18",
+      "type": "textarea",
+      "top": 427.92750000000007,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i18_1",
+      "label": "Pesquisa, vê um post sobre “como reduzir tempo de atendimento” no Instagram.",
+      "cell": "I18",
+      "type": "textarea",
+      "top": 427.92750000000007,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m18_2",
+      "label": "Acessa o site, navega pelas funcionalidades, consome conteúdo, baixa um material rico.",
+      "cell": "M18",
+      "type": "textarea",
+      "top": 427.92750000000007,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q18_3",
+      "label": "Solicita uma demonstração da plataforma.",
+      "cell": "Q18",
+      "type": "textarea",
+      "top": 427.92750000000007,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u18_4",
+      "label": "Participa do onboarding, começa a usar o dashboard financeiro.",
+      "cell": "U18",
+      "type": "textarea",
+      "top": 427.92750000000007,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y18_5",
+      "label": "Gera relatórios mensais, consegue reduzir o tempo da secretária.",
+      "cell": "Y18",
+      "type": "textarea",
+      "top": 427.92750000000007,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_e22_6",
+      "label": "Necessidades e Dores\nO que o cliente quer alcançar ou evitar?",
+      "cell": "E22",
+      "type": "textarea",
+      "top": 547.6275,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i22_7",
+      "label": "Está sobrecarregado com processos manuais e excesso de papelada.",
+      "cell": "I22",
+      "type": "textarea",
+      "top": 547.6275,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m22_8",
+      "label": "Quer entender se a solução vai resolver sua dor específica.",
+      "cell": "M22",
+      "type": "textarea",
+      "top": 547.6275,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q22_9",
+      "label": "Busca algo prático, acessível e que não tome muito tempo.",
+      "cell": "Q22",
+      "type": "textarea",
+      "top": 547.6275,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u22_10",
+      "label": "Quer começar sem depender da equipe técnica da clínica.",
+      "cell": "U22",
+      "type": "textarea",
+      "top": 547.6275,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y22_11",
+      "label": "Quer ver retorno no dia a dia sem complicação.",
+      "cell": "Y22",
+      "type": "textarea",
+      "top": 547.6275,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_e26_12",
+      "label": "Pontos de contato\nQual a parte do serviço que o seu cliente interage?",
+      "cell": "E26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i26_13",
+      "label": "Instagram, Google, eventos da área de saúde",
+      "cell": "I26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m26_14",
+      "label": "Site, ebook, redes sociais, WhatsApp",
+      "cell": "M26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q26_15",
+      "label": "Formulário, WhatsApp, call com time comercial",
+      "cell": "Q26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u26_16",
+      "label": "E-mail, vídeo tutorial, onboarding call",
+      "cell": "U26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y26_17",
+      "label": "Painel da plataforma, e-mail de insights",
+      "cell": "Y26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_e30_18",
+      "label": "Sentimentos / Emoções\nQual o sentimento do seu cliente \ndurante a etapa.",
+      "cell": "E30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i30_19",
+      "label": "😩 Estressado, curioso, desconfiado",
+      "cell": "I30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m30_20",
+      "label": "🧐 Interessado, avaliando, ainda inseguro",
+      "cell": "M30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q30_21",
+      "label": "😬 Cauteloso, curioso, esperançoso",
+      "cell": "Q30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u30_22",
+      "label": "😅 Esperançoso, um pouco confuso",
+      "cell": "U30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y30_23",
+      "label": "😌 Aliviado, confiante",
+      "cell": "Y30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_e34_24",
+      "label": "Bastidores\nAções da Startup",
+      "cell": "E34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i34_25",
+      "label": "Campanha paga segmentada, conteúdo blog, SEO médico",
+      "cell": "I34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m34_26",
+      "label": "LP com comparação com ERPs tradicionais, depoimentos clínicos",
+      "cell": "M34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q34_27",
+      "label": "Roteiro de demo consultiva, qualificação via CRM",
+      "cell": "Q34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u34_28",
+      "label": "Fluxo automatizado de boas-vindas + suporte humanizado",
+      "cell": "U34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y34_29",
+      "label": "Envio automático de KPIs + notificações de uso",
+      "cell": "Y34",
+      "type": "textarea",
+      "top": 906.7275000000001,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_e38_30",
+      "label": "Oportunidades de Melhorias\nO que podemos melhorar ou introduzir?",
+      "cell": "E38",
+      "type": "textarea",
+      "top": 1026.4275,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i38_31",
+      "label": "Clareza na mensagem, proposta visível. Título mais direto, uso de gatilhos de dor real.",
+      "cell": "I38",
+      "type": "textarea",
+      "top": 1026.4275,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m38_32",
+      "label": "Mais prova social e clareza sobre diferenciais",
+      "cell": "M38",
+      "type": "textarea",
+      "top": 1026.4275,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q38_33",
+      "label": "Reduzir etapas para agendamento e automatizar follow-up",
+      "cell": "Q38",
+      "type": "textarea",
+      "top": 1026.4275,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u38_34",
+      "label": "Onboarding interativo e mais visual",
+      "cell": "U38",
+      "type": "textarea",
+      "top": 1026.4275,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y38_35",
+      "label": "Comunicar valor entregue com frequência",
+      "cell": "Y38",
+      "type": "textarea",
+      "top": 1026.4275,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_e42_36",
+      "label": "Dono do Processo\nQuem lidera essa etapa?",
+      "cell": "E42",
+      "type": "textarea",
+      "top": 1146.1275,
+      "left": 200.69,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_i42_37",
+      "label": "Marketing / Growth",
+      "cell": "I42",
+      "type": "textarea",
+      "top": 1146.1275,
+      "left": 403.13,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_m42_38",
+      "label": "Marketing",
+      "cell": "M42",
+      "type": "textarea",
+      "top": 1146.1275,
+      "left": 607.3199999999999,
+      "width": 177.03,
+      "height": 89.775
+    },
+    {
+      "key": "field_q42_39",
+      "label": "Vendas",
+      "cell": "Q42",
+      "type": "textarea",
+      "top": 1146.1275,
+      "left": 811.51,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_u42_40",
+      "label": "CS / Produto",
+      "cell": "U42",
+      "type": "textarea",
+      "top": 1146.1275,
+      "left": 1039.78,
+      "width": 202.01999999999998,
+      "height": 89.775
+    },
+    {
+      "key": "field_y42_41",
+      "label": "Produto / CS",
+      "cell": "Y42",
+      "type": "textarea",
+      "top": 1146.1275,
+      "left": 1271.55,
+      "width": 202.01999999999998,
+      "height": 89.775
+    }
+  ]
+}

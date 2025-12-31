@@ -7,6 +7,7 @@ from .files import router as files_router
 from .test import router as test_router
 from .founder import router as founder_router
 from .auth import router as auth_router
+from .template_discovery import router as template_discovery_router
 
 __all__ = [
     "chat_router",
@@ -16,4 +17,6 @@ __all__ = [
     "test_router",
     "founder_router",
     "auth_router",
+    "template_discovery_router",
 ]
+

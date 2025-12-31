@@ -1,0 +1,1701 @@
+{
+  "template_key": "10_1_okrs_e_kpis",
+  "sheet_name": "10.1 OKRs e KPIs",
+  "sheet_width": 1091.44,
+  "sheet_height": 2878.7850000000003,
+  "title": "10.1 OKRs e KPIs",
+  "description": "Auto-generated template from sheet '10.1 OKRs e KPIs'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_p1_0",
+      "label": "",
+      "cell": "P1",
+      "type": "text",
+      "top": 0,
+      "left": 1032.43,
+      "width": 59.01,
+      "height": 19.950000000000003
+    },
+    {
+      "key": "field_a15_1",
+      "label": "KPIs",
+      "cell": "A15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c15_2",
+      "label": "Visitantes para leads (%)",
+      "cell": "C15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d15_3",
+      "label": "Meta: ≥ 5%",
+      "cell": "D15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e15_4",
+      "label": "-",
+      "cell": "E15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f15_5",
+      "label": "-",
+      "cell": "F15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g15_6",
+      "label": "3.0%",
+      "cell": "G15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h15_7",
+      "label": "3.3%",
+      "cell": "H15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i15_8",
+      "label": "3.7%",
+      "cell": "I15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j15_9",
+      "label": "3.8%",
+      "cell": "J15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k15_10",
+      "label": "4.1%",
+      "cell": "K15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l15_11",
+      "label": "4.1%",
+      "cell": "L15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m15_12",
+      "label": "4.1%",
+      "cell": "M15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n15_13",
+      "label": "4.1%",
+      "cell": "N15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o15_14",
+      "label": "4.1%",
+      "cell": "O15",
+      "type": "text",
+      "top": 338.15250000000003,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a16_15",
+      "label": "Visitantes para leads (%)",
+      "cell": "A16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c16_16",
+      "label": "CAC",
+      "cell": "C16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d16_17",
+      "label": "Meta: ≤ 350",
+      "cell": "D16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e16_18",
+      "label": "-",
+      "cell": "E16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f16_19",
+      "label": "-",
+      "cell": "F16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g16_20",
+      "label": "420.0",
+      "cell": "G16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h16_21",
+      "label": "395.0",
+      "cell": "H16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i16_22",
+      "label": "380.0",
+      "cell": "I16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j16_23",
+      "label": "370.0",
+      "cell": "J16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k16_24",
+      "label": "367.0",
+      "cell": "K16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l16_25",
+      "label": "358.0",
+      "cell": "L16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m16_26",
+      "label": "358.0",
+      "cell": "M16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n16_27",
+      "label": "358.0",
+      "cell": "N16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o16_28",
+      "label": "358.0",
+      "cell": "O16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a17_29",
+      "label": "CAC",
+      "cell": "A17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c17_30",
+      "label": "Churn mensal",
+      "cell": "C17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d17_31",
+      "label": "Meta: ≤ 1,5%",
+      "cell": "D17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e17_32",
+      "label": "-",
+      "cell": "E17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f17_33",
+      "label": "-",
+      "cell": "F17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g17_34",
+      "label": "2.20%",
+      "cell": "G17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h17_35",
+      "label": "2.12%",
+      "cell": "H17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i17_36",
+      "label": "2.00%",
+      "cell": "I17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j17_37",
+      "label": "1.93%",
+      "cell": "J17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k17_38",
+      "label": "1.84%",
+      "cell": "K17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l17_39",
+      "label": "1.79%",
+      "cell": "L17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m17_40",
+      "label": "1.79%",
+      "cell": "M17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n17_41",
+      "label": "1.79%",
+      "cell": "N17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o17_42",
+      "label": "1.79%",
+      "cell": "O17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a18_43",
+      "label": "Churn mensal",
+      "cell": "A18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c18_44",
+      "label": "MRR",
+      "cell": "C18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d18_45",
+      "label": "Meta: 40.000",
+      "cell": "D18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e18_46",
+      "label": "-",
+      "cell": "E18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f18_47",
+      "label": "-",
+      "cell": "F18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g18_48",
+      "label": "25000.0",
+      "cell": "G18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h18_49",
+      "label": "26000.0",
+      "cell": "H18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i18_50",
+      "label": "27350.0",
+      "cell": "I18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j18_51",
+      "label": "28500.0",
+      "cell": "J18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k18_52",
+      "label": "32100.0",
+      "cell": "K18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l18_53",
+      "label": "34600.0",
+      "cell": "L18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m18_54",
+      "label": "34600.0",
+      "cell": "M18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n18_55",
+      "label": "34600.0",
+      "cell": "N18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o18_56",
+      "label": "34600.0",
+      "cell": "O18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a19_57",
+      "label": "MRR",
+      "cell": "A19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c19_58",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "C19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d19_59",
+      "label": "Meta: ≥ 25%",
+      "cell": "D19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e19_60",
+      "label": "-",
+      "cell": "E19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f19_61",
+      "label": "-",
+      "cell": "F19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g19_62",
+      "label": "19.80%",
+      "cell": "G19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h19_63",
+      "label": "20.10%",
+      "cell": "H19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i19_64",
+      "label": "22.00%",
+      "cell": "I19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j19_65",
+      "label": "23.10%",
+      "cell": "J19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k19_66",
+      "label": "22.70%",
+      "cell": "K19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l19_67",
+      "label": "23.40%",
+      "cell": "L19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m19_68",
+      "label": "23.40%",
+      "cell": "M19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n19_69",
+      "label": "23.40%",
+      "cell": "N19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o19_70",
+      "label": "23.40%",
+      "cell": "O19",
+      "type": "text",
+      "top": 457.8525,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a20_71",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c20_72",
+      "label": "Meta: ≥ 25%",
+      "cell": "C20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d20_73",
+      "label": "-",
+      "cell": "D20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e20_74",
+      "label": "-",
+      "cell": "E20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f20_75",
+      "label": "19.80%",
+      "cell": "F20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g20_76",
+      "label": "20.10%",
+      "cell": "G20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h20_77",
+      "label": "22.00%",
+      "cell": "H20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i20_78",
+      "label": "23.10%",
+      "cell": "I20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j20_79",
+      "label": "22.70%",
+      "cell": "J20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k20_80",
+      "label": "23.40%",
+      "cell": "K20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l20_81",
+      "label": "2025-09-25 00:00:00",
+      "cell": "L20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m20_82",
+      "label": "2025-10-25 00:00:00",
+      "cell": "M20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n20_83",
+      "label": "2025-11-25 00:00:00",
+      "cell": "N20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o20_84",
+      "label": "2025-12-25 00:00:00",
+      "cell": "O20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a21_85",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c21_86",
+      "label": "Meta: ≥ 25%",
+      "cell": "C21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d21_87",
+      "label": "-",
+      "cell": "D21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e21_88",
+      "label": "-",
+      "cell": "E21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f21_89",
+      "label": "19.80%",
+      "cell": "F21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g21_90",
+      "label": "20.10%",
+      "cell": "G21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h21_91",
+      "label": "22.00%",
+      "cell": "H21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i21_92",
+      "label": "23.10%",
+      "cell": "I21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j21_93",
+      "label": "22.70%",
+      "cell": "J21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k21_94",
+      "label": "23.40%",
+      "cell": "K21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l21_95",
+      "label": "2025-09-25 00:00:00",
+      "cell": "L21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m21_96",
+      "label": "2025-10-25 00:00:00",
+      "cell": "M21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n21_97",
+      "label": "2025-11-25 00:00:00",
+      "cell": "N21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o21_98",
+      "label": "2025-12-25 00:00:00",
+      "cell": "O21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a22_99",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c22_100",
+      "label": "Meta: ≥ 25%",
+      "cell": "C22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d22_101",
+      "label": "-",
+      "cell": "D22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e22_102",
+      "label": "-",
+      "cell": "E22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f22_103",
+      "label": "19.80%",
+      "cell": "F22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g22_104",
+      "label": "20.10%",
+      "cell": "G22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h22_105",
+      "label": "22.00%",
+      "cell": "H22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i22_106",
+      "label": "23.10%",
+      "cell": "I22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j22_107",
+      "label": "22.70%",
+      "cell": "J22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k22_108",
+      "label": "23.40%",
+      "cell": "K22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l22_109",
+      "label": "2025-09-25 00:00:00",
+      "cell": "L22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m22_110",
+      "label": "2025-10-25 00:00:00",
+      "cell": "M22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n22_111",
+      "label": "2025-11-25 00:00:00",
+      "cell": "N22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o22_112",
+      "label": "2025-12-25 00:00:00",
+      "cell": "O22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a23_113",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c23_114",
+      "label": "Meta: ≥ 25%",
+      "cell": "C23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d23_115",
+      "label": "-",
+      "cell": "D23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e23_116",
+      "label": "-",
+      "cell": "E23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f23_117",
+      "label": "19.80%",
+      "cell": "F23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g23_118",
+      "label": "20.10%",
+      "cell": "G23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h23_119",
+      "label": "22.00%",
+      "cell": "H23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i23_120",
+      "label": "23.10%",
+      "cell": "I23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j23_121",
+      "label": "22.70%",
+      "cell": "J23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k23_122",
+      "label": "23.40%",
+      "cell": "K23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l23_123",
+      "label": "2025-09-25 00:00:00",
+      "cell": "L23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m23_124",
+      "label": "2025-10-25 00:00:00",
+      "cell": "M23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n23_125",
+      "label": "2025-11-25 00:00:00",
+      "cell": "N23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o23_126",
+      "label": "2025-12-25 00:00:00",
+      "cell": "O23",
+      "type": "text",
+      "top": 577.5525,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a24_127",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c24_128",
+      "label": "Meta: ≥ 25%",
+      "cell": "C24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d24_129",
+      "label": "-",
+      "cell": "D24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e24_130",
+      "label": "-",
+      "cell": "E24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f24_131",
+      "label": "19.80%",
+      "cell": "F24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g24_132",
+      "label": "20.10%",
+      "cell": "G24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h24_133",
+      "label": "22.00%",
+      "cell": "H24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i24_134",
+      "label": "23.10%",
+      "cell": "I24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j24_135",
+      "label": "22.70%",
+      "cell": "J24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k24_136",
+      "label": "23.40%",
+      "cell": "K24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l24_137",
+      "label": "2025-09-25 00:00:00",
+      "cell": "L24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m24_138",
+      "label": "2025-10-25 00:00:00",
+      "cell": "M24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n24_139",
+      "label": "2025-11-25 00:00:00",
+      "cell": "N24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o24_140",
+      "label": "2025-12-25 00:00:00",
+      "cell": "O24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a25_141",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c25_142",
+      "label": "Meta: ≥ 25%",
+      "cell": "C25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d25_143",
+      "label": "-",
+      "cell": "D25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e25_144",
+      "label": "-",
+      "cell": "E25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f25_145",
+      "label": "19.80%",
+      "cell": "F25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g25_146",
+      "label": "20.10%",
+      "cell": "G25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h25_147",
+      "label": "22.00%",
+      "cell": "H25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i25_148",
+      "label": "23.10%",
+      "cell": "I25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j25_149",
+      "label": "22.70%",
+      "cell": "J25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k25_150",
+      "label": "23.40%",
+      "cell": "K25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l25_151",
+      "label": "2025-09-25 00:00:00",
+      "cell": "L25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m25_152",
+      "label": "2025-10-25 00:00:00",
+      "cell": "M25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n25_153",
+      "label": "2025-11-25 00:00:00",
+      "cell": "N25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o25_154",
+      "label": "2025-12-25 00:00:00",
+      "cell": "O25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    },
+    {
+      "key": "field_a26_155",
+      "label": "Taxa de Conversão (Trial - Ass)",
+      "cell": "A26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 0,
+      "width": 177.66000000000003,
+      "height": 29.925
+    },
+    {
+      "key": "field_c26_156",
+      "label": "Meta: ≥ 25%",
+      "cell": "C26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 177.66000000000003,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_d26_157",
+      "label": "-",
+      "cell": "D26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 236.67000000000002,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_e26_158",
+      "label": "-",
+      "cell": "E26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 295.68,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_f26_159",
+      "label": "19.80%",
+      "cell": "F26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 354.69,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_g26_160",
+      "label": "20.10%",
+      "cell": "G26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 413.7,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_h26_161",
+      "label": "22.00%",
+      "cell": "H26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 472.71,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_i26_162",
+      "label": "23.10%",
+      "cell": "I26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 531.72,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_j26_163",
+      "label": "22.70%",
+      "cell": "J26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 590.73,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_k26_164",
+      "label": "23.40%",
+      "cell": "K26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 649.74,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_l26_165",
+      "label": "",
+      "cell": "L26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 708.75,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_m26_166",
+      "label": "",
+      "cell": "M26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 767.76,
+      "width": 59.01,
+      "height": 29.925
+    },
+    {
+      "key": "field_n26_167",
+      "label": "",
+      "cell": "N26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 826.77,
+      "width": 113.75,
+      "height": 29.925
+    },
+    {
+      "key": "field_o26_168",
+      "label": "",
+      "cell": "O26",
+      "type": "text",
+      "top": 667.3275000000001,
+      "left": 940.52,
+      "width": 91.91000000000001,
+      "height": 29.925
+    }
+  ]
+}

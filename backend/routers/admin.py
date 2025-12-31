@@ -1,14 +1,21 @@
-from fastapi import APIRouter, HTTPException, Depends, UploadFile, File
+from fastapi import APIRouter, HTTPException, Depends, UploadFile, File, Form
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from datetime import datetime
-from typing import Optional
+from typing import Optional, List
 
 from usecases.admin_usecase import (
     list_knowledge_docs,
     remove_knowledge_doc,
     reset_vector_db,
+)
+from usecases.admin_templates_usecase import (
+    upload_and_ingest_template,
+    list_templates_by_cycle,
+    get_template_by_key,
+    update_template_status,
+    list_available_cycles,
 )
 from core.models import SuccessResponse, ErrorResponse
 from db.database import get_db
@@ -1024,3 +1031,183 @@ async def test_rag_context(body: TestRAGBody):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
+# ============================================================
+# 📋 TEMPLATE MANAGEMENT ENDPOINTS (NEW)
+# ============================================================
+
+@router.post("/templates/upload", response_model=SuccessResponse)
+async def upload_template_excel(
+    file: UploadFile = File(...),
+    cycle: str = Form(...),
+    description: Optional[str] = Form(None),
+    db: Session = Depends(get_db),
+    current_admin = Depends(get_current_admin)
+):
+    """
+    Upload e ingestão automática de arquivo Excel com templates
+    
+    **ADMIN ONLY**
+    
+    Args:
+        file: Arquivo Excel (.xlsx)
+        cycle: Identificador do cycle (ex: Q1, Q2, Q3)
+        description: Descrição opcional do batch de templates
+    
+    Returns:
+        Estatísticas da ingestão e lista de templates processados
+    """
+    try:
+        # Validar extensão
+        if not file.filename.endswith('.xlsx'):
+            raise HTTPException(
+                status_code=400,
+                detail="Only .xlsx files are supported"
+            )
+        
+        # Ler conteúdo do arquivo
+        file_content = await file.read()
+        
+        # Executar ingestão
+        result = await upload_and_ingest_template(
+            file_content=file_content,
+            filename=file.filename,
+            cycle=cycle,
+            description=description,
+            db=db
+        )
+        
+        return SuccessResponse(data=result)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/templates", response_model=SuccessResponse)
+async def list_templates(
+    cycle: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_admin = Depends(get_current_admin)
+):
+    """
+    Lista todos os templates registrados
+    
+    **ADMIN ONLY**
+    
+    Args:
+        cycle: Filtrar por cycle (opcional)
+    
+    Returns:
+        Lista de templates
+    """
+    try:
+        templates = list_templates_by_cycle(cycle, db)
+        return SuccessResponse(data={
+            "templates": templates,
+            "total": len(templates)
+        })
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/templates/cycles", response_model=SuccessResponse)
+async def get_available_cycles(
+    db: Session = Depends(get_db),
+    current_admin = Depends(get_current_admin)
+):
+    """
+    Lista todos os cycles disponíveis
+    
+    **ADMIN ONLY**
+    
+    Returns:
+        Lista de cycles
+    """
+    try:
+        cycles = list_available_cycles(db)
+        return SuccessResponse(data={
+            "cycles": cycles,
+            "total": len(cycles)
+        })
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/templates/{cycle}/{template_key}", response_model=SuccessResponse)
+async def get_template_details(
+    cycle: str,
+    template_key: str,
+    db: Session = Depends(get_db),
+    current_admin = Depends(get_current_admin)
+):
+    """
+    Busca detalhes de um template específico
+    
+    **ADMIN ONLY**
+    
+    Args:
+        cycle: Cycle do template
+        template_key: Chave do template
+    
+    Returns:
+        Detalhes completos do template
+    """
+    try:
+        template = get_template_by_key(cycle, template_key, db)
+        
+        if not template:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Template '{template_key}' not found in cycle '{cycle}'"
+            )
+        
+        return SuccessResponse(data=template)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+class UpdateTemplateStatusBody(BaseModel):
+    status: str  # active, inactive, archived
+
+
+@router.patch("/templates/{template_id}/status", response_model=SuccessResponse)
+async def update_template_status_endpoint(
+    template_id: int,
+    body: UpdateTemplateStatusBody,
+    db: Session = Depends(get_db),
+    current_admin = Depends(get_current_admin)
+):
+    """
+    Atualiza status de um template
+    
+    **ADMIN ONLY**
+    
+    Args:
+        template_id: ID do template
+        body: Novo status
+    
+    Returns:
+        Template atualizado
+    """
+    try:
+        # Validar status
+        valid_statuses = ["active", "inactive", "archived"]
+        if body.status not in valid_statuses:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Invalid status. Must be one of: {valid_statuses}"
+            )
+        
+        template = update_template_status(template_id, body.status, db)
+        return SuccessResponse(data=template)
+        
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

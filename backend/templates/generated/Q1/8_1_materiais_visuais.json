@@ -1,0 +1,151 @@
+{
+  "template_key": "8_1_materiais_visuais",
+  "sheet_name": "8.1 Materiais Visuais",
+  "sheet_width": 896.63,
+  "sheet_height": 1712.7075,
+  "title": "8.1 Materiais Visuais",
+  "description": "Auto-generated template from sheet '8.1 Materiais Visuais'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_c16_0",
+      "label": "Ícones de marca",
+      "cell": "C16",
+      "type": "text",
+      "top": 368.07750000000004,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c17_1",
+      "label": "Paleta de cores definida",
+      "cell": "C17",
+      "type": "text",
+      "top": 398.00250000000005,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c18_2",
+      "label": "Tipografia da marca",
+      "cell": "C18",
+      "type": "text",
+      "top": 427.92750000000007,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c20_3",
+      "label": "Site institucional",
+      "cell": "C20",
+      "type": "text",
+      "top": 487.77750000000003,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c21_4",
+      "label": "Capa Redes Sociais",
+      "cell": "C21",
+      "type": "text",
+      "top": 517.7025000000001,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c22_5",
+      "label": "Foto Perfil Redes Sociais",
+      "cell": "C22",
+      "type": "text",
+      "top": 547.6275,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c24_6",
+      "label": "Apresentação institucional",
+      "cell": "C24",
+      "type": "text",
+      "top": 607.4775000000001,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c25_7",
+      "label": "Apresentação comercial",
+      "cell": "C25",
+      "type": "text",
+      "top": 637.4025,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c28_8",
+      "label": "Assinatura de e-mail",
+      "cell": "C28",
+      "type": "text",
+      "top": 727.1775,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c30_9",
+      "label": "✔",
+      "cell": "C30",
+      "type": "text",
+      "top": 787.0275,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c31_10",
+      "label": "✔",
+      "cell": "C31",
+      "type": "text",
+      "top": 816.9525000000001,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c32_11",
+      "label": "✔",
+      "cell": "C32",
+      "type": "text",
+      "top": 846.8775,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c33_12",
+      "label": "✔",
+      "cell": "C33",
+      "type": "text",
+      "top": 876.8025,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    },
+    {
+      "key": "field_c34_13",
+      "label": "✔",
+      "cell": "C34",
+      "type": "text",
+      "top": 906.7275000000001,
+      "left": 118.02,
+      "width": 118.02,
+      "height": 29.925
+    }
+  ]
+}

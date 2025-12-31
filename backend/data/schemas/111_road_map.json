@@ -1,0 +1,895 @@
+{
+  "template_key": "111_road_map",
+  "sheet_name": "11.1 Road Map",
+  "sheet_width": 1514.66,
+  "sheet_height": 2015.9475,
+  "title": "11.1 Road Map",
+  "description": "Template for 11.1 Road Map",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_1",
+      "cell": "E3",
+      "label": "11.1 Road Map",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 39.900000000000006,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_2",
+      "cell": "E7",
+      "label": "Startup:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 364.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_3",
+      "cell": "F7",
+      "label": "ClínicaTech (SaaS B2B)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_4",
+      "cell": "I7",
+      "label": "Fase:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 728.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_5",
+      "cell": "J7",
+      "label": "Q1",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_6",
+      "cell": "L7",
+      "label": "Status:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_7",
+      "cell": "M7",
+      "label": "Finalizado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 119.70000000000002,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_8",
+      "cell": "A12",
+      "label": "Road Map",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 219.45,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_9",
+      "cell": "A13",
+      "label": "Campanha / Ação",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_10",
+      "cell": "D13",
+      "label": "Objetivo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_11",
+      "cell": "F13",
+      "label": "Público-alvo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_12",
+      "cell": "H13",
+      "label": "Canal",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_13",
+      "cell": "J13",
+      "label": "Responsável",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_14",
+      "cell": "L13",
+      "label": "Início",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_15",
+      "cell": "M13",
+      "label": "Fim",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_16",
+      "cell": "N13",
+      "label": "Status",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_17",
+      "cell": "P13",
+      "label": "KPIs esperado",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 239.39999999999998,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 19.950000000000003
+      }
+    },
+    {
+      "key": "field_18",
+      "cell": "A15",
+      "label": "Lançamento do e-book “Guia da Clínica Digital”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_19",
+      "cell": "D15",
+      "label": "Geração de leads (Topo Funil)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_20",
+      "cell": "F15",
+      "label": "Donos de clínicas pequenas",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_21",
+      "cell": "H15",
+      "label": "LinkedIn + Instagram Ads",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_22",
+      "cell": "J15",
+      "label": "Marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_23",
+      "cell": "L15",
+      "label": "2025-10-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_24",
+      "cell": "M15",
+      "label": "2025-10-20 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_25",
+      "cell": "N15",
+      "label": "Otimização",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_26",
+      "cell": "P15",
+      "label": "300 novos leads",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 289.275,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_27",
+      "cell": "A17",
+      "label": "Webinar “Automatização na Saúde”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_28",
+      "cell": "D17",
+      "label": "Nutrição (Meio Funil)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_29",
+      "cell": "F17",
+      "label": "Leads captados no e-book",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_30",
+      "cell": "H17",
+      "label": "Zoom + E-mail",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_31",
+      "cell": "J17",
+      "label": "Founder + Marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_32",
+      "cell": "L17",
+      "label": "2025-10-22 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_33",
+      "cell": "M17",
+      "label": "2025-10-30 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_34",
+      "cell": "N17",
+      "label": "Execução",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_35",
+      "cell": "P17",
+      "label": "150 inscritos / 50% taxa presença",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 349.125,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_36",
+      "cell": "A19",
+      "label": "Teste grátis 14 dias",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_37",
+      "cell": "D19",
+      "label": "Conversão (Fundo Funil)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_38",
+      "cell": "F19",
+      "label": "Leads quentes",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_39",
+      "cell": "H19",
+      "label": "Site + E-mail marketing",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_40",
+      "cell": "J19",
+      "label": "Growth",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_41",
+      "cell": "L19",
+      "label": "2025-11-01 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_42",
+      "cell": "M19",
+      "label": "2025-11-30 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_43",
+      "cell": "N19",
+      "label": "Produção",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_44",
+      "cell": "P19",
+      "label": "50 testes iniciados",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 408.975,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_45",
+      "cell": "A21",
+      "label": "Sequência de onboarding automatizada",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_46",
+      "cell": "D21",
+      "label": "Retenção inicial",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_47",
+      "cell": "F21",
+      "label": "Novos clientes",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_48",
+      "cell": "H21",
+      "label": "E-mail + WhatsApp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_49",
+      "cell": "J21",
+      "label": "Suporte",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_50",
+      "cell": "L21",
+      "label": "2025-11-10 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_51",
+      "cell": "M21",
+      "label": "2025-11-30 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_52",
+      "cell": "N21",
+      "label": "Planejamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_53",
+      "cell": "P21",
+      "label": "80% completam onboarding",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 468.82500000000005,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_54",
+      "cell": "A23",
+      "label": "Campanha de indicação “Clínica que Indica”",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 0.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_55",
+      "cell": "D23",
+      "label": "Expansão (growth loop)",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 273.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_56",
+      "cell": "F23",
+      "label": "Clientes ativos",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 455.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_57",
+      "cell": "H23",
+      "label": "E-mail + WhatsApp",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 637.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_58",
+      "cell": "J23",
+      "label": "CS",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 819.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_59",
+      "cell": "L23",
+      "label": "2025-11-05 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1001.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_60",
+      "cell": "M23",
+      "label": "2025-11-30 00:00:00",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1092.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_61",
+      "cell": "N23",
+      "label": "Planejamento",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1183.0,
+        "width": 84.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_62",
+      "cell": "P23",
+      "label": "20 novas indicações",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 528.6750000000001,
+        "left": 1312.5,
+        "width": 27.16,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_63",
+      "cell": "C38",
+      "label": "Conceito Road Map",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 977.5499999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_64",
+      "cell": "C39",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1007.4749999999993,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_65",
+      "cell": "C41",
+      "label": "Um roadmap de marketing de 90 dias é um plano estr",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1067.3249999999994,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_66",
+      "cell": "C47",
+      "label": "Como preencher:",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1246.874999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_67",
+      "cell": "C48",
+      "label": "⬅️ Clique no sinal de + para visualizar o conteúdo",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1276.799999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    },
+    {
+      "key": "field_68",
+      "cell": "C50",
+      "label": "1. Comece pelo Briefing\n          - Liste a campan",
+      "type": "text",
+      "required": false,
+      "position": {
+        "top": 1336.649999999999,
+        "left": 182.0,
+        "width": 91.0,
+        "height": 29.925
+      }
+    }
+  ]
+}

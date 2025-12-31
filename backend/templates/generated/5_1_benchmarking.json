@@ -1,0 +1,411 @@
+{
+  "template_key": "5_1_benchmarking",
+  "sheet_name": "5.1 Benchmarking",
+  "sheet_width": 1949.5,
+  "sheet_height": 2711.2,
+  "title": "5.1 Benchmarking",
+  "description": "Auto-generated template for 5.1 Benchmarking",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_e16_0",
+      "label": "ClinicaApp",
+      "cell": "E16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 364.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_g16_1",
+      "label": "ClinicaApp",
+      "cell": "G16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 546.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_i16_2",
+      "label": "ClinicaApp",
+      "cell": "I16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 728.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_k16_3",
+      "label": "Atendimento/Suporte\nQual o canal? É rápido? Tem reclamações públicas?",
+      "cell": "K16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 910.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_m16_4",
+      "label": "Preço\nÉ transparente? Qual modelo (mensal, por uso, plano escalável)? É caro?",
+      "cell": "M16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 1092.0,
+      "width": 175.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_o16_5",
+      "label": "Forças Percebidas\nO que o cliente vê como positivo (mesmo que você discorde)?",
+      "cell": "O16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 1267.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_q16_6",
+      "label": "Fraquezas Percebidas\nO que clientes reclamam? Pontos negativos evidentes?",
+      "cell": "Q16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 1449.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_s16_7",
+      "label": "Oportunidades para sua Startup\nOnde você pode fazer diferente e melhor?",
+      "cell": "S16",
+      "type": "textarea",
+      "top": 368.08,
+      "left": 1631.0,
+      "width": 273.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_e20_8",
+      "label": "Planilha + WhatsApp",
+      "cell": "E20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 364.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_g20_9",
+      "label": "Planilha + WhatsApp",
+      "cell": "G20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 546.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_i20_10",
+      "label": "Planilha + WhatsApp",
+      "cell": "I20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 728.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_k20_11",
+      "label": "Atendimento/Suporte\nQual o canal? É rápido? Tem reclamações públicas?",
+      "cell": "K20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 910.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_m20_12",
+      "label": "Preço\nÉ transparente? Qual modelo (mensal, por uso, plano escalável)? É caro?",
+      "cell": "M20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 1092.0,
+      "width": 175.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_o20_13",
+      "label": "Forças Percebidas\nO que o cliente vê como positivo (mesmo que você discorde)?",
+      "cell": "O20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 1267.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_q20_14",
+      "label": "Fraquezas Percebidas\nO que clientes reclamam? Pontos negativos evidentes?",
+      "cell": "Q20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 1449.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_s20_15",
+      "label": "Oportunidades para sua Startup\nOnde você pode fazer diferente e melhor?",
+      "cell": "S20",
+      "type": "textarea",
+      "top": 487.78,
+      "left": 1631.0,
+      "width": 273.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_e24_16",
+      "label": "ERPdoSetor",
+      "cell": "E24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 364.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_g24_17",
+      "label": "ERPdoSetor",
+      "cell": "G24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 546.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_i24_18",
+      "label": "ERPdoSetor",
+      "cell": "I24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 728.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_k24_19",
+      "label": "Atendimento/Suporte\nQual o canal? É rápido? Tem reclamações públicas?",
+      "cell": "K24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 910.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_m24_20",
+      "label": "Preço\nÉ transparente? Qual modelo (mensal, por uso, plano escalável)? É caro?",
+      "cell": "M24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 1092.0,
+      "width": 175.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_o24_21",
+      "label": "Forças Percebidas\nO que o cliente vê como positivo (mesmo que você discorde)?",
+      "cell": "O24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 1267.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_q24_22",
+      "label": "Fraquezas Percebidas\nO que clientes reclamam? Pontos negativos evidentes?",
+      "cell": "Q24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 1449.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_s24_23",
+      "label": "Oportunidades para sua Startup\nOnde você pode fazer diferente e melhor?",
+      "cell": "S24",
+      "type": "textarea",
+      "top": 607.48,
+      "left": 1631.0,
+      "width": 273.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_e28_24",
+      "label": "HealthStart",
+      "cell": "E28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 364.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_g28_25",
+      "label": "HealthStart",
+      "cell": "G28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 546.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_i28_26",
+      "label": "HealthStart",
+      "cell": "I28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 728.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_k28_27",
+      "label": "Field K28",
+      "cell": "K28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 910.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_m28_28",
+      "label": "Field M28",
+      "cell": "M28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 1092.0,
+      "width": 175.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_o28_29",
+      "label": "Field O28",
+      "cell": "O28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 1267.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_q28_30",
+      "label": "Field Q28",
+      "cell": "Q28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 1449.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_s28_31",
+      "label": "Field S28",
+      "cell": "S28",
+      "type": "textarea",
+      "top": 727.18,
+      "left": 1631.0,
+      "width": 273.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_e32_32",
+      "label": "Nome Concorrente",
+      "cell": "E32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 364.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_g32_33",
+      "label": "Nome Concorrente",
+      "cell": "G32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 546.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_i32_34",
+      "label": "Nome Concorrente",
+      "cell": "I32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 728.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_k32_35",
+      "label": "Field K32",
+      "cell": "K32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 910.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_m32_36",
+      "label": "Field M32",
+      "cell": "M32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 1092.0,
+      "width": 175.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_o32_37",
+      "label": "Field O32",
+      "cell": "O32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 1267.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_q32_38",
+      "label": "Field Q32",
+      "cell": "Q32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 1449.0,
+      "width": 182.0,
+      "height": 89.78
+    },
+    {
+      "key": "field_s32_39",
+      "label": "Field S32",
+      "cell": "S32",
+      "type": "textarea",
+      "top": 846.88,
+      "left": 1631.0,
+      "width": 273.0,
+      "height": 89.78
+    }
+  ]
+}

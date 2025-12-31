@@ -1,0 +1,81 @@
+{
+  "template_key": "6_1_posicionamento_verbal",
+  "sheet_name": "6.1 Posicionamento Verbal",
+  "sheet_width": 896.63,
+  "sheet_height": 3850.35,
+  "title": "6.1 Posicionamento Verbal",
+  "description": "Auto-generated template from sheet '6.1 Posicionamento Verbal'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_a18_0",
+      "label": "Quem você atende? \nQuem é o cliente ideal?",
+      "cell": "A18",
+      "type": "textarea",
+      "top": 424.93500000000006,
+      "left": 0,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_d18_1",
+      "label": "Mulheres inseridas no mercado de trabalho que estão sobrecarregadas e não tem dinheiro suficiente para manter um processo terapeutico.",
+      "cell": "D18",
+      "type": "textarea",
+      "top": 424.93500000000006,
+      "left": 177.03,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_g18_2",
+      "label": "Falta de recursos suficiente para manter uma terapia e manutenção do processo terapêutico.",
+      "cell": "G18",
+      "type": "textarea",
+      "top": 424.93500000000006,
+      "left": 354.06,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_j18_3",
+      "label": "Desenvolvemos IA (Agente) é uma terapeuta virtual especialista em saúde mental de mulheres.",
+      "cell": "J18",
+      "type": "textarea",
+      "top": 424.93500000000006,
+      "left": 531.09,
+      "width": 118.02,
+      "height": 89.775
+    },
+    {
+      "key": "field_m18_4",
+      "label": "Praticidade e de acolhimento.",
+      "cell": "M18",
+      "type": "textarea",
+      "top": 424.93500000000006,
+      "left": 708.12,
+      "width": 143.01,
+      "height": 89.775
+    },
+    {
+      "key": "field_d24_5",
+      "label": "Fórmula para a frase de posicionamento",
+      "cell": "D24",
+      "type": "textarea",
+      "top": 604.485,
+      "left": 177.03,
+      "width": 472.08,
+      "height": 59.85
+    },
+    {
+      "key": "field_d29_6",
+      "label": "Frase de Posicionamento",
+      "cell": "D29",
+      "type": "textarea",
+      "top": 754.11,
+      "left": 177.03,
+      "width": 472.08,
+      "height": 89.775
+    }
+  ]
+}

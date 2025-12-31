@@ -1,0 +1,711 @@
+{
+  "template_key": "11_1_road_map",
+  "sheet_name": "11.1 Road Map",
+  "sheet_width": 1630.23,
+  "sheet_height": 2041.88,
+  "title": "11.1 Road Map",
+  "description": "Auto-generated template for 11.1 Road Map",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_d15_0",
+      "label": "Lançamento do e-book “Guia da Clínica Digital”",
+      "cell": "D15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f15_1",
+      "label": "Lançamento do e-book “Guia da Clínica Digital”",
+      "cell": "F15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h15_2",
+      "label": "Lançamento do e-book “Guia da Clínica Digital”",
+      "cell": "H15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j15_3",
+      "label": "Responsável",
+      "cell": "J15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l15_4",
+      "label": "Início",
+      "cell": "L15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m15_5",
+      "label": "Fim",
+      "cell": "M15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p15_6",
+      "label": "KPIs esperado",
+      "cell": "P15",
+      "type": "textarea",
+      "top": 338.15,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d17_7",
+      "label": "Webinar “Automatização na Saúde”",
+      "cell": "D17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f17_8",
+      "label": "Webinar “Automatização na Saúde”",
+      "cell": "F17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h17_9",
+      "label": "Webinar “Automatização na Saúde”",
+      "cell": "H17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j17_10",
+      "label": "Responsável",
+      "cell": "J17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l17_11",
+      "label": "Início",
+      "cell": "L17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m17_12",
+      "label": "Fim",
+      "cell": "M17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p17_13",
+      "label": "KPIs esperado",
+      "cell": "P17",
+      "type": "textarea",
+      "top": 398.0,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d19_14",
+      "label": "Teste grátis 14 dias",
+      "cell": "D19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f19_15",
+      "label": "Teste grátis 14 dias",
+      "cell": "F19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h19_16",
+      "label": "Teste grátis 14 dias",
+      "cell": "H19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j19_17",
+      "label": "Responsável",
+      "cell": "J19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l19_18",
+      "label": "Início",
+      "cell": "L19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m19_19",
+      "label": "Fim",
+      "cell": "M19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p19_20",
+      "label": "KPIs esperado",
+      "cell": "P19",
+      "type": "textarea",
+      "top": 457.85,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d21_21",
+      "label": "Sequência de onboarding automatizada",
+      "cell": "D21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f21_22",
+      "label": "Sequência de onboarding automatizada",
+      "cell": "F21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h21_23",
+      "label": "Sequência de onboarding automatizada",
+      "cell": "H21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j21_24",
+      "label": "Responsável",
+      "cell": "J21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l21_25",
+      "label": "Início",
+      "cell": "L21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m21_26",
+      "label": "Fim",
+      "cell": "M21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p21_27",
+      "label": "KPIs esperado",
+      "cell": "P21",
+      "type": "textarea",
+      "top": 517.7,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d23_28",
+      "label": "Campanha de indicação “Clínica que Indica”",
+      "cell": "D23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f23_29",
+      "label": "Campanha de indicação “Clínica que Indica”",
+      "cell": "F23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h23_30",
+      "label": "Campanha de indicação “Clínica que Indica”",
+      "cell": "H23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j23_31",
+      "label": "Responsável",
+      "cell": "J23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l23_32",
+      "label": "Início",
+      "cell": "L23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m23_33",
+      "label": "Fim",
+      "cell": "M23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p23_34",
+      "label": "KPIs esperado",
+      "cell": "P23",
+      "type": "textarea",
+      "top": 577.55,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d25_35",
+      "label": "Objetivo",
+      "cell": "D25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f25_36",
+      "label": "Público-alvo",
+      "cell": "F25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h25_37",
+      "label": "Canal",
+      "cell": "H25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j25_38",
+      "label": "Responsável",
+      "cell": "J25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l25_39",
+      "label": "Início",
+      "cell": "L25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m25_40",
+      "label": "Fim",
+      "cell": "M25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p25_41",
+      "label": "KPIs esperado",
+      "cell": "P25",
+      "type": "textarea",
+      "top": 637.4,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d27_42",
+      "label": "Field D27",
+      "cell": "D27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f27_43",
+      "label": "Field F27",
+      "cell": "F27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h27_44",
+      "label": "Field H27",
+      "cell": "H27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j27_45",
+      "label": "Field J27",
+      "cell": "J27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l27_46",
+      "label": "Field L27",
+      "cell": "L27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m27_47",
+      "label": "Field M27",
+      "cell": "M27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p27_48",
+      "label": "Field P27",
+      "cell": "P27",
+      "type": "textarea",
+      "top": 697.25,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d29_49",
+      "label": "Field D29",
+      "cell": "D29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f29_50",
+      "label": "Field F29",
+      "cell": "F29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h29_51",
+      "label": "Field H29",
+      "cell": "H29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j29_52",
+      "label": "Field J29",
+      "cell": "J29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l29_53",
+      "label": "Field L29",
+      "cell": "L29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m29_54",
+      "label": "Field M29",
+      "cell": "M29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p29_55",
+      "label": "Field P29",
+      "cell": "P29",
+      "type": "textarea",
+      "top": 757.1,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d31_56",
+      "label": "Field D31",
+      "cell": "D31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f31_57",
+      "label": "Field F31",
+      "cell": "F31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h31_58",
+      "label": "Field H31",
+      "cell": "H31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j31_59",
+      "label": "Field J31",
+      "cell": "J31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l31_60",
+      "label": "Field L31",
+      "cell": "L31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m31_61",
+      "label": "Field M31",
+      "cell": "M31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p31_62",
+      "label": "Field P31",
+      "cell": "P31",
+      "type": "textarea",
+      "top": 816.95,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    },
+    {
+      "key": "field_d33_63",
+      "label": "Field D33",
+      "cell": "D33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 268.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_f33_64",
+      "label": "Field F33",
+      "cell": "F33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 450.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_h33_65",
+      "label": "Field H33",
+      "cell": "H33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 632.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_j33_66",
+      "label": "Field J33",
+      "cell": "J33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 814.66,
+      "width": 182.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_l33_67",
+      "label": "Field L33",
+      "cell": "L33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 996.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_m33_68",
+      "label": "Field M33",
+      "cell": "M33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 1087.66,
+      "width": 91.0,
+      "height": 59.85
+    },
+    {
+      "key": "field_p33_69",
+      "label": "Field P33",
+      "cell": "P33",
+      "type": "textarea",
+      "top": 876.8,
+      "left": 1356.32,
+      "width": 182.91,
+      "height": 59.85
+    }
+  ]
+}

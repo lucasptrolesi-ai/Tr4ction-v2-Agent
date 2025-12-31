@@ -1,0 +1,271 @@
+{
+  "template_key": "8_0_consistencia_da_marca",
+  "sheet_name": "8.0 Consistência da Marca",
+  "sheet_width": 955.64,
+  "sheet_height": 3273.795,
+  "title": "8.0 Consistência da Marca",
+  "description": "Auto-generated template from sheet '8.0 Consistência da Marca'",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "field_f26_0",
+      "label": "Reflete arquétipo e mensagem emocional",
+      "cell": "F26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h26_1",
+      "label": "✅ Sim",
+      "cell": "H26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m26_2",
+      "label": "-",
+      "cell": "M26",
+      "type": "textarea",
+      "top": 667.3275000000001,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f28_3",
+      "label": "✅ Sim",
+      "cell": "F28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h28_4",
+      "label": "Página apresenta a história com foco em cuidado, tom empático e posicionamento claro",
+      "cell": "H28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m28_5",
+      "label": "-",
+      "cell": "M28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_n28_6",
+      "label": "Finalizado",
+      "cell": "N28",
+      "type": "textarea",
+      "top": 727.1775,
+      "left": 767.13,
+      "width": 143.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f30_7",
+      "label": "✅ Sim",
+      "cell": "F30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_n30_8",
+      "label": "Finalizado",
+      "cell": "N30",
+      "type": "textarea",
+      "top": 787.0275,
+      "left": 767.13,
+      "width": 143.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f35_9",
+      "label": "Bio transmite PUV e benefício claro",
+      "cell": "F35",
+      "type": "textarea",
+      "top": 936.6525,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h35_10",
+      "label": "✅ Sim",
+      "cell": "H35",
+      "type": "textarea",
+      "top": 936.6525,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m35_11",
+      "label": "-",
+      "cell": "M35",
+      "type": "textarea",
+      "top": 936.6525,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f44_12",
+      "label": "Slide inicial com PUV/slogan",
+      "cell": "F44",
+      "type": "textarea",
+      "top": 1205.9775,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h44_13",
+      "label": "✅ Sim",
+      "cell": "H44",
+      "type": "textarea",
+      "top": 1205.9775,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m44_14",
+      "label": "-",
+      "cell": "M44",
+      "type": "textarea",
+      "top": 1205.9775,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f53_15",
+      "label": "Tom de voz e assinatura visível",
+      "cell": "F53",
+      "type": "textarea",
+      "top": 1475.3025,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h53_16",
+      "label": "❌ Não",
+      "cell": "H53",
+      "type": "textarea",
+      "top": 1475.3025,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m53_17",
+      "label": "Marketing",
+      "cell": "M53",
+      "type": "textarea",
+      "top": 1475.3025,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f60_18",
+      "label": "Postura e estilo coerente com atributos da marca",
+      "cell": "F60",
+      "type": "textarea",
+      "top": 1684.7775000000001,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h60_19",
+      "label": "✅ Sim",
+      "cell": "H60",
+      "type": "textarea",
+      "top": 1684.7775000000001,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m60_20",
+      "label": "Suporte",
+      "cell": "M60",
+      "type": "textarea",
+      "top": 1684.7775000000001,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f67_21",
+      "label": "Linguagem e tom coerente com atributos da marca",
+      "cell": "F67",
+      "type": "textarea",
+      "top": 1894.2525,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_h67_22",
+      "label": "🟡 Parcial",
+      "cell": "H67",
+      "type": "textarea",
+      "top": 1894.2525,
+      "left": 413.07,
+      "width": 236.04,
+      "height": 59.85
+    },
+    {
+      "key": "field_m67_23",
+      "label": "Vendas",
+      "cell": "M67",
+      "type": "textarea",
+      "top": 1894.2525,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    },
+    {
+      "key": "field_f69_24",
+      "label": "Visual alinhado com identidade visual",
+      "cell": "F69",
+      "type": "textarea",
+      "top": 1954.1025,
+      "left": 295.05,
+      "width": 118.02,
+      "height": 59.85
+    },
+    {
+      "key": "field_m69_25",
+      "label": "Designer",
+      "cell": "M69",
+      "type": "textarea",
+      "top": 1954.1025,
+      "left": 708.12,
+      "width": 59.01,
+      "height": 59.85
+    }
+  ]
+}

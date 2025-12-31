@@ -1,0 +1,31 @@
+{
+  "template_key": "4_1_puv",
+  "sheet_name": "4.1 PUV",
+  "sheet_width": 1364.16,
+  "sheet_height": 2417.94,
+  "title": "4.1 PUV",
+  "description": "Auto-generated template for 4.1 PUV",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "field_m7_0",
+      "label": "Status:",
+      "cell": "M7",
+      "type": "text",
+      "top": 119.7,
+      "left": 1091.16,
+      "width": 182.0,
+      "height": 39.9
+    },
+    {
+      "key": "field_b22_1",
+      "label": "Como isso é diferente de outras opções?",
+      "cell": "B22",
+      "type": "textarea",
+      "top": 560.6,
+      "left": 91.0,
+      "width": 1091.16,
+      "height": 89.78
+    }
+  ]
+}
