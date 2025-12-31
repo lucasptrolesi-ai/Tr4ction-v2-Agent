@@ -1,0 +1,118 @@
+name: 🧪 Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  test-backend:
+    name: Backend Tests
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+    
+    - name: 🐍 Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+    
+    - name: 📦 Install dependencies
+      run: |
+        cd backend
+        pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-cov pytest-asyncio httpx
+    
+    - name: 🧪 Run tests
+      env:
+        TESTING: "1"
+        JWT_SECRET_KEY: "test-secret-key-for-ci-cd"
+        ENVIRONMENT: "test"
+      run: |
+        cd backend
+        pytest tests/ -v --tb=short --cov=. --cov-report=xml --cov-report=term
+    
+    - name: 📊 Upload coverage to Codecov
+      uses: codecov/codecov-action@v4
+      if: matrix.python-version == '3.12'
+      with:
+        file: ./backend/coverage.xml
+        flags: backend
+        name: backend-coverage
+        fail_ci_if_error: false
+    
+    - name: ✅ Test Summary
+      if: always()
+      run: |
+        cd backend
+        echo "## 🧪 Test Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        pytest tests/ -v --tb=no -q | tail -10 >> $GITHUB_STEP_SUMMARY || true
+
+  test-quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+    
+    - name: 🐍 Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+    
+    - name: 📦 Install dependencies
+      run: |
+        cd backend
+        pip install --upgrade pip
+        pip install flake8 pylint black isort
+    
+    - name: 🔍 Check code formatting (Black)
+      run: |
+        cd backend
+        black --check --diff . || echo "⚠️ Code needs formatting"
+      continue-on-error: true
+    
+    - name: 🔍 Check imports (isort)
+      run: |
+        cd backend
+        isort --check-only --diff . || echo "⚠️ Imports need sorting"
+      continue-on-error: true
+    
+    - name: 🔍 Lint with flake8
+      run: |
+        cd backend
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+      continue-on-error: true
+
+  status-check:
+    name: ✅ All Tests Passed
+    needs: [test-backend, test-quality]
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+    - name: 🎉 Success
+      if: needs.test-backend.result == 'success'
+      run: |
+        echo "✅ All tests passed successfully!"
+        echo "🎯 Coverage: Check Codecov report"
+        echo "🚀 Ready to deploy"
+    
+    - name: ❌ Failure
+      if: needs.test-backend.result != 'success'
+      run: |
+        echo "❌ Tests failed"
+        exit 1
