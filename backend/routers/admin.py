@@ -32,7 +32,10 @@ class DeleteBody(BaseModel):
 
 
 @router.get("/knowledge", response_model=SuccessResponse)
-async def list_knowledge():
+async def list_knowledge(
+    current_admin: User = Depends(get_current_admin)
+):
+    """Lista documentos da base de conhecimento (apenas admin)"""
     try:
         data = list_knowledge_docs()
         return SuccessResponse(data=data)
@@ -45,7 +48,11 @@ async def list_knowledge():
     response_model=SuccessResponse,
     responses={404: {"model": ErrorResponse}},
 )
-async def remove_doc(body: DeleteBody):
+async def remove_doc(
+    body: DeleteBody,
+    current_admin: User = Depends(get_current_admin)
+):
+    """Remove documento da base de conhecimento (apenas admin)"""
     try:
         data = remove_knowledge_doc(body.doc_id)
         return SuccessResponse(data=data)
@@ -56,7 +63,10 @@ async def remove_doc(body: DeleteBody):
 
 
 @router.post("/reset-vector-db", response_model=SuccessResponse)
-async def reset_db():
+async def reset_db(
+    current_admin: User = Depends(get_current_admin)
+):
+    """⚠️ PERIGOSO: Reseta todo o banco vetorial (apenas admin)"""
     try:
         data = reset_vector_db()
         return SuccessResponse(data=data)
@@ -69,9 +79,12 @@ async def reset_db():
 # ======================================================
 
 @router.get("/trails")
-async def list_admin_trails(db: Session = Depends(get_db)):
+async def list_admin_trails(
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Lista todas as trilhas disponíveis para administração
+    Lista todas as trilhas disponíveis para administração (apenas admin)
     """
     try:
         trails = db.query(Trail).all()
@@ -103,9 +116,13 @@ class CreateTrailBody(BaseModel):
 
 
 @router.post("/trails")
-async def create_trail(body: CreateTrailBody, db: Session = Depends(get_db)):
+async def create_trail(
+    body: CreateTrailBody,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Cria uma nova trilha
+    Cria uma nova trilha (apenas admin)
     """
     try:
         existing = db.query(Trail).filter(Trail.id == body.id).first()
@@ -140,9 +157,14 @@ class UploadTemplateBody(BaseModel):
 
 
 @router.post("/trails/{trail_id}/upload-template", response_model=SuccessResponse)
-async def upload_template(trail_id: str, body: UploadTemplateBody, db: Session = Depends(get_db)):
+async def upload_template(
+    trail_id: str,
+    body: UploadTemplateBody,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Recebe dados do Excel parseado e salva o schema da trilha
+    Recebe dados do Excel parseado e salva o schema da trilha (apenas admin)
     """
     try:
         # Verifica se trilha existe
@@ -187,10 +209,11 @@ async def upload_xlsx_template(
     trail_id: str,
     file: UploadFile = File(...),
     replace_existing: bool = True,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
 ):
     """
-    Faz upload de um arquivo Excel e gera schemas automaticamente.
+    Faz upload de um arquivo Excel e gera schemas automaticamente (apenas admin).
     Cada aba do Excel vira uma etapa (step) com seus campos.
     
     Args:
@@ -810,9 +833,11 @@ async def get_kb_stats():
 
 
 @router.get("/knowledge/documents")
-async def list_kb_documents():
+async def list_kb_documents(
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Lista todos os documentos indexados na base de conhecimento.
+    Lista todos os documentos indexados na base de conhecimento (apenas admin).
     """
     try:
         docs = get_indexed_documents()
@@ -909,9 +934,12 @@ async def upload_knowledge_document(
 
 
 @router.delete("/knowledge/documents/{document_id}")
-async def delete_kb_document(document_id: str):
+async def delete_kb_document(
+    document_id: str,
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Remove um documento da base de conhecimento.
+    Remove um documento da base de conhecimento (apenas admin).
     Remove tanto os chunks do ChromaDB quanto o arquivo físico.
     """
     try:
@@ -930,9 +958,12 @@ async def delete_kb_document(document_id: str):
 
 
 @router.post("/knowledge/reindex/{document_id}")
-async def reindex_kb_document(document_id: str):
+async def reindex_kb_document(
+    document_id: str,
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Reindexa um documento específico.
+    Reindexa um documento específico (apenas admin).
     Útil após atualizações no processador ou nos embeddings.
     """
     try:
@@ -957,10 +988,12 @@ async def reindex_kb_document(document_id: str):
 
 
 @router.post("/knowledge/reindex-all")
-async def reindex_all_documents():
+async def reindex_all_documents(
+    current_admin: User = Depends(get_current_admin)
+):
     """
-    Reindexa todos os documentos da base de conhecimento.
-    Operação pesada - use com cuidado.
+    ⚠️ OPERAÇÃO PESADA: Reindexa todos os documentos da base de conhecimento (apenas admin).
+    Use com cuidado - pode demorar vários minutos e consumir recursos.
     """
     try:
         from services.knowledge_service import reindex_all_documents
