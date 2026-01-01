@@ -651,7 +651,11 @@ def list_documents() -> List[Dict[str, Any]]:
                     data["id"] = filename.replace(".json", "")
                     data["legacy"] = True
                     legacy_docs.append(data)
-            except:
+            except (IOError, json.JSONDecodeError) as e:
+                logger.warning(f"Could not load legacy document {filename}: {e}")
+                continue
+            except Exception as e:
+                logger.error(f"Unexpected error loading {filename}: {e}", exc_info=True)
                 continue
     
     return indexed + legacy_docs

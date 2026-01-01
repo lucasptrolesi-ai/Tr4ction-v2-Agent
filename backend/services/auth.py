@@ -8,7 +8,7 @@ from passlib.context import CryptContext
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from pydantic import BaseModel
+from pydantic import BaseModel, validator
 import os
 import uuid
 import secrets
@@ -82,6 +82,46 @@ class UserCreate(BaseModel):
     name: str
     role: str = "founder"
     company_name: Optional[str] = None
+    
+    @validator('password')
+    def validate_password_strength(cls, v):
+        """
+        Valida força da senha segundo padrões de segurança.
+        
+        Requisitos:
+        - Mínimo 8 caracteres
+        - Pelo menos 1 letra maiúscula
+        - Pelo menos 1 letra minúscula
+        - Pelo menos 1 número
+        - Pelo menos 1 caractere especial
+        """
+        import re
+        
+        if len(v) < 8:
+            raise ValueError("Password must be at least 8 characters long")
+        
+        if not re.search(r'[A-Z]', v):
+            raise ValueError("Password must contain at least one uppercase letter")
+        
+        if not re.search(r'[a-z]', v):
+            raise ValueError("Password must contain at least one lowercase letter")
+        
+        if not re.search(r'[0-9]', v):
+            raise ValueError("Password must contain at least one digit")
+        
+        if not re.search(r'[!@#$%^&*(),.?":{}|<>_\-+=\[\]\\\/]', v):
+            raise ValueError("Password must contain at least one special character (!@#$%^&*...)")
+        
+        return v
+    
+    @validator('email')
+    def validate_email_format(cls, v):
+        """Valida formato de email"""
+        import re
+        email_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+        if not re.match(email_regex, v):
+            raise ValueError("Invalid email format")
+        return v.lower()
 
 
 class UserLogin(BaseModel):
@@ -98,8 +138,7 @@ class UserResponse(BaseModel):
     is_active: bool
     created_at: datetime
 
-    class Config:
-        from_attributes = True
+    model_config = {"from_attributes": True}
 
 
 # ======================================================

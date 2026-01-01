@@ -314,7 +314,8 @@ class RAGMetricsService:
                 for line in reversed(lines):
                     try:
                         queries.append(json.loads(line.strip()))
-                    except:
+                    except json.JSONDecodeError:
+                        # Ignora linhas com JSON inválido
                         continue
         except Exception as e:
             print(f"⚠️ Erro ao ler histórico: {e}")

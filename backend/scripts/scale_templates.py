@@ -364,7 +364,7 @@ class ExcelTemplateScaler:
         
         try:
             font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 16)
-        except:
+        except (OSError, IOError):
             font = ImageFont.load_default()
         
         draw.text((10, 10), sheet_name, fill='white', font=font)

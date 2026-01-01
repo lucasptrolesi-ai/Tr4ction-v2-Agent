@@ -348,8 +348,10 @@ class PNGExporter:
         try:
             # Tentar usar fonte padrão
             font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 24)
-        except:
+        except (OSError, IOError) as e:
+            # Fallback para fonte padrão se fonte customizada não disponível
             font = ImageFont.load_default()
+            logger.debug(f"Could not load custom font, using default: {e}")
         
         text = f"Template: {sheet_name}"
         bbox = draw.textbbox((0, 0), text, font=font)

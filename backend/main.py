@@ -92,11 +92,39 @@ def create_app():
     # ======================================================
     @app.exception_handler(Exception)
     async def global_exception_handler(request: Request, exc: Exception):
+        """
+        Tratador global de exceções com proteção de sensitive data.
+        
+        Em development: Mostra detalhes completos para debugging
+        Em production: Sanitiza erros para evitar information disclosure
+        """
+        import logging
+        logger = logging.getLogger(__name__)
+        
+        # Log completo para análise interna
+        logger.error(
+            f"Unhandled exception at {request.url.path}: {str(exc)}", 
+            exc_info=True,
+            extra={
+                "method": request.method,
+                "url": str(request.url),
+                "client_host": request.client.host if request.client else None
+            }
+        )
+        
+        # Resposta sanitizada baseada no ambiente
+        if DEBUG_MODE:
+            # Development: Mostra detalhes para debugging
+            detail = f"Error: {str(exc)}"
+        else:
+            # Production: Resposta genérica (evita information disclosure)
+            detail = "An internal error occurred. Please contact support if the issue persists."
+        
         return JSONResponse(
             status_code=500,
             content=ErrorResponse(
-                detail=f"Erro interno: {str(exc)}",
-                code="UNHANDLED_EXCEPTION",
+                detail=detail,
+                code="INTERNAL_ERROR",
             ).dict(),
         )
 
