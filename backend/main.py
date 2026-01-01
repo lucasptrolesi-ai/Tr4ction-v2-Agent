@@ -65,7 +65,9 @@ def create_app():
     
     # 4. CORS - Configurado via ENV com fallbacks
     cors_origins = get_cors_origins()
-    print(f"✅ [CORS] Origens permitidas: {cors_origins}")
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(f"CORS allowed origins: {cors_origins}")
     
     app.add_middleware(
         CORSMiddleware,

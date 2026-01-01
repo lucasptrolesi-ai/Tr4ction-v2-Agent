@@ -19,22 +19,33 @@ from db.models import User
 # ======================================================
 # Configurações JWT SEGURAS (via env)
 # ======================================================
+# Stable dev secret - safe to commit, only for local development
+_DEV_STABLE_SECRET = "tr4ction-dev-secret-DO-NOT-USE-IN-PRODUCTION-f8e3d2c1b0a9"
+
 def get_jwt_secret() -> str:
     """
     Obtém JWT secret de forma segura.
     Em produção, DEVE ser definido via variável de ambiente.
+    
+    Development: Uses stable secret (tokens persist across restarts)
+    Production: Requires strong secret, fails if not configured
     """
     secret = os.getenv("JWT_SECRET_KEY")
     
     if not secret or secret == "tr4ction-change-this-in-production-openssl-rand-hex-32":
-        # Desenvolvimento: avisa mas permite continuar
+        # Production: Fail fast with clear error
         if os.getenv("ENVIRONMENT") == "production":
             raise ValueError(
-                "❌ ERRO CRÍTICO: JWT_SECRET_KEY não configurado em produção! "
-                "Use: openssl rand -hex 32"
+                "❌ CRITICAL: JWT_SECRET_KEY not configured in production! "
+                "Generate with: openssl rand -hex 32"
             )
-        print("⚠️ [AUTH] Usando JWT secret padrão. Configure JWT_SECRET_KEY em produção!")
-        return "tr4ction-dev-secret-key-not-for-production-" + secrets.token_hex(16)
+        # Development: Use stable secret for better DX (tokens don't expire on restart)
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.warning(
+            "Using default dev JWT secret. Set JWT_SECRET_KEY in .env for production!"
+        )
+        return _DEV_STABLE_SECRET
     
     return secret
 

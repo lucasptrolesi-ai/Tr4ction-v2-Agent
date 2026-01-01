@@ -37,7 +37,6 @@ export default function ChatPage() {
     setLoading(true);
 
     try {
-      console.log(`Enviando para: ${backendBase}/chat/`);
       const response = await axios.post(
         `${backendBase}/chat/`,
         { question: trimmedInput },

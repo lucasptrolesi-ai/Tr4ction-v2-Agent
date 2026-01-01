@@ -6,8 +6,11 @@ Suporta indexação e busca semântica para RAG
 
 import os
 import chromadb
+import logging
 from typing import List, Tuple, Optional, Dict, Any
 from datetime import datetime
+
+logger = logging.getLogger(__name__)
 
 
 # ============================================================
@@ -40,7 +43,7 @@ def get_client():
                 # Modo local com persistência em disco
                 os.makedirs(CHROMA_PERSIST_PATH, exist_ok=True)
                 _client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
-                print(f"✅ [ChromaDB] Conectado (persistência local: {CHROMA_PERSIST_PATH})")
+                logger.info(f"ChromaDB connected (local persistence: {CHROMA_PERSIST_PATH})")
             else:
                 # Modo Docker/HTTP
                 _client = chromadb.HttpClient(
@@ -48,13 +51,13 @@ def get_client():
                     port=CHROMA_PORT
                 )
                 _client.heartbeat()
-                print(f"✅ [ChromaDB] Conectado via HTTP ({CHROMA_HOST}:{CHROMA_PORT})")
+                logger.info(f"ChromaDB connected via HTTP ({CHROMA_HOST}:{CHROMA_PORT})")
                 
         except Exception as e:
-            print(f"⚠️ [ChromaDB] Erro ao conectar: {e}")
+            logger.error(f"ChromaDB connection error: {e}")
             # Fallback para ephemeral (memória)
             _client = chromadb.Client()
-            print("⚠️ [ChromaDB] Usando modo ephemeral (sem persistência)")
+            logger.warning("Using ephemeral ChromaDB (no persistence)")
             
     return _client
 
@@ -65,16 +68,16 @@ def get_collection():
     if _collection is None:
         client = get_client()
         if client is None:
-            print("⚠️ [ChromaDB] Cliente não disponível")
+            logger.warning("ChromaDB client not available")
             return None
         try:
             _collection = client.get_or_create_collection(
                 name=COLLECTION_NAME,
                 metadata={"hnsw:space": "cosine"}
             )
-            print(f"✅ [ChromaDB] Collection '{COLLECTION_NAME}' pronta")
+            logger.info(f"ChromaDB collection '{COLLECTION_NAME}' ready")
         except Exception as e:
-            print(f"⚠️ [ChromaDB] Erro ao criar collection: {e}")
+            logger.error(f"Error creating collection: {e}")
             _collection = None
     return _collection
 
@@ -100,7 +103,7 @@ def add_document(
     """
     collection = get_collection()
     if collection is None:
-        print("⚠️ [ChromaDB] Collection não disponível")
+        logger.warning("ChromaDB collection not available")
         return False
     
     try:
@@ -123,7 +126,7 @@ def add_document(
         return True
         
     except Exception as e:
-        print(f"⚠️ [ChromaDB] Erro ao adicionar: {e}")
+        logger.error(f"ChromaDB add failed: {e}")
         return False
 
 
@@ -164,7 +167,7 @@ def add_documents_batch(
         return len(doc_ids)
         
     except Exception as e:
-        print(f"⚠️ [ChromaDB] Erro ao adicionar batch: {e}")
+        logger.error(f"ChromaDB batch add failed: {e}")
         return 0
 
 
@@ -223,7 +226,7 @@ def search_similar(
         return formatted
         
     except Exception as e:
-        print(f"⚠️ [ChromaDB] Erro ao buscar: {e}")
+        logger.error(f"ChromaDB search failed: {e}")
         return []
 
 
@@ -261,7 +264,7 @@ def delete_document(doc_id: str) -> bool:
         collection.delete(ids=[doc_id])
         return True
     except Exception as e:
-        print(f"⚠️ [ChromaDB] Erro ao deletar: {e}")
+        logger.error(f"ChromaDB delete failed: {e}")
         return False
 
 
@@ -284,7 +287,7 @@ def delete_by_metadata(where_filter: Dict) -> int:
         collection.delete(where=where_filter)
         return -1  # Indica que algo foi deletado mas não sabemos quantos
     except Exception as e:
-        print(f"⚠️ [ChromaDB] Erro ao deletar por filtro: {e}")
+        logger.error(f"ChromaDB delete by filter failed: {e}")
         return 0
 
 

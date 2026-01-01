@@ -1,5 +1,9 @@
 import os
+import logging
 from dotenv import load_dotenv
+
+# Setup logger for config module
+logger = logging.getLogger(__name__)
 
 # =============================================================================
 # 🔹 DETECTA SE ESTAMOS EM MODO DE TESTE (PYTEST)
@@ -20,10 +24,10 @@ ENV_PATH = os.path.join(BASE_DIR, ".env")
 # Carrega o .env do backend
 if os.path.exists(ENV_PATH):
     load_dotenv(ENV_PATH)
-    print(f"🔍 [CONFIG] .env carregado de: {ENV_PATH}")
+    logger.info(f".env loaded from: {ENV_PATH}")
 else:
-    print(f"⚠️ [CONFIG] .env NÃO encontrado em: {ENV_PATH}")
-    print("⚠️ Backend iniciado com variáveis de ambiente do sistema.")
+    logger.warning(f".env not found at: {ENV_PATH}")
+    logger.warning("Backend started with system environment variables")
 
 # =============================================================================
 # 🔹 FUNÇÃO SEGURA PARA CAPTURAR VARIÁVEIS DO .env
@@ -79,10 +83,10 @@ elif OPENAI_API_KEY:
 else:
     LLM_PROVIDER = "offline"
     ACTIVE_MODEL = "mock"
-    print("⚠️ [CONFIG] Nenhuma API KEY encontrada. Rodando em modo OFFLINE (mock).")
+    logger.warning("No API KEY found. Running in OFFLINE mode (mock)")
 
-print(f"🤖 [CONFIG] Provider ativo: {LLM_PROVIDER}")
-print(f"📦 [CONFIG] Modelo ativo: {ACTIVE_MODEL}")
+logger.info(f"Active LLM provider: {LLM_PROVIDER}")
+logger.info(f"Active model: {ACTIVE_MODEL}")
 
 # =============================================================================
 # 🔹 MODO OFFLINE REFORÇADO (usado em produção sem API Key e no Docker)
@@ -91,11 +95,11 @@ print(f"📦 [CONFIG] Modelo ativo: {ACTIVE_MODEL}")
 IS_OFFLINE = (LLM_PROVIDER == "offline")
 
 if IS_TEST_MODE:
-    print("🧪 [CONFIG] Modo TESTE ativado — APIs externas desativadas.")
+    logger.info("TEST mode activated - external APIs disabled")
 elif IS_OFFLINE:
-    print("🛑 [CONFIG] Modo OFFLINE — nenhuma API externa será usada.")
+    logger.info("OFFLINE mode - no external APIs will be used")
 else:
-    print(f"🟢 [CONFIG] Modo ONLINE usando provider: {LLM_PROVIDER}")
+    logger.info(f"ONLINE mode using provider: {LLM_PROVIDER}")
 
 # =============================================================================
 # 🔹 CONFIGURAÇÕES GERAIS DO APP

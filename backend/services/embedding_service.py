@@ -12,7 +12,10 @@ import os
 import sys
 import time
 import requests
+import logging
 from typing import List, Optional
+
+logger = logging.getLogger(__name__)
 
 # Garante que .env seja carregado antes de ler variáveis
 from dotenv import load_dotenv
@@ -72,7 +75,7 @@ def _embed_via_huggingface(texts: List[str]) -> List[List[float]]:
     - Latência de rede (~200-500ms por request)
     """
     if not HF_API_TOKEN:
-        print("⚠️ [EMBEDDING] HF_API_TOKEN não configurado!")
+        logger.warning("HF_API_TOKEN not configured - using fallback embeddings")
         return [[0.1] * EMBEDDING_DIMENSION for _ in texts]
     
     headers = {
@@ -111,29 +114,29 @@ def _embed_via_huggingface(texts: List[str]) -> List[List[float]]:
                 
             elif response.status_code == 503:
                 # Modelo carregando
-                print(f"⏳ [EMBEDDING] Modelo carregando no HF... tentativa {attempt + 1}/{MAX_RETRIES}")
+                logger.info(f"Model loading on HF... attempt {attempt + 1}/{MAX_RETRIES}")
                 time.sleep(RETRY_DELAY * (attempt + 1))
                 continue
                 
             elif response.status_code == 429:
                 # Rate limit
-                print(f"⚠️ [EMBEDDING] Rate limit HF. Aguardando...")
+                logger.warning("HF rate limit hit. Waiting...")
                 time.sleep(RETRY_DELAY * 5)
                 continue
                 
             else:
-                print(f"❌ [EMBEDDING] Erro HF API: {response.status_code} - {response.text[:200]}")
+                logger.error(f"HF API error: {response.status_code} - {response.text[:200]}")
                 
         except requests.exceptions.Timeout:
-            print(f"⏱️ [EMBEDDING] Timeout na requisição HF (tentativa {attempt + 1})")
+            logger.warning(f"HF request timeout (attempt {attempt + 1})")
             time.sleep(RETRY_DELAY)
             
         except requests.exceptions.RequestException as e:
-            print(f"❌ [EMBEDDING] Erro de conexão HF: {e}")
+            logger.error(f"HF connection error: {e}")
             time.sleep(RETRY_DELAY)
     
     # Fallback após todas as tentativas
-    print("⚠️ [EMBEDDING] Usando fallback após falhas no HF")
+    logger.warning("Using fallback embeddings after HF failures")
     return [[0.1] * EMBEDDING_DIMENSION for _ in texts]
 
 
@@ -152,14 +155,14 @@ def _get_local_model():
     if _local_model is None:
         try:
             from sentence_transformers import SentenceTransformer
-            print(f">>> [EMBEDDING] Carregando modelo local {_local_model_name}...")
+            logger.info(f"Loading local embedding model: {_local_model_name}")
             _local_model = SentenceTransformer(_local_model_name)
-            print(f">>> [EMBEDDING] Modelo local carregado!")
+            logger.info("Local embedding model loaded successfully")
         except ImportError:
-            print("❌ [EMBEDDING] sentence-transformers não instalado")
+            logger.error("sentence-transformers not installed")
             return None
         except Exception as e:
-            print(f"❌ [EMBEDDING] Erro ao carregar modelo local: {e}")
+            logger.error(f"Failed to load local model: {e}")
             return None
     
     return _local_model
@@ -181,7 +184,7 @@ def _embed_via_local(texts: List[str]) -> List[List[float]]:
         embeddings = model.encode(texts, convert_to_numpy=True, show_progress_bar=False)
         return [emb.tolist() for emb in embeddings]
     except Exception as e:
-        print(f"❌ [EMBEDDING] Erro no modelo local: {e}")
+        logger.error(f"Local embedding model error: {e}")
         return [[0.1] * EMBEDDING_DIMENSION for _ in texts]
 
 
@@ -239,15 +242,15 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
     
     # Escolhe provider
     if EMBEDDING_PROVIDER == "huggingface":
-        print(f"🌐 [EMBEDDING] Usando Hugging Face API ({len(texts)} textos)")
+        logger.debug(f"Using Hugging Face API ({len(texts)} texts)")
         return _embed_via_huggingface(clean_texts)
     
     elif EMBEDDING_PROVIDER == "local":
-        print(f"🖥️ [EMBEDDING] Usando modelo local ({len(texts)} textos)")
+        logger.debug(f"Using local model ({len(texts)} texts)")
         return _embed_via_local(clean_texts)
     
     else:
-        print(f"⚠️ [EMBEDDING] Provider desconhecido: {EMBEDDING_PROVIDER}. Usando huggingface.")
+        logger.warning(f"Unknown EMBEDDING_PROVIDER: {EMBEDDING_PROVIDER}. Defaulting to huggingface")
         return _embed_via_huggingface(clean_texts)
 
 
@@ -302,9 +305,9 @@ def test_embedding_service() -> dict:
 # ===================================================================
 
 if not IS_TEST_MODE:
-    print(f"🧠 [EMBEDDING] Provider configurado: {EMBEDDING_PROVIDER.upper()}")
+    logger.info(f"Embedding provider configured: {EMBEDDING_PROVIDER.upper()}")
     if EMBEDDING_PROVIDER == "huggingface":
         if HF_API_TOKEN:
-            print(f"✅ [EMBEDDING] HF Token configurado (modelo: {HF_EMBEDDING_MODEL})")
+            logger.info(f"HF Token configured (model: {HF_EMBEDDING_MODEL})")
         else:
-            print("⚠️ [EMBEDDING] HF Token NÃO configurado! Adicione HF_API_TOKEN no .env")
+            logger.warning("HF Token NOT configured! Add HF_API_TOKEN to .env")

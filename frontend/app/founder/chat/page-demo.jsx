@@ -27,7 +27,6 @@ export default function FounderDashboard() {
     setLoading(true);
 
     try {
-      console.log(`Enviando para: ${backendBase}/chat/`);
       const res = await axios.post(
         `${backendBase}/chat/`,
         { question },

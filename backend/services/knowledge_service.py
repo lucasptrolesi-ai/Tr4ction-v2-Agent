@@ -8,9 +8,12 @@ import os
 import shutil
 import uuid
 import json
+import logging
 from typing import List, Dict, Optional, Tuple, Any
 from datetime import datetime
 from dataclasses import dataclass, asdict
+
+logger = logging.getLogger(__name__)
 
 from services.document_processor import (
     process_document,
@@ -102,7 +105,7 @@ def _save_documents_index(index: Dict[str, Dict]):
         with open(DOCUMENTS_INDEX_FILE, "w", encoding="utf-8") as f:
             json.dump(index, f, ensure_ascii=False, indent=2)
     except Exception as e:
-        print(f"⚠️ Erro ao salvar índice: {e}")
+        logger.warning(f"Failed to save documents index: {e}")
 
 
 def _register_document(doc: KnowledgeDocument):
@@ -240,7 +243,7 @@ def index_document(
     try:
         shutil.copy2(file_path, permanent_path)
     except Exception as e:
-        print(f"⚠️ Aviso: Não foi possível salvar arquivo permanente: {e}")
+        logger.warning(f"Could not save permanent file: {e}")
         permanent_path = ""
     
     # 6. Registra documento com metadata corporativa
@@ -520,7 +523,7 @@ def reindex_document(document_id: str) -> IndexingResult:
     try:
         delete_by_metadata("document_id", document_id)
     except Exception as e:
-        print(f"⚠️ Erro ao remover chunks antigos: {e}")
+        logger.warning(f"Failed to remove old chunks during reindex: {e}")
     
     # 4. Reindexa com metadados preservados
     result = index_document(

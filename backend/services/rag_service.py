@@ -5,8 +5,11 @@ Integra busca semântica filtrada por contexto do founder com geração controla
 """
 
 import os
+import logging
 from typing import List, Dict, Optional
 from services.llm_client import generate_answer
+
+logger = logging.getLogger(__name__)
 
 # Detecção de modo de teste
 IS_TEST_MODE = (
@@ -50,7 +53,7 @@ def retrieve_context(
         return results
         
     except Exception as e:
-        print(f"[RAG] Erro ao buscar contexto: {e}")
+        logger.error(f"Error retrieving context: {e}")
         return []
 
 
@@ -252,7 +255,7 @@ def _record_metrics(
         )
     except Exception as e:
         # Não falha se métricas falharem
-        print(f"⚠️ Erro ao registrar métricas: {e}")
+        logger.warning(f"Failed to save RAG metrics: {e}")
 
 
 def answer_with_context(
