@@ -8,7 +8,7 @@ from passlib.context import CryptContext
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, field_validator
 import os
 import uuid
 import secrets
@@ -83,8 +83,9 @@ class UserCreate(BaseModel):
     role: str = "founder"
     company_name: Optional[str] = None
     
-    @validator('password')
-    def validate_password_strength(cls, v):
+    @field_validator('password')
+    @classmethod
+    def validate_password_strength(cls, v: str) -> str:
         """
         Valida força da senha segundo padrões de segurança.
         
@@ -114,8 +115,9 @@ class UserCreate(BaseModel):
         
         return v
     
-    @validator('email')
-    def validate_email_format(cls, v):
+    @field_validator('email')
+    @classmethod
+    def validate_email_format(cls, v: str) -> str:
         """Valida formato de email"""
         import re
         email_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'

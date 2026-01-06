@@ -128,7 +128,7 @@ class TestFrontendConsoleRemoval:
         )
         
         if os.path.exists(chat_page):
-            with open(chat_page, "r") as f:
+            with open(chat_page, "r", encoding="utf-8") as f:
                 content = f.read()
                 # Verifica linha 40 específica mencionada na evidência
                 lines = content.split("\n")
@@ -144,7 +144,7 @@ class TestFrontendConsoleRemoval:
         )
         
         if os.path.exists(founder_chat):
-            with open(founder_chat, "r") as f:
+            with open(founder_chat, "r", encoding="utf-8") as f:
                 content = f.read()
                 lines = content.split("\n")
                 if len(lines) >= 32:
@@ -159,7 +159,7 @@ class TestFrontendConsoleRemoval:
         )
         
         if os.path.exists(demo_page):
-            with open(demo_page, "r") as f:
+            with open(demo_page, "r", encoding="utf-8") as f:
                 content = f.read()
                 lines = content.split("\n")
                 if len(lines) >= 30:

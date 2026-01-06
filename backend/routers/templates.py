@@ -31,8 +31,8 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
-from core.security import get_current_user_required, Role
-from core.models import User
+from services.auth import get_current_user_required
+from db.models import User
 from services.template_manager import TemplateManager, TemplateDataService
 
 logger = logging.getLogger(__name__)
@@ -86,9 +86,11 @@ class TemplateSavedDataResponse(BaseModel):
 
 class TemplateResponse(BaseModel):
     """Combined template schema + saved data."""
-    schema: TemplateSchemaResponse
+    template_schema: TemplateSchemaResponse = Field(..., alias="schema")
     saved_data: Optional[TemplateSavedDataResponse] = None
     versions: list[TemplateSavedDataResponse] = []
+    
+    model_config = {"populate_by_name": True}
 
 
 class TemplateDataRequest(BaseModel):
@@ -142,7 +144,7 @@ class AIMentorPayload(BaseModel):
 
 def get_current_founder(user: User = Depends(get_current_user_required)) -> User:
     """Ensure user is founder or admin."""
-    if user.role not in [Role.FOUNDER, Role.ADMIN]:
+    if user.role not in ["founder", "admin"]:
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Only founders can access templates"

@@ -14,6 +14,19 @@ from db.models import Trail, StepSchema, User, UserProgress, StepAnswer
 from db.database import get_db
 from routers.admin import router
 from core.models import SuccessResponse
+from services.auth import get_current_admin, get_current_user_required
+
+
+@pytest.fixture
+def mock_admin_user():
+    """Mock de usuário admin para testes"""
+    user = Mock(spec=User)
+    user.id = "admin-001"
+    user.email = "admin@test.com"
+    user.name = "Admin User"
+    user.role = "admin"
+    user.is_active = True
+    return user
 
 
 @pytest.fixture
@@ -33,13 +46,17 @@ def mock_db():
 
 
 @pytest.fixture
-def app(mock_db):
+def app(mock_db, mock_admin_user):
     """Cria app FastAPI com router admin"""
     app = FastAPI()
     app.include_router(router)
     
     # Override get_db dependency
     app.dependency_overrides[get_db] = lambda: mock_db
+    
+    # Override auth dependencies para bypass da autenticação
+    app.dependency_overrides[get_current_admin] = lambda: mock_admin_user
+    app.dependency_overrides[get_current_user_required] = lambda: mock_admin_user
     
     return app
 
