@@ -31,6 +31,8 @@ import json
 import logging
 from pathlib import Path
 
+from backend.enterprise.governance.models import GovernanceGate
+
 logger = logging.getLogger(__name__)
 
 
@@ -86,6 +88,36 @@ class GovernanceViolation:
             "template_key": self.template_key,
             "current_value": self.current_value,
             "suggestion": self.suggestion,
+            "timestamp": self.timestamp.isoformat(),
+        }
+
+
+@dataclass
+class GovernanceGateResult:
+    """Resultado da avaliação de um gate declarativo."""
+
+    gate_id: str
+    gate_version: int
+    template_id: str
+    vertical: Optional[str]
+    passed: bool
+    violations: List[GovernanceViolation] = field(default_factory=list)
+    min_completeness_score: Optional[int] = None
+    completeness_score: Optional[float] = None
+    block_on_fail: bool = False
+    timestamp: datetime = field(default_factory=datetime.utcnow)
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "gate_id": self.gate_id,
+            "gate_version": self.gate_version,
+            "template_id": self.template_id,
+            "vertical": self.vertical,
+            "passed": self.passed,
+            "violations": [v.to_dict() for v in self.violations],
+            "min_completeness_score": self.min_completeness_score,
+            "completeness_score": self.completeness_score,
+            "block_on_fail": self.block_on_fail,
             "timestamp": self.timestamp.isoformat(),
         }
 
@@ -194,6 +226,98 @@ class GovernanceEngine:
                     violations.append(violation)
         
         return violations
+
+    def evaluate_gate(
+        self,
+        gate: GovernanceGate,
+        template_key: str,
+        data: Dict[str, Any],
+        previous_data: Optional[Dict[str, Any]] = None,
+    ) -> GovernanceGateResult:
+        """Avalia um gate declarativo contra dados atuais."""
+
+        violations: List[GovernanceViolation] = []
+
+        # required_fields
+        for field_name in gate.required_fields or []:
+            value = data.get(field_name)
+            if value in (None, "") or (isinstance(value, list) and len(value) == 0):
+                violations.append(
+                    GovernanceViolation(
+                        field=field_name,
+                        rule_type="required",
+                        message=f"Campo obrigatório ausente: {field_name}",
+                        risk_level=RiskLevel.HIGH,
+                        template_key=template_key,
+                        current_value=value,
+                        suggestion=f"Preencha '{field_name}' para avançar.",
+                    )
+                )
+
+        # validation_rules (lightweight checks)
+        for rule in gate.validation_rules or []:
+            rule_field = rule.get("field")
+            rule_type = rule.get("type")
+            message = rule.get("message", "Regra de governança não atendida")
+            risk_level = RiskLevel(rule.get("risk_level", "medium"))
+            value = data.get(rule_field) if rule_field else None
+
+            if rule_type == "min_length" and isinstance(value, str):
+                min_len = int(rule.get("min_length", 0))
+                if len(value) < min_len:
+                    violations.append(
+                        GovernanceViolation(
+                            field=rule_field or "*",
+                            rule_type="min_length",
+                            message=message,
+                            risk_level=risk_level,
+                            template_key=template_key,
+                            current_value=value,
+                            suggestion=f"Forneça pelo menos {min_len} caracteres",
+                        )
+                    )
+
+            if rule_type == "pattern" and isinstance(value, str) and rule.get("pattern"):
+                import re
+
+                if re.match(rule["pattern"], value, re.IGNORECASE):
+                    violations.append(
+                        GovernanceViolation(
+                            field=rule_field or "*",
+                            rule_type="pattern",
+                            message=message,
+                            risk_level=risk_level,
+                            template_key=template_key,
+                            current_value=value,
+                            suggestion=rule.get("suggestion"),
+                        )
+                    )
+
+        completeness_score = self._compute_completeness_score(data)
+        passed = len(violations) == 0 and (
+            gate.min_completeness_score is None
+            or completeness_score >= (gate.min_completeness_score or 0)
+        )
+
+        return GovernanceGateResult(
+            gate_id=gate.id,
+            gate_version=gate.version,
+            template_id=gate.template_id,
+            vertical=gate.vertical,
+            passed=passed,
+            violations=violations,
+            min_completeness_score=gate.min_completeness_score,
+            completeness_score=completeness_score,
+            block_on_fail=bool(gate.block_on_fail),
+        )
+
+    @staticmethod
+    def _compute_completeness_score(data: Dict[str, Any]) -> float:
+        if not data:
+            return 0.0
+        filled = sum(1 for v in data.values() if v not in (None, "", [], {}))
+        total = len(data)
+        return round((filled / total) * 100, 2) if total > 0 else 0.0
     
     def _check_required(
         self,

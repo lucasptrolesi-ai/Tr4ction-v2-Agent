@@ -5,17 +5,33 @@ Enterprise Configuration & Feature Flags
 Sistema central de controle para todos os subsistemas enterprise.
 Nada é executado sem estar aqui habilitado.
 
-IMPORTANTE:
+IMPORTANTE - FAIL-SAFE DESIGN:
 - Por padrão, TODOS os features estão DESLIGADOS (False)
 - Podem ser ativados via:
   1. Variáveis de ambiente
   2. Arquivo .env.enterprise
-  3. Runtime flags (debug apenas)
+  
+SEGURANÇA OPERACIONAL:
+- Nenhuma flag é ligada implicitamente
+- Sistema continua funcional com flags OFF
+- Observabilidade não bloqueia fluxos
+- Cognitive signals sempre opcionais
 
 Exemplo .env.enterprise:
   ENTERPRISE_DECISION_LEDGER=true
   ENTERPRISE_METHOD_GOVERNANCE=true
   ENTERPRISE_RISK_ENGINE=false
+  
+FLAGS OBSERVACIONAIS (sem bloqueio):
+  - decision_ledger: Registra decisões (append-only)
+  - risk_engine: Detecta riscos (informativo)
+  - ai_audit: Audita interações com IA
+  - cognitive_signals: Sinais de UX cognitiva
+  
+FLAGS DE ENFORCEMENT (bloqueio - usar com cautela):
+  - enable_governance_gates: Bloqueia se gate não passar
+  - enable_risk_blocking: Bloqueia em risco alto/crítico
+  - enable_premises_enforcement: Bloqueia sem premissas
 """
 
 import os
@@ -28,7 +44,23 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class EnterpriseFeatureFlags:
-    """Container imutável de feature flags."""
+    """
+    Container imutável de feature flags.
+    
+    OBSERVACIONAL (sem bloqueio):
+    - decision_ledger: Registra decisões em append-only log
+    - method_governance: Valida contra gates declarativos
+    - risk_engine: Detecta e sinaliza riscos
+    - ai_audit: Audita interações com IA
+    - cognitive_signals: Emite sinais de UX cognitiva
+    
+    ENFORCEMENT (bloqueio - usar com cautela):
+    - enable_premises_enforcement: Bloqueia sem premissas
+    - enable_governance_gates: Bloqueia se gate não passar
+    - enable_risk_blocking: Bloqueia em risco alto/crítico
+    
+    FAIL-SAFE: Sistema funciona normalmente com todos flags=False
+    """
     
     decision_ledger: bool = False
     method_governance: bool = False
@@ -38,6 +70,10 @@ class EnterpriseFeatureFlags:
     ai_audit: bool = False
     cognitive_signals: bool = False
     verticalization: bool = False
+    multi_vertical: bool = False  # Phase 4: Partner & Vertical support
+    enable_premises_enforcement: bool = False
+    enable_governance_gates: bool = False
+    enable_risk_blocking: bool = False
     
     def to_dict(self) -> Dict[str, bool]:
         """Converte para dict para logging."""
@@ -50,6 +86,10 @@ class EnterpriseFeatureFlags:
             "ai_audit": self.ai_audit,
             "cognitive_signals": self.cognitive_signals,
             "verticalization": self.verticalization,
+            "multi_vertical": self.multi_vertical,
+            "enable_premises_enforcement": self.enable_premises_enforcement,
+            "enable_governance_gates": self.enable_governance_gates,
+            "enable_risk_blocking": self.enable_risk_blocking,
         }
     
     def is_any_enabled(self) -> bool:
@@ -81,6 +121,10 @@ def get_enterprise_config() -> EnterpriseFeatureFlags:
         "ai_audit": False,
         "cognitive_signals": False,
         "verticalization": False,
+        "multi_vertical": False,
+        "enable_premises_enforcement": False,
+        "enable_governance_gates": False,
+        "enable_risk_blocking": False,
     }
     
     # 2. Lê arquivo .env.enterprise se existir
@@ -115,6 +159,10 @@ def get_enterprise_config() -> EnterpriseFeatureFlags:
         "ENTERPRISE_AI_AUDIT": "ai_audit",
         "ENTERPRISE_COGNITIVE_SIGNALS": "cognitive_signals",
         "ENTERPRISE_VERTICALIZATION": "verticalization",
+        "ENTERPRISE_MULTI_VERTICAL": "multi_vertical",
+        "ENABLE_PREMISES_ENFORCEMENT": "enable_premises_enforcement",
+        "ENABLE_GOVERNANCE_GATES": "enable_governance_gates",
+        "ENABLE_RISK_BLOCKING": "enable_risk_blocking",
     }
     
     for env_key, feature_key in env_overrides.items():

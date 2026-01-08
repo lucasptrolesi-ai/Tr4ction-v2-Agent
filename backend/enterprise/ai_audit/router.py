@@ -56,10 +56,16 @@ async def get_audit_trail(
                 "id": log.id,
                 "event_type": log.event_type,
                 "model": log.model,
+                "model_version": log.model_version,
+                "response_id": log.response_id,
+                "prompt_hash": getattr(log, "prompt_hash", None) or log.system_prompt_hash,
+                "prompt_version": getattr(log, "prompt_version", None) or log.system_prompt_version,
                 "success": log.success == 1,
                 "latency_ms": log.latency_ms,
                 "tokens_used": log.tokens_used,
                 "template_key": log.template_key,
+                "governance_rules_active": getattr(log, "governance_rules_active", None),
+                "context_snapshot": getattr(log, "context_snapshot", None),
                 "created_at": log.created_at.isoformat(),
             }
             for log in logs

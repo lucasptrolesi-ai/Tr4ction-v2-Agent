@@ -49,13 +49,17 @@ class RedFlag:
         "frequent_changes",
         "missing_alignment",
         "inconsistent_strategy",
-        "data_quality"
+        "data_quality",
+        "assumption_gap",
+        "market_mismatch",
     ]
     severity: RiskClassification
     message: str
     field: Optional[str] = None
     evidence: Optional[Dict[str, Any]] = None
     suggestion: Optional[str] = None
+    violated_dependencies: Optional[List[str]] = None
+    recommendation: Optional[str] = None
     
     def to_dict(self) -> Dict[str, Any]:
         """Serializa para API."""
@@ -66,6 +70,8 @@ class RedFlag:
             "field": self.field,
             "evidence": self.evidence,
             "suggestion": self.suggestion,
+            "violated_dependencies": self.violated_dependencies,
+            "recommendation": self.recommendation,
         }
 
 
@@ -157,9 +163,9 @@ class RiskDetectionEngine:
             flag = RedFlag(
                 flag_type="generic_response",
                 severity=RiskClassification.MEDIUM if generic_score < 4 else RiskClassification.HIGH,
-                message=f"Resposta muito genérica (score: {generic_score:.1f})",
+                message="Resposta precisa de mais detalhes",
                 field=field_key,
-                suggestion="Seja mais específico. Use exemplos concretos de seu negócio.",
+                suggestion="Adicione exemplos concretos do seu contexto",
             )
             assessment.red_flags.append(flag)
             assessment.data_quality *= 0.7
@@ -169,9 +175,9 @@ class RiskDetectionEngine:
             flag = RedFlag(
                 flag_type="data_quality",
                 severity=RiskClassification.MEDIUM,
-                message=f"Resposta muito breve ({len(value)} caracteres)",
+                message="Resposta muito curta",
                 field=field_key,
-                suggestion="Forneça mais contexto e detalhes.",
+                suggestion="Expanda com mais contexto",
             )
             assessment.red_flags.append(flag)
             assessment.data_quality *= 0.6
@@ -196,6 +202,7 @@ class RiskDetectionEngine:
         data: Dict[str, Any],
         previous_versions: Optional[List[Dict[str, Any]]] = None,
         related_templates: Optional[Dict[str, Dict]] = None,
+        premises: Optional[Dict[str, Any]] = None,
     ) -> RiskAssessment:
         """
         Avalia risco completo de um template preenchido.
@@ -231,13 +238,18 @@ class RiskDetectionEngine:
                 flag = RedFlag(
                     flag_type="frequent_changes",
                     severity=RiskClassification.MEDIUM,
-                    message="Founder mudou respostas múltiplas vezes em pouco tempo",
+                    message="Revisões múltiplas detectadas",
                     evidence={"recent_changes": change_count},
-                    suggestion="Isso sugere indecisão. Recomenda-se sessão de coaching com mentor.",
+                    suggestion="Considere validar sua estratégia antes de avançar",
                 )
                 assessment.red_flags.append(flag)
+
+        # 3. Incoerências com premissas ativas
+        if premises:
+            premise_flags = self._check_premises_alignment(template_key, data, premises)
+            assessment.red_flags.extend(premise_flags)
         
-        # 3. Calcula scores finais
+        # 4. Calcula scores finais
         assessment.data_quality = max(0.1, assessment.data_quality)
         assessment.coherence_score = max(0.1, assessment.coherence_score)
         assessment.trust_score = (
@@ -301,11 +313,56 @@ class RiskDetectionEngine:
                     flags.append(RedFlag(
                         flag_type="coherence_violation",
                         severity=RiskClassification.HIGH,
-                        message="Incoerência: ICP 'large' não alinha com Persona 'freelancer'",
+                        message="ICP e Persona não estão alinhados",
                         evidence={"icp_size": value, "persona_occupation": occupation},
-                        suggestion="Revise sua estratégia de ICP ou a definição de persona",
+                        suggestion="Revise para garantir coerência estratégica",
                     ))
         
+        return flags
+
+    def _check_premises_alignment(
+        self,
+        template_key: str,
+        data: Dict[str, Any],
+        premises: Dict[str, Any],
+    ) -> List[RedFlag]:
+        """Detecta gaps entre decisão atual e premissas ativas."""
+        flags: List[RedFlag] = []
+        assumptions = premises.get("assumptions", []) if premises else []
+        constraints = premises.get("constraints", []) if premises else []
+
+        if not assumptions and not constraints:
+            return flags
+
+        # Assumption gap: premissas existem mas decisão não referencia nada relacionado
+        filled_fields = [k for k, v in data.items() if v not in (None, "", [], {})]
+        if assumptions and len(filled_fields) < max(1, int(len(data) * 0.3)):
+            flags.append(
+                RedFlag(
+                    flag_type="assumption_gap",
+                    severity=RiskClassification.MEDIUM,
+                    message="Premissas pouco refletidas na entrega",
+                    evidence={"filled_fields": filled_fields, "assumptions": assumptions},
+                    violated_dependencies=["premises.assumptions"],
+                    recommendation="Revisite premissas declaradas e incorpore-as",
+                )
+            )
+
+        # Market mismatch: se constraint menciona B2B mas campos indicam B2C (heurística simples)
+        constraint_text = " ".join(constraints).lower()
+        answer_text = " ".join(str(v) for v in data.values() if isinstance(v, str)).lower()
+        if "b2b" in constraint_text and "b2c" in answer_text:
+            flags.append(
+                RedFlag(
+                    flag_type="market_mismatch",
+                    severity=RiskClassification.HIGH,
+                    message="Foco de mercado diverge das restrições",
+                    evidence={"constraints": constraints, "answer": answer_text[:120]},
+                    violated_dependencies=["premises.constraints"],
+                    recommendation="Alinhe ICP ao modelo B2B declarado",
+                )
+            )
+
         return flags
     
     def _compute_overall_risk(self, assessment: RiskAssessment) -> RiskAssessment:

@@ -21,7 +21,7 @@ IMPORTANTE:
 
 from datetime import datetime
 from typing import Dict, Any, Optional, List
-from sqlalchemy import Column, String, Integer, JSON, DateTime, Text, Index
+from sqlalchemy import Column, String, Integer, JSON, DateTime, Text, Index, Boolean
 from sqlalchemy.orm import Session
 import uuid
 import logging
@@ -62,14 +62,22 @@ class DecisionEvent(Base):
     
     # Contexto metodológico
     fcj_method_version = Column(String(50), default="v1.0")  # Versão do método
+    method_version = Column(String(50), nullable=True)  # Alias compatível
     cycle = Column(String(50), nullable=True)  # Q1, Q2, etc.
+    vertical = Column(String(100), nullable=True)
     
     # Premissas e justificativa
     reasoning = Column(Text, nullable=True)  # Por quê foi decidido
     source = Column(String(50), default="founder")  # founder, ai_mentor, import, admin
+    premises_used = Column(JSON, nullable=True)
+    ai_recommendation = Column(Text, nullable=True)
+    risk_level = Column(String(50), nullable=True)
+    human_confirmation = Column(Boolean, nullable=True)
     
     # Contexto relacionado (snapshot)
     related_template_snapshot = Column(JSON, nullable=True)  # Dados de templates relacionados
+    governance_result = Column(JSON, nullable=True)
+    risk_result = Column(JSON, nullable=True)
     
     # Timestamp (imutável)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
@@ -84,6 +92,7 @@ class DecisionEvent(Base):
         Index('idx_decision_startup_template', 'startup_id', 'template_key'),
         Index('idx_decision_user_timestamp', 'user_id', 'created_at'),
         Index('idx_decision_created_at', 'created_at'),
+        Index('idx_decision_risk', 'risk_level'),
     )
     
     def to_dict(self) -> Dict[str, Any]:
@@ -102,11 +111,19 @@ class DecisionEvent(Base):
             "reasoning": self.reasoning,
             "source": self.source,
             "fcj_method_version": self.fcj_method_version,
+            "method_version": self.method_version or self.fcj_method_version,
             "cycle": self.cycle,
+            "vertical": self.vertical,
             "created_at": self.created_at.isoformat() if self.created_at else None,
             "expected_outcome": self.expected_outcome,
             "actual_outcome": self.actual_outcome,
             "outcome_success": self.outcome_success,
+            "premises_used": self.premises_used,
+            "ai_recommendation": self.ai_recommendation,
+            "risk_level": self.risk_level,
+            "human_confirmation": self.human_confirmation,
+            "governance_result": self.governance_result,
+            "risk_result": self.risk_result,
         }
 
 
@@ -131,8 +148,16 @@ class DecisionLedgerService:
         source: str = "founder",
         step_id: Optional[str] = None,
         fcj_method_version: str = "v1.0",
+        method_version: Optional[str] = None,
         cycle: Optional[str] = None,
         related_template_snapshot: Optional[Dict] = None,
+        vertical: Optional[str] = None,
+        premises_used: Optional[List[Dict[str, Any]]] = None,
+        ai_recommendation: Optional[str] = None,
+        risk_level: Optional[str] = None,
+        human_confirmation: Optional[bool] = None,
+        governance_result: Optional[Dict[str, Any]] = None,
+        risk_result: Optional[Dict[str, Any]] = None,
     ) -> Optional[DecisionEvent]:
         """
         Registra uma decisão no ledger.
@@ -180,8 +205,16 @@ class DecisionLedgerService:
                 source=source,
                 step_id=step_id,
                 fcj_method_version=fcj_method_version,
+                method_version=method_version or fcj_method_version,
                 cycle=cycle,
                 related_template_snapshot=related_template_snapshot,
+                vertical=vertical,
+                premises_used=premises_used,
+                ai_recommendation=ai_recommendation,
+                risk_level=risk_level,
+                human_confirmation=human_confirmation,
+                governance_result=governance_result,
+                risk_result=risk_result,
             )
             
             # 3. Persiste (append-only)
@@ -204,6 +237,9 @@ class DecisionLedgerService:
         startup_id: str,
         template_key: Optional[str] = None,
         user_id: Optional[str] = None,
+        risk_level: Optional[str] = None,
+        method_version: Optional[str] = None,
+        vertical: Optional[str] = None,
         limit: int = 100,
     ) -> List[DecisionEvent]:
         """
@@ -231,6 +267,15 @@ class DecisionLedgerService:
         
         if user_id:
             query = query.filter(DecisionEvent.user_id == user_id)
+
+        if risk_level:
+            query = query.filter(DecisionEvent.risk_level == risk_level)
+
+        if method_version:
+            query = query.filter(DecisionEvent.method_version == method_version)
+
+        if vertical:
+            query = query.filter(DecisionEvent.vertical == vertical)
         
         return query.order_by(DecisionEvent.created_at.desc()).limit(limit).all()
     

@@ -8,6 +8,7 @@ from .generator import (
     CognitiveSignalGenerator,
     SignalType,
 )
+from .formatter import CognitiveUXFormatter
 from .router import router
 
 __all__ = [
@@ -15,5 +16,6 @@ __all__ = [
     "CognitiveSignalSet",
     "CognitiveSignalGenerator",
     "SignalType",
+    "CognitiveUXFormatter",
     "router",
 ]

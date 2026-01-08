@@ -5,6 +5,10 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import ChatWidget from "@/components/ChatWidget";
 import DynamicField from "@/components/DynamicField";
 import ProgressBar, { FieldsProgress } from "@/components/ProgressBar";
+import RiskBadge from "@/components/RiskBadge";
+import StrategicAlert from "@/components/StrategicAlert";
+import DependencyHint from "@/components/DependencyHint";
+import LearningTooltip from "@/components/LearningTooltip";
 import { 
   Lock, Save, CheckCircle, Download, WifiOff, 
   ArrowLeft, ArrowRight, AlertTriangle 
@@ -27,6 +31,7 @@ export default function FounderTemplateStepPage() {
   const [showValidation, setShowValidation] = useState(false);
   const [allSteps, setAllSteps] = useState([]);
   const [chatContext, setChatContext] = useState("");
+  const [cognitiveSignals, setCognitiveSignals] = useState(null);
 
   // Calcular progresso
   const progress = useMemo(() => {
@@ -88,6 +93,7 @@ export default function FounderTemplateStepPage() {
     try {
       setLoading(true);
       setOffline(false);
+      setCognitiveSignals(null);
       
       // Carregar lista de steps da trilha
       try {
@@ -128,8 +134,10 @@ export default function FounderTemplateStepPage() {
       try {
         const progressData = await apiGet(`/founder/trails/${trailId}/steps/${stepId}/progress`);
         if (progressData) {
-          setFormData(progressData.formData || {});
-          setIsLocked(progressData.isLocked || false);
+          const payload = progressData.data || progressData;
+          setFormData(payload.formData || {});
+          setIsLocked(payload.isLocked || false);
+          setCognitiveSignals(payload.cognitive_signals || null);
         }
       } catch {
         setFormData({});
@@ -157,7 +165,11 @@ export default function FounderTemplateStepPage() {
         return true;
       }
       
-      await apiPost(`/founder/trails/${trailId}/steps/${stepId}/progress`, { formData });
+      const res = await apiPost(`/founder/trails/${trailId}/steps/${stepId}/progress`, { formData });
+      const payload = res?.data || res;
+      if (payload?.cognitive_signals) {
+        setCognitiveSignals(payload.cognitive_signals);
+      }
       setLastSaved(new Date().toLocaleTimeString());
       
       return true;
@@ -388,9 +400,9 @@ export default function FounderTemplateStepPage() {
 
       {/* Form Content */}
       <div style={{ 
-        maxWidth: "800px", 
+        maxWidth: "720px", 
         margin: "0 auto", 
-        padding: "40px 32px"
+        padding: "28px 20px"
       }}>
         {/* Aviso de validação */}
         {showValidation && !validation.isValid && (
@@ -413,6 +425,30 @@ export default function FounderTemplateStepPage() {
                 {validation.errors.map(e => e.label).join(", ")}
               </div>
             </div>
+          </div>
+        )}
+
+        {/* Cognitive signals (optional, mobile-first) */}
+        {cognitiveSignals && (
+          <div
+            className="card"
+            style={{
+              marginBottom: "20px",
+              display: "flex",
+              flexDirection: "column",
+              gap: "12px",
+              padding: "16px",
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+              <RiskBadge level={cognitiveSignals.risk_level} />
+              <StrategicAlert text={cognitiveSignals.strategic_alert} />
+            </div>
+            <DependencyHint items={cognitiveSignals.violated_dependencies} />
+            <LearningTooltip
+              text={cognitiveSignals.learning_feedback}
+              label="Como melhorar a resposta"
+            />
           </div>
         )}
 

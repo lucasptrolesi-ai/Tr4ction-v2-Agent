@@ -1,9 +1,10 @@
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import FileResponse, StreamingResponse
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, Dict, Any, Tuple
 from sqlalchemy.orm import Session
 from datetime import datetime
+import logging
 import os
 
 from core.models import SuccessResponse
@@ -12,8 +13,16 @@ from db.models import Trail, StepSchema, StepAnswer, UserProgress
 from services.xlsx_exporter import generate_xlsx
 from services.auth import get_current_user_id, get_current_user, get_current_founder
 from db.models import User
+from backend.enterprise.config import get_or_create_enterprise_config
+from backend.enterprise.client_premises import ClientPremiseService
+from backend.enterprise.governance.engine import GovernanceEngine
+from backend.enterprise.governance.models import GovernanceGateService
+from backend.enterprise.risk_engine.detector import RiskDetectionEngine
+from backend.enterprise.risk_engine.models import RiskSignalService
+from backend.enterprise.cognitive_signals import CognitiveUXFormatter
 
 router = APIRouter(prefix="/founder")
+logger = logging.getLogger(__name__)
 
 
 def get_default_trails():
@@ -76,6 +85,113 @@ def seed_default_data(db: Session):
             db.add(step)
     
     db.commit()
+
+
+def compute_cognitive_signals(
+    *,
+    template_key: str,
+    data: Dict[str, Any],
+    db: Session,
+    previous_data: Optional[Dict[str, Any]] = None,
+    startup_id: Optional[str] = None,
+    partner_id: Optional[str] = None,
+    vertical_id: Optional[str] = None,
+) -> Tuple[Optional[Dict[str, Any]], Optional[Dict[str, Any]]]:
+    """
+    Compute cognitive_signals payload from risk/governance without blocking.
+    
+    Phase 4: Now supports partner/vertical context for language tone.
+    """
+    config = get_or_create_enterprise_config()
+    
+    # Build execution context (Phase 4)
+    language_tone = "consultative"  # Default
+    if config.multi_vertical:
+        try:
+            from backend.enterprise.multi_vertical.context import ContextBuilder
+            builder = ContextBuilder(db)
+            context = builder.build(
+                startup_id=startup_id or template_key,
+                user_id=startup_id or template_key,
+                template_key=template_key,
+                partner_id=partner_id,
+                vertical_id=vertical_id,
+            )
+            language_tone = context.language_tone
+        except Exception as ctx_exc:
+            logger.debug("Context builder unavailable, using defaults: %s", ctx_exc)
+    
+    premise_service = ClientPremiseService(db)
+    premises_result = premise_service.ensure_premise_or_fallback(startup_id or template_key)
+    premises_payload = premises_result.get("premises") if premises_result else None
+
+    governance_results = []
+    risk_result_dict: Optional[Dict[str, Any]] = None
+
+    try:
+        if config.method_governance or config.enable_governance_gates:
+            gate_service = GovernanceGateService(db)
+            gate = gate_service.latest_gate(template_key, vertical=None)
+            if gate:
+                gate_result = GovernanceEngine().evaluate_gate(
+                    gate,
+                    template_key=template_key,
+                    data=data,
+                    previous_data=previous_data,
+                )
+                governance_results.append(gate_result.to_dict())
+    except Exception as exc:
+        logger.warning("Governance signal skipped for %s: %s", template_key, exc)
+
+    try:
+        if config.risk_engine or config.enable_risk_blocking:
+            risk_engine = RiskDetectionEngine()
+            assessment = risk_engine.assess_template_response(
+                template_key=template_key,
+                data=data,
+                previous_versions=[previous_data] if previous_data else None,
+                related_templates=None,
+                premises=premises_payload,
+            )
+            risk_result_dict = assessment.to_dict()
+
+            # Persist observational signal
+            try:
+                RiskSignalService(db).record_signal(
+                    client_id=startup_id or template_key,
+                    template_key=template_key,
+                    risk_type="overall",
+                    severity=risk_result_dict.get("overall_risk", "low"),
+                    evidence=[f for f in risk_result_dict.get("red_flags", [])],
+                    violated_dependencies=[
+                        dep
+                        for flag in risk_result_dict.get("red_flags", [])
+                        for dep in (flag.get("violated_dependencies") or [])
+                        if isinstance(flag, dict)
+                    ],
+                    recommendation="Revise itens com risco alto/crítico antes de avançar.",
+                    related_decisions=None,
+                )
+            except Exception as signal_exc:
+                logger.debug("Risk signal persistence skipped: %s", signal_exc)
+    except Exception as exc:
+        logger.warning("Risk signal skipped for %s: %s", template_key, exc)
+
+    formatter = CognitiveUXFormatter()
+    cognitive_signals = formatter.build(
+        risk_result=risk_result_dict,
+        governance_results=governance_results,
+        blocking_enabled=config.enable_risk_blocking,
+        language_tone=language_tone,  # Phase 4: Apply partner-specific tone
+    )
+    
+    # Phase 4: Add partner/vertical context to response
+    if partner_id or vertical_id:
+        cognitive_signals = cognitive_signals or {}
+        cognitive_signals["partner_id"] = partner_id
+        cognitive_signals["vertical_id"] = vertical_id
+
+    return cognitive_signals, risk_result_dict
 
 
 @router.get("/trails")
@@ -187,12 +303,25 @@ async def get_step_progress(trail_id: str, step_id: str, db: Session = Depends(g
             StepAnswer.trail_id == trail_id,
             StepAnswer.step_id == step_id
         ).first()
+
+        cognitive_signals = None
+        try:
+            cognitive_signals, _ = compute_cognitive_signals(
+                template_key=step_id,
+                data=answer.answers if answer else {},
+                previous_data=None,
+                db=db,
+                startup_id=user_id,
+            )
+        except Exception as signal_exc:
+            logger.debug("Cognitive signals unavailable for %s/%s: %s", trail_id, step_id, signal_exc)
         
         return {
             "trail_id": trail_id,
             "step_id": step_id,
             "isLocked": progress.is_locked if progress else False,
-            "formData": answer.answers if answer else {}
+            "formData": answer.answers if answer else {},
+            "cognitive_signals": cognitive_signals,
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -215,6 +344,7 @@ async def save_step_progress(trail_id: str, step_id: str, body: SaveProgressBody
             StepAnswer.trail_id == trail_id,
             StepAnswer.step_id == step_id
         ).first()
+        previous_answers = answer.answers if answer else None
         
         if answer:
             answer.answers = body.formData
@@ -253,11 +383,26 @@ async def save_step_progress(trail_id: str, step_id: str, body: SaveProgressBody
             db.add(progress)
         
         db.commit()
+
+        cognitive_signals = None
+        risk_result = None
+        try:
+            cognitive_signals, risk_result = compute_cognitive_signals(
+                template_key=step_id,
+                data=body.formData,
+                previous_data=previous_answers,
+                db=db,
+                startup_id=user_id,
+            )
+        except Exception as signal_exc:
+            logger.debug("Cognitive signals generation skipped for %s/%s: %s", trail_id, step_id, signal_exc)
         
         return SuccessResponse(data={
             "trail_id": trail_id,
             "step_id": step_id,
             "saved": True,
+            "cognitive_signals": cognitive_signals,
+            "risk_result": risk_result,
             "progress": calc_progress,
             "timestamp": datetime.utcnow().isoformat()
         })

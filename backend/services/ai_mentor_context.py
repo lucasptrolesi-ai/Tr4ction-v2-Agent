@@ -15,7 +15,7 @@ Features:
 
 import json
 import logging
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Callable
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -356,9 +356,13 @@ class AIMentorPayloadBuilder:
         self,
         context_builder: Optional[AIMentorContextBuilder] = None,
         prompt_generator: Optional[AIMentorPromptGenerator] = None,
+        premises_resolver: Optional[Callable[[str], Dict[str, Any]]] = None,
+        audit_logger: Optional[Callable[[Dict[str, Any]], None]] = None,
     ):
         self.context_builder = context_builder or AIMentorContextBuilder()
         self.prompt_generator = prompt_generator or AIMentorPromptGenerator()
+        self.premises_resolver = premises_resolver
+        self.audit_logger = audit_logger
 
     def build_payload(
         self,
@@ -368,6 +372,8 @@ class AIMentorPayloadBuilder:
         current_field: Optional[str] = None,
         startup_id: Optional[str] = None,
         related_templates: Optional[Dict[str, Dict[str, Any]]] = None,
+        client_premises: Optional[Dict[str, Any]] = None,
+        premises_status: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Build complete AI mentor payload."""
         # Validate coherence if we have related templates
@@ -381,6 +387,41 @@ class AIMentorPayloadBuilder:
         system_prompt = self.prompt_generator.generate_system_prompt(
             template_key, current_field
         )
+
+        # Resolve premises (active or fallback) with audit warning if missing
+        premises_payload = client_premises
+        resolved_status = premises_status
+        if not premises_payload and self.premises_resolver and startup_id:
+            try:
+                resolved = self.premises_resolver(startup_id)
+                premises_payload = resolved.get("premises") if isinstance(resolved, dict) else None
+                resolved_status = resolved.get("status") if isinstance(resolved, dict) else None
+            except Exception as exc:
+                logger.warning(f"Could not resolve premises for {startup_id}: {exc}")
+
+        if not premises_payload:
+            premises_payload = {
+                "client_id": startup_id,
+                "assumptions": [],
+                "constraints": [],
+                "objectives": [],
+                "status": "fallback",
+                "created_at": datetime.utcnow().isoformat(),
+            }
+            resolved_status = resolved_status or "fallback"
+            if self.audit_logger:
+                self.audit_logger(
+                    {
+                        "event_type": "premise_warning",
+                        "detail": "Premissas ausentes - usando fallback seguro",
+                        "client_id": startup_id,
+                        "template_key": template_key,
+                    }
+                )
+            else:
+                logger.warning("Premissas ausentes - usando fallback seguro para contexto de IA")
+        else:
+            resolved_status = resolved_status or premises_payload.get("status", "active")
 
         # Build field info
         fields_info = [
@@ -411,6 +452,8 @@ class AIMentorPayloadBuilder:
             "coherence_issues": coherence_issues,
             "related_templates": related_templates or {},
             "timestamp": datetime.utcnow().isoformat(),
+            "client_premises": premises_payload,
+            "premises_status": resolved_status,
         }
 
 

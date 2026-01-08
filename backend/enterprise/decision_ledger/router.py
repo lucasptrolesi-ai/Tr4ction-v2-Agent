@@ -30,6 +30,7 @@ class DecisionEventResponse(BaseModel):
     """Response model para DecisionEvent."""
     id: str
     user_email: str
+    user_id: Optional[str] = None
     template_key: str
     field_key: str
     field_label: Optional[str]
@@ -42,6 +43,12 @@ class DecisionEventResponse(BaseModel):
     expected_outcome: Optional[str]
     actual_outcome: Optional[str]
     outcome_success: Optional[int]
+    premises_used: Optional[list]
+    ai_recommendation: Optional[str]
+    risk_level: Optional[str]
+    human_confirmation: Optional[bool]
+    method_version: Optional[str]
+    vertical: Optional[str]
 
 
 @router.get(
@@ -53,6 +60,9 @@ class DecisionEventResponse(BaseModel):
 async def get_decision_history(
     startup_id: str,
     template_key: Optional[str] = Query(None),
+    risk_level: Optional[str] = Query(None),
+    method_version: Optional[str] = Query(None),
+    vertical: Optional[str] = Query(None),
     limit: int = Query(100, le=1000),
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user_required),
@@ -77,11 +87,20 @@ async def get_decision_history(
         raise HTTPException(status_code=403, detail="Não autorizado")
     
     service = DecisionLedgerService(db)
-    events = service.get_decision_history(startup_id, template_key, limit=limit)
+    events = service.get_decision_history(
+        startup_id,
+        template_key,
+        user_id=None,
+        risk_level=risk_level,
+        method_version=method_version,
+        vertical=vertical,
+        limit=limit,
+    )
     
     return [DecisionEventResponse(
         id=e.id,
         user_email=e.user_email,
+        user_id=e.user_id,
         template_key=e.template_key,
         field_key=e.field_key,
         field_label=e.field_label,
@@ -94,6 +113,12 @@ async def get_decision_history(
         expected_outcome=e.expected_outcome,
         actual_outcome=e.actual_outcome,
         outcome_success=e.outcome_success,
+        premises_used=e.premises_used,
+        ai_recommendation=e.ai_recommendation,
+        risk_level=e.risk_level,
+        human_confirmation=e.human_confirmation,
+        method_version=e.method_version,
+        vertical=e.vertical,
     ) for e in events]
 
 
@@ -125,6 +150,7 @@ async def get_field_history(
     return [DecisionEventResponse(
         id=e.id,
         user_email=e.user_email,
+        user_id=e.user_id,
         template_key=e.template_key,
         field_key=e.field_key,
         field_label=e.field_label,
@@ -137,6 +163,12 @@ async def get_field_history(
         expected_outcome=e.expected_outcome,
         actual_outcome=e.actual_outcome,
         outcome_success=e.outcome_success,
+        premises_used=e.premises_used,
+        ai_recommendation=e.ai_recommendation,
+        risk_level=e.risk_level,
+        human_confirmation=e.human_confirmation,
+        method_version=e.method_version,
+        vertical=e.vertical,
     ) for e in events]
 
 

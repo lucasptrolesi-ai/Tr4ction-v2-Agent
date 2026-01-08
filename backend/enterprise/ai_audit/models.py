@@ -24,7 +24,7 @@ Por quê? Compliance + Auditabilidade:
 
 from datetime import datetime
 from typing import Dict, Any, Optional
-from sqlalchemy import Column, String, JSON, DateTime, Text, Index
+from sqlalchemy import Column, String, JSON, DateTime, Text, Index, Integer
 from sqlalchemy.orm import Session
 import uuid
 import logging
@@ -48,6 +48,7 @@ class AIAuditLog(Base):
     user_id = Column(String(100), nullable=False, index=True)
     startup_id = Column(String(100), nullable=False, index=True)
     template_key = Column(String(255), nullable=True)
+    response_id = Column(String(100), nullable=True, index=True)
     
     # O que aconteceu
     event_type = Column(String(50), nullable=False)  # mentor_response, risk_assessment, etc
@@ -55,18 +56,22 @@ class AIAuditLog(Base):
     # Prompt + Model
     model = Column(String(50), nullable=False)  # gpt-4, gpt-3.5, etc
     model_version = Column(String(50), nullable=True)  # versão exata
+    prompt_hash = Column(String(100), nullable=True)
+    prompt_version = Column(String(50), nullable=True)
     system_prompt_hash = Column(String(100), nullable=True)  # SHA256 do prompt
     system_prompt_version = Column(String(50), nullable=True)  # "v1.0", "v1.1", etc
     
     # Input/Output
     input_tokens = Column(JSON, nullable=True)  # Contexto enviado para IA
     tokens_used = Column(JSON, nullable=True)  # {prompt_tokens: 123, completion_tokens: 456}
-    response_length = Column(int, nullable=True)  # Tamanho da resposta
+    response_length = Column(Integer, nullable=True)  # Tamanho da resposta
     latency_ms = Column(int, nullable=True)  # Tempo de resposta
+    context_snapshot = Column(JSON, nullable=True)
     
     # Rastreamento de regras/validações
     rules_version = Column(String(50), nullable=True)  # Versão das regras de governança
     validation_rules_applied = Column(JSON, nullable=True)  # Quais regras foram checadas
+    governance_rules_active = Column(JSON, nullable=True)
     
     # Status
     success = Column(int, default=1)  # 1=sucesso, 0=erro
@@ -95,6 +100,9 @@ class AIAuditService:
         startup_id: str,
         event_type: str,
         model: str,
+        response_id: Optional[str] = None,
+        prompt_hash: Optional[str] = None,
+        prompt_version: Optional[str] = None,
         system_prompt_hash: Optional[str] = None,
         system_prompt_version: Optional[str] = None,
         input_tokens: Optional[Dict[str, Any]] = None,
@@ -103,10 +111,12 @@ class AIAuditService:
         latency_ms: Optional[int] = None,
         rules_version: Optional[str] = None,
         validation_rules_applied: Optional[list] = None,
+        governance_rules_active: Optional[list] = None,
         success: int = 1,
         error_message: Optional[str] = None,
         template_key: Optional[str] = None,
         model_version: Optional[str] = None,
+        context_snapshot: Optional[Dict[str, Any]] = None,
     ) -> Optional[AIAuditLog]:
         """
         Registra um evento de IA.
@@ -118,6 +128,9 @@ class AIAuditService:
             startup_id: ID da startup
             event_type: Tipo de evento (mentor_response, risk_assessment, etc)
             model: Nome do modelo (gpt-4, gpt-3.5, etc)
+            response_id: ID da resposta gerada
+            prompt_hash: Hash do prompt utilizado (SHA256 ou similar)
+            prompt_version: Versão do prompt utilizada
             system_prompt_hash: SHA256 do prompt utilizado
             system_prompt_version: Versão do prompt (v1.0, v1.1, etc)
             input_tokens: Contexto enviado para a IA (JSON)
@@ -126,10 +139,12 @@ class AIAuditService:
             latency_ms: Tempo de resposta em ms
             rules_version: Versão das regras de governança
             validation_rules_applied: Lista de regras que foram aplicadas
+            governance_rules_active: Lista de regras ativas no momento
             success: 1=sucesso, 0=erro
             error_message: Mensagem de erro se aplicável
             template_key: Template relacionado (opcional)
             model_version: Versão específica do modelo
+            context_snapshot: Contexto enviado (incluindo premissas)
         
         Returns:
             AIAuditLog criado ou None se houver erro
@@ -142,6 +157,9 @@ class AIAuditService:
                 event_type=event_type,
                 model=model,
                 model_version=model_version,
+                response_id=response_id,
+                prompt_hash=prompt_hash,
+                prompt_version=prompt_version,
                 system_prompt_hash=system_prompt_hash,
                 system_prompt_version=system_prompt_version,
                 input_tokens=input_tokens,
@@ -150,9 +168,11 @@ class AIAuditService:
                 latency_ms=latency_ms,
                 rules_version=rules_version,
                 validation_rules_applied=validation_rules_applied,
+                governance_rules_active=governance_rules_active,
                 success=success,
                 error_message=error_message,
                 template_key=template_key,
+                context_snapshot=context_snapshot,
             )
             
             self.db.add(log)

@@ -40,7 +40,7 @@ function MetricCard({ title, value, subtitle, icon: Icon, color, trend }) {
         <div style={{ 
           marginTop: "12px", 
           fontSize: "0.8rem",
-          color: trend > 0 ? "#10b981" : "#ef4444",
+          color: trend > 0 ? "#5EEAD4" : "#9CA3AF",
           display: "flex",
           alignItems: "center",
           gap: "4px"
@@ -59,9 +59,9 @@ function FounderRow({ founder, trails, onUnlock, onDownload }) {
 
   const getRiskBadge = (risk) => {
     const colors = {
-      low: { bg: "#dcfce7", text: "#166534", label: "Baixo" },
-      medium: { bg: "#fef3c7", text: "#92400e", label: "Médio" },
-      high: { bg: "#fee2e2", text: "#991b1b", label: "Alto" }
+      low: { bg: "#E0F7F5", text: "#14B8A6", label: "Baixo" },
+      medium: { bg: "#F3F4F6", text: "#6B7280", label: "Médio" },
+      high: { bg: "#E5E7EB", text: "#4B5563", label: "Alto" }
     };
     const style = colors[risk] || colors.low;
     return (
@@ -83,14 +83,14 @@ function FounderRow({ founder, trails, onUnlock, onDownload }) {
       <div style={{
         flex: 1,
         height: "6px",
-        background: "#e5e7eb",
+        background: "#F3F4F6",
         borderRadius: "3px",
         overflow: "hidden"
       }}>
         <div style={{
           height: "100%",
           width: `${progress}%`,
-          background: progress >= 75 ? "#10b981" : progress >= 50 ? "#f59e0b" : "#3b82f6",
+          background: progress >= 75 ? "#5EEAD4" : progress >= 50 ? "#7DD3C0" : "#9CA3AF",
           borderRadius: "3px"
         }} />
       </div>
@@ -179,7 +179,7 @@ function FounderRow({ founder, trails, onUnlock, onDownload }) {
                           Desbloquear
                         </button>
                       ) : step.completed ? (
-                        <CheckCircle size={16} style={{ color: "#10b981" }} />
+                        <CheckCircle size={16} style={{ color: "#5EEAD4" }} />
                       ) : null}
                     </div>
                     {getProgressBar(step.progress || 0)}
@@ -441,14 +441,14 @@ export default function AdminDashboard() {
           value={stats.totalFounders}
           subtitle="cadastrados no sistema"
           icon={Users}
-          color="#3b82f6"
+          color="#5EEAD4"
         />
         <MetricCard
           title="Founders Ativos"
           value={stats.activeFounders}
           subtitle="com progresso > 0%"
           icon={Activity}
-          color="#10b981"
+          color="#5EEAD4"
           trend={12}
         />
         <MetricCard
@@ -456,14 +456,14 @@ export default function AdminDashboard() {
           value={`${stats.avgProgress}%`}
           subtitle="em todas as trilhas"
           icon={BarChart3}
-          color="var(--primary)"
+          color="#5EEAD4"
         />
         <MetricCard
           title="Em Risco"
           value={stats.atRiskCount}
           subtitle="founders precisando atenção"
           icon={AlertTriangle}
-          color="#ef4444"
+          color="#9CA3AF"
         />
       </div>
 
