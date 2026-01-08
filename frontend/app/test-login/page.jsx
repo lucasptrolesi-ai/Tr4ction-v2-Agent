@@ -8,12 +8,14 @@ export default function TestLogin() {
   const [result, setResult] = useState('');
   const [loading, setLoading] = useState(false);
 
+  const API_BASE = process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_API_BASE_URL || 'http://127.0.0.1:8000';
+
   const handleLogin = async () => {
     setLoading(true);
     setResult('⏳ Tentando login...');
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/auth/login', {
+      const response = await fetch(`${API_BASE}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
