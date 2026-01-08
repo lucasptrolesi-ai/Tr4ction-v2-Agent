@@ -10,15 +10,13 @@ services:
   # ===========================================
   nginx:
     image: nginx:alpine
-    container_name: tr4ction_nginx
-    restart: unless-stopped
+    restart: always
     ports:
       - "80:80"
       - "443:443"
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - certbot_conf:/etc/letsencrypt:ro
-      - certbot_www:/var/www/certbot:ro
+      - ./nginx/nginx-dev.conf:/etc/nginx/nginx.conf:ro
+      - nginx_logs:/var/log/nginx
     depends_on:
       - backend
     networks:
@@ -29,7 +27,7 @@ services:
   # ===========================================
   certbot:
     image: certbot/certbot
-    container_name: tr4ction_certbot
+    restart: always
     volumes:
       - certbot_conf:/etc/letsencrypt
       - certbot_www:/var/www/certbot
@@ -40,8 +38,7 @@ services:
   # ===========================================
   chroma:
     image: chromadb/chroma:latest
-    container_name: tr4ction_chroma
-    restart: unless-stopped
+    restart: always
     # Porta interna apenas - não exposta para internet
     expose:
       - "8000"
@@ -62,26 +59,20 @@ services:
       context: ./backend
       dockerfile: Dockerfile
       target: ${BUILD_TARGET:-production}
-    container_name: tr4ction_backend
-    restart: unless-stopped
+    restart: always
     env_file:
       - backend/.env
     environment:
-      # ChromaDB Connection
-      - CHROMA_HOST=chroma
-      - CHROMA_PORT=8000
-      # Override para usar volumes Docker
-      - DATABASE_URL=sqlite:///./data/tr4ction.db
-      - CHROMA_DB_DIR=/app/data/chroma_db
-      # Segurança já vem do .env
-      - ENVIRONMENT=${ENVIRONMENT:-production}
+      CHROMA_HOST: chroma
+      CHROMA_PORT: 8000
+      DATA_DIR: /app/data
+      TEMPLATES_IMAGES_DIR: /app/data/templates_images
     # Porta interna apenas - Nginx faz o proxy
     expose:
       - "8000"
     volumes:
-      # Volumes persistentes
+      # Volume único para todos os dados
       - backend_data:/app/data
-      - backend_uploads:/app/data/uploads
       - backend_logs:/app/logs
     depends_on:
       - chroma
@@ -99,27 +90,28 @@ services:
 # ===========================================
 volumes:
   chroma_data:
+    external: true
     name: tr4ction_chroma_data
-    driver: local
   backend_data:
+    external: true
     name: tr4ction_backend_data
-    driver: local
-  backend_uploads:
-    name: tr4ction_uploads
-    driver: local
   backend_logs:
-    name: tr4ction_logs
-    driver: local
+    external: true
+    name: tr4ction_backend_logs
+  nginx_logs:
+    external: true
+    name: tr4ction_nginx_logs
   certbot_conf:
+    external: true
     name: tr4ction_certbot_conf
-    driver: local
   certbot_www:
+    external: true
     name: tr4ction_certbot_www
 # ===========================================
 #   Network
 # ===========================================
 networks:
   tr4ction_net:
+    external: true
     name: tr4ction_network
-    driver: bridge
 

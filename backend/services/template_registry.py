@@ -17,6 +17,10 @@ from sqlalchemy.orm import Session
 
 from db.models import TemplateDefinition
 
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import TEMPLATES_IMAGES_DIR
+
 logger = logging.getLogger(__name__)
 
 
@@ -26,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).parent.parent
 TEMPLATES_GENERATED_DIR = BASE_DIR / "templates" / "generated"
-TEMPLATES_IMAGES_DIR = BASE_DIR.parent / "frontend" / "public" / "templates"
+# TEMPLATES_IMAGES_DIR vem do config.py (configurável via env)
 
 
 # ============================================================
@@ -247,7 +251,7 @@ class TemplateRegistry:
                     "template_key": template_key,
                     "sheet_name": schema.get("sheet_name", template_key),
                     "schema_path": str(json_file.relative_to(BASE_DIR)),
-                    "image_path": f"frontend/public/templates/{cycle}/{template_key}.png",
+                    "image_path": f"templates_images/{cycle}/{template_key}.png",
                     "status": "active",
                     "field_count": len(schema.get("fields", [])),
                 })
@@ -273,7 +277,7 @@ class TemplateRegistry:
                 "template_key": template_key,
                 "sheet_name": schema.get("sheet_name", template_key),
                 "schema_path": str(schema_path.relative_to(BASE_DIR)),
-                "image_path": f"frontend/public/templates/{cycle}/{template_key}.png",
+                "image_path": f"templates_images/{cycle}/{template_key}.png",
                 "status": "active",
                 "field_count": len(schema.get("fields", [])),
                 "schema": schema

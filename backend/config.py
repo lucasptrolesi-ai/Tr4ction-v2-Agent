@@ -109,7 +109,21 @@ APP_NAME = "TR4CTION Agent Backend"
 APP_VERSION = "2.0.0"
 DEBUG_MODE = get_env("DEBUG_MODE", "false").lower() == "true"
 
+# =============================================================================
+# 🔹 DIRETÓRIOS DE TEMPLATES (CONFIGURÁVEL)
+# =============================================================================
+
+from pathlib import Path
+
+DATA_DIR = Path(get_env("DATA_DIR", os.path.join(BASE_DIR, "data")))
+TEMPLATES_IMAGES_DIR = Path(get_env("TEMPLATES_IMAGES_DIR", os.path.join(DATA_DIR, "templates_images")))
+
+# Garantir que existem
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+TEMPLATES_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+
 print(f"🔧 [CONFIG] Debug: {DEBUG_MODE}")
 print(f"📁 [CONFIG] Diretório de conhecimento: {KNOWLEDGE_DIR}")
 print(f"📁 [CONFIG] Diretório de uploads: {UPLOADS_DIR}")
 print(f"📁 [CONFIG] Diretório do ChromaDB: {CHROMA_DB_DIR}")
+print(f"📁 [CONFIG] Diretório de templates images: {TEMPLATES_IMAGES_DIR}")

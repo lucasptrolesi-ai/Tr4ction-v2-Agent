@@ -44,6 +44,13 @@ def get_cors_origins() -> List[str]:
     
     # Parse customizado
     origins = [origin.strip() for origin in origins_str.split(",") if origin.strip()]
+    
+    # Adiciona localhost:3001 se não estiver presente
+    if "http://localhost:3001" not in origins:
+        origins.append("http://localhost:3001")
+    if "http://127.0.0.1:3001" not in origins:
+        origins.append("http://127.0.0.1:3001")
+    
     return origins if origins else ["*"]
 
 

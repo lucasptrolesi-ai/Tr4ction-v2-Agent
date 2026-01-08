@@ -43,10 +43,12 @@ WORKDIR /app
 # Copia código da aplicação
 COPY . .
 
-# Cria diretórios necessários
+# Cria diretórios necessários (dentro de /app/data)
 RUN mkdir -p /app/data/knowledge \
              /app/data/uploads \
              /app/data/chroma_db \
+             /app/data/templates_source \
+             /app/data/templates_images \
              /app/logs
 
 # Cria usuário não-root para segurança

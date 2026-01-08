@@ -24,6 +24,10 @@ from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 from PIL import Image, ImageDraw, ImageFont
 
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import DATA_DIR, TEMPLATES_IMAGES_DIR
+
 logger = logging.getLogger(__name__)
 
 
@@ -32,14 +36,14 @@ logger = logging.getLogger(__name__)
 # ============================================================
 
 BASE_DIR = Path(__file__).parent.parent
-TEMPLATES_SOURCE_DIR = BASE_DIR / "data" / "templates_source"
+TEMPLATES_SOURCE_DIR = DATA_DIR / "templates_source"
 TEMPLATES_GENERATED_DIR = BASE_DIR / "templates" / "generated"
-TEMPLATES_IMAGES_DIR = BASE_DIR.parent / "frontend" / "public" / "templates"
+# TEMPLATES_IMAGES_DIR vem do config.py (configurável via env)
 
 # Criar diretórios base se não existirem
 TEMPLATES_SOURCE_DIR.mkdir(parents=True, exist_ok=True)
 TEMPLATES_GENERATED_DIR.mkdir(parents=True, exist_ok=True)
-TEMPLATES_IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+# TEMPLATES_IMAGES_DIR já criado no config.py
 
 
 # ============================================================

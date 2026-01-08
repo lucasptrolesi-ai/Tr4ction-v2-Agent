@@ -1,20 +1,23 @@
 """
-Database configuration - SQLite para MVP
-Migrar para PostgreSQL em produção é simples (só mudar DATABASE_URL)
+Database configuration
+- Usa DATABASE_URL da env quando definida (recomendado em produção)
+- Fallback seguro para SQLite em volume persistente (/app/data/tr4ction.db)
 """
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import os
 
-# Caminho do banco SQLite (relativo ao backend/)
-DATABASE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "tr4ction.db")
-DATABASE_URL = f"sqlite:///{DATABASE_PATH}"
+# Prioriza variável de ambiente (PostgreSQL/SQLite)
+DEFAULT_SQLITE_FILE = "/app/data/tr4ction.db"
+DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DEFAULT_SQLITE_FILE}")
 
-# Engine com configuração específica para SQLite
+# Configurações específicas para SQLite
+is_sqlite = DATABASE_URL.startswith("sqlite")
+
 engine = create_engine(
     DATABASE_URL,
-    connect_args={"check_same_thread": False},  # Necessário para SQLite com FastAPI
-    echo=False  # True para debug SQL
+    connect_args={"check_same_thread": False} if is_sqlite else {},
+    echo=False
 )
 
 # Session factory

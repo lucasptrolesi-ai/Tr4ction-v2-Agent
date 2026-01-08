@@ -40,10 +40,16 @@ def create_app():
     # Inicializa o banco de dados (cria tabelas)
     init_db()
 
+    # Desabilita documentação em produção
+    docs_url = "/docs" if DEBUG_MODE else None
+    redoc_url = "/redoc" if DEBUG_MODE else None
+
     app = FastAPI(
         title=APP_NAME,
         version=APP_VERSION,
         debug=DEBUG_MODE,
+        docs_url=docs_url,
+        redoc_url=redoc_url,
     )
 
     # ======================================================
@@ -162,7 +168,7 @@ def create_app():
 
     @app.get("/health")
     async def health():
-        return {"status": "ok"}
+        return {"status": "healthy"}
 
     return app
 
