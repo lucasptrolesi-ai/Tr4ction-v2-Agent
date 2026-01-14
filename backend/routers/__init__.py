@@ -9,6 +9,7 @@ from .founder import router as founder_router
 from .auth import router as auth_router
 from .template_discovery import router as template_discovery_router
 from .templates import router as templates_router
+from .admin_templates import router as admin_templates_router
 
 __all__ = [
     "chat_router",
@@ -20,5 +21,6 @@ __all__ = [
     "auth_router",
     "template_discovery_router",
     "templates_router",
+    "admin_templates_router",
 ]
 

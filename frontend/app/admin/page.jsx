@@ -198,28 +198,28 @@ export default function AdminDashboard() {
           label="Documentos Indexados"
           value={stats.documents}
           sublabel="Materiais FCJ na base"
-           color="#00BCD4"
+           color="#5EEAD4"
         />
         <StatCard
           icon="🧩"
           label="Chunks Vetoriais"
           value={stats.chunks.toLocaleString()}
           sublabel="Segmentos para RAG"
-           color="#00ACC1"
+           color="#5EEAD4"
         />
         <StatCard
           icon="🛤️"
           label="Trilhas Ativas"
           value={stats.trails}
           sublabel="Programas estruturados"
-           color="#26C6DA"
+           color="#5EEAD4"
         />
         <StatCard
           icon="👥"
           label="Founders Ativos"
           value={stats.users}
           sublabel="Usuários no programa"
-          color="#f59e0b"
+          color="#9CA3AF"
         />
       </div>
 
@@ -243,28 +243,28 @@ export default function AdminDashboard() {
             title="Upload de Conhecimento"
             description="Adicione PDFs, PPTs ou DOCs à base de conhecimento do agente"
             href="/admin/knowledge"
-            color="#00BCD4"
+            color="#5EEAD4"
           />
           <QuickActionCard
             icon="📊"
             title="Criar Nova Trilha"
             description="Estruture um novo programa com etapas e templates"
             href="/admin/trails"
-            color="#26C6DA"
+            color="#5EEAD4"
           />
           <QuickActionCard
             icon="🔧"
             title="Configurar Templates"
             description="Edite schemas de formulários e campos dinâmicos"
             href="/admin/trails"
-            color="#00ACC1"
+            color="#5EEAD4"
           />
           <QuickActionCard
             icon="👥"
             title="Gerenciar Founders"
             description="Veja progresso e respostas dos founders"
             href="/admin/users"
-            color="#f59e0b"
+            color="#9CA3AF"
           />
         </div>
       </div>

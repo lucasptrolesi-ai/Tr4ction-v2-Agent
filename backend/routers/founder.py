@@ -13,11 +13,26 @@ from db.models import Trail, StepSchema, StepAnswer, UserProgress
 from services.xlsx_exporter import generate_xlsx
 from services.auth import get_current_user_id, get_current_user, get_current_founder
 from db.models import User
-from backend.enterprise.config import get_or_create_enterprise_config
-from backend.enterprise.client_premises import ClientPremiseService
-from backend.enterprise.governance.engine import GovernanceEngine
-from backend.enterprise.governance.models import GovernanceGateService
-from backend.enterprise.risk_engine.detector import RiskDetectionEngine
+
+# Imports enterprise (podem não existir em todos os deploys)
+try:
+    from enterprise.config import get_or_create_enterprise_config
+    from enterprise.client_premises import ClientPremiseService
+    from enterprise.governance.engine import GovernanceEngine
+    from enterprise.governance.models import GovernanceGateService
+    from enterprise.risk_engine.detector import RiskDetectionEngine
+    ENTERPRISE_AVAILABLE = True
+except ImportError:
+    ENTERPRISE_AVAILABLE = False
+    # Fallback mocks
+    def get_or_create_enterprise_config():
+        class MockConfig:
+            method_governance = False
+            enable_governance_gates = False
+            risk_engine = False
+            enable_risk_blocking = False
+            ai_audit = False
+        return MockConfig()
 from backend.enterprise.risk_engine.models import RiskSignalService
 from backend.enterprise.cognitive_signals import CognitiveUXFormatter
 

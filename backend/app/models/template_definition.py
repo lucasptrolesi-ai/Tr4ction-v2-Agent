@@ -1,0 +1,65 @@
+from __future__ import annotations
+
+import uuid
+from datetime import datetime
+from sqlalchemy import Column, String, Integer, Text, DateTime, ForeignKey, Boolean, JSON, Index
+from sqlalchemy.dialects.sqlite import BLOB
+from sqlalchemy.orm import relationship
+
+from backend.app.db.session import Base
+
+
+class TemplateDefinition(Base):
+    __tablename__ = "template_definitions"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    template_key = Column(String, index=True, nullable=False)
+    cycle = Column(String, index=True, nullable=False)
+    version = Column(Integer, nullable=False, default=1)
+    file_hash_sha256 = Column(String(64), index=True, nullable=False)
+    original_filename = Column(String, nullable=False)
+
+    storage_base_path = Column(Text, nullable=False)
+    snapshot_path = Column(Text, nullable=False)
+    snapshot_schema_version = Column(String, nullable=False, default="1.0")
+    assets_manifest_path = Column(Text, nullable=True)
+
+    sheets_count = Column(Integer, nullable=False, default=0)
+    fields_count = Column(Integer, nullable=False, default=0)
+
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+    fields = relationship("FillableField", back_populates="template", cascade="all, delete-orphan")
+
+    __table_args__ = (
+        Index("ix_template_key_cycle_hash", "template_key", "cycle", "file_hash_sha256", unique=True),
+    )
+
+
+class FillableField(Base):
+    __tablename__ = "fillable_fields"
+
+    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
+    template_id = Column(String, ForeignKey("template_definitions.id"), index=True, nullable=False)
+
+    field_id = Column(String, index=True, nullable=False)
+    sheet_name = Column(String, index=True, nullable=False)
+    cell_range = Column(String, nullable=False)
+    label = Column(Text, nullable=True)
+    inferred_type = Column(String, nullable=False)
+    required = Column(Boolean, default=True, nullable=False)
+    example_value = Column(Text, nullable=True)
+    phase = Column(String, index=True, nullable=True)
+    order_index = Column(Integer, index=True, nullable=False, default=0)
+    source_metadata = Column(JSON, nullable=True)
+
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+    template = relationship("TemplateDefinition", back_populates="fields")
+
+    __table_args__ = (
+        Index("ix_template_sheet", "template_id", "sheet_name"),
+        Index("ix_template_phase", "template_id", "phase"),
+        Index("ix_template_order", "template_id", "order_index"),
+        Index("uq_field_stable", "template_id", "field_id", unique=True),
+    )

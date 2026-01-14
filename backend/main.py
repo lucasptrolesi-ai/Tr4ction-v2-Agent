@@ -26,6 +26,7 @@ from routers import (
     founder_router,
     auth_router,
     template_discovery_router,
+    admin_templates_router,
 )
 
 # Database
@@ -145,6 +146,7 @@ def create_app():
     app.include_router(diagnostics_router)
     app.include_router(test_router)
     app.include_router(template_discovery_router)  # Template discovery (generic)
+    app.include_router(admin_templates_router)     # Admin Excel ingestion endpoints
     
     # Seed usuários padrão
     try:

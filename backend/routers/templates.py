@@ -37,14 +37,28 @@ from services.auth import get_current_user_required
 from db.models import User
 from services.template_manager import TemplateManager, TemplateDataService
 from db.database import get_db
-from backend.enterprise.client_premises import ClientPremiseService
-from backend.enterprise.ai_audit.models import AIAuditService
-from backend.enterprise.config import get_or_create_enterprise_config
-from backend.enterprise.governance.engine import GovernanceEngine
-from backend.enterprise.governance.models import GovernanceGateService
-from backend.enterprise.risk_engine.detector import RiskDetectionEngine, RiskClassification
-from backend.enterprise.risk_engine.models import RiskSignalService
-from backend.enterprise.decision_ledger.models import DecisionLedgerService
+
+# Enterprise features (optional)
+try:
+    from enterprise.client_premises import ClientPremiseService
+    from enterprise.ai_audit.models import AIAuditService
+    from enterprise.config import get_or_create_enterprise_config
+    from enterprise.governance.engine import GovernanceEngine
+    from enterprise.governance.models import GovernanceGateService
+    from enterprise.risk_engine.detector import RiskDetectionEngine, RiskClassification
+    from enterprise.risk_engine.models import RiskSignalService
+    from enterprise.decision_ledger.models import DecisionLedgerService
+    ENTERPRISE_AVAILABLE = True
+except ImportError:
+    ENTERPRISE_AVAILABLE = False
+    def get_or_create_enterprise_config():
+        class MockConfig:
+            method_governance = False
+            enable_governance_gates = False
+            risk_engine = False
+            enable_risk_blocking = False
+            ai_audit = False
+        return MockConfig()
 
 logger = logging.getLogger(__name__)
 
