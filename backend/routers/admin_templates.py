@@ -41,7 +41,7 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "app"))
 
-from app.services.template_snapshot import TemplateSnapshotService, validate_snapshot
+from app.services.template_snapshot import TemplateSnapshotService, validate_snapshot, SnapshotLoadError, SnapshotValidationError
 from app.services.fillable_detector import FillableAreaDetector
 from app.services.template_storage import TemplateStorageService
 from app.services.template_registry import TemplateRegistry
@@ -99,8 +99,15 @@ async def upload_template(
         
         # 3. Extrair snapshot
         logger.info("📊 Extraindo snapshot completo...")
-        snapshot_service = TemplateSnapshotService()
-        snapshot, assets = snapshot_service.extract(content)
+        try:
+            snapshot_service = TemplateSnapshotService()
+            snapshot, assets = snapshot_service.extract(content)
+        except SnapshotLoadError as e:
+            logger.error(f"❌ Falha ao carregar arquivo Excel: {e}")
+            raise HTTPException(status_code=400, detail=f"Arquivo Excel inválido: {str(e)}")
+        except SnapshotValidationError as e:
+            logger.error(f"❌ Snapshot inválido: {e}")
+            raise HTTPException(status_code=422, detail=f"Snapshot incompleto: {str(e)}")
         
         logger.info(
             f"✓ Snapshot extraído: {len(snapshot['sheets'])} sheets, "

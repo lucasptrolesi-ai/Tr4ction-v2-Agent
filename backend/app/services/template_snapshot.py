@@ -35,6 +35,11 @@ class SnapshotValidationError(Exception):
     pass
 
 
+class SnapshotLoadError(Exception):
+    """Erro ao carregar arquivo Excel"""
+    pass
+
+
 class TemplateSnapshotService:
     """
     Serviço de extração completa de templates Excel
@@ -53,9 +58,24 @@ class TemplateSnapshotService:
             - assets: Lista de dicts com metadados + binário de imagens
             
         Raises:
+            SnapshotLoadError: Se arquivo não puder ser carregado
             SnapshotValidationError: Se snapshot estiver incompleto
         """
-        wb = load_workbook(io.BytesIO(file_bytes), data_only=False)
+        # 1. Carregar workbook com segurança
+        try:
+            wb = load_workbook(
+                io.BytesIO(file_bytes),
+                data_only=False,
+                keep_vba=False
+            )
+        except Exception as e:
+            error_msg = f"Falha ao carregar arquivo XLSX: {str(e)}"
+            logger.error(error_msg)
+            raise SnapshotLoadError(error_msg) from e
+        
+        # 2. Validar que workbook foi carregado corretamente
+        if not wb or not hasattr(wb, 'worksheets'):
+            raise SnapshotLoadError("Workbook inválido ou vazio")
         
         snapshot = {
             "schema_version": SNAPSHOT_SCHEMA_VERSION,
@@ -65,12 +85,18 @@ class TemplateSnapshotService:
         
         all_assets = []
         
+        # 3. Extrair cada sheet
         for sheet in wb.worksheets:
-            sheet_data, sheet_assets = self._extract_sheet(sheet)
-            snapshot["sheets"].append(sheet_data)
-            all_assets.extend(sheet_assets)
+            try:
+                sheet_data, sheet_assets = self._extract_sheet(sheet)
+                snapshot["sheets"].append(sheet_data)
+                all_assets.extend(sheet_assets)
+            except Exception as e:
+                error_msg = f"Falha ao extrair sheet '{sheet.title}': {str(e)}"
+                logger.error(error_msg)
+                raise SnapshotValidationError(error_msg) from e
         
-        # Auto-validação obrigatória
+        # 4. Auto-validação obrigatória
         self._validate_snapshot(snapshot)
         
         return snapshot, all_assets
@@ -88,6 +114,10 @@ class TemplateSnapshotService:
     def _extract_sheet(self, sheet: Worksheet) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
         """
         Extrai dados completos de uma sheet
+        
+        CRÍTICO PARA FCJ: 
+        - Sheet index é preservado (ordem das abas é importante)
+        - Células são extraídas em ordem vertical (top-to-bottom)
         
         Returns:
             Tuple com (sheet_data, assets)
@@ -108,11 +138,29 @@ class TemplateSnapshotService:
             "images": [],
         }
         
-        # Extrair células
-        for row in sheet.iter_rows():
-            for cell in row:
-                if cell.value is not None or cell.fill.fgColor or cell.font.b or cell.border.left.style:
-                    sheet_data["cells"].append(self._extract_cell(cell))
+        # Extrair células (PRESERVAR ORDEM VERTICAL)
+        # Usar ._cells.values() para obter células que foram modificadas
+        # MAS ordenar por (row, col) para garantir ordem de leitura top-to-bottom
+        if hasattr(sheet, '_cells') and sheet._cells:
+            cells_list = list(sheet._cells.values())
+            # ✅ CRÍTICO: Ordenar por (row, column) para leitura vertical
+            cells_list.sort(key=lambda c: (c.row, c.column))
+            for cell in cells_list:
+                sheet_data["cells"].append(self._extract_cell(cell))
+        else:
+            # Fallback: iterar sobre o range máximo em ordem vertical
+            max_row = sheet.max_row or 1
+            max_col = sheet.max_column or 1
+            for row in range(1, max_row + 1):
+                for col in range(1, max_col + 1):
+                    cell = sheet.cell(row, col)
+                    # Extrair célula se tiver conteúdo ou estilo significante
+                    if (cell.value is not None or 
+                        cell.formula or 
+                        cell.hyperlink or 
+                        cell.comment or
+                        self._has_style(cell)):
+                        sheet_data["cells"].append(self._extract_cell(cell))
         
         # Extrair imagens
         assets = []
@@ -127,6 +175,36 @@ class TemplateSnapshotService:
                 assets.append(img_data)
         
         return sheet_data, assets
+
+    def _has_style(self, cell) -> bool:
+        """Verifica se célula tem estilo significante (não é padrão)"""
+        try:
+            # Check se tem preenchimento de cor
+            if cell.fill and cell.fill.fgColor and hasattr(cell.fill.fgColor, 'rgb'):
+                if cell.fill.fgColor.rgb and cell.fill.fgColor.rgb != '00000000':
+                    return True
+            
+            # Check se tem fonte especial (bold, italic, cor, etc)
+            if cell.font:
+                if cell.font.bold or cell.font.italic or cell.font.underline:
+                    return True
+                if cell.font.color and hasattr(cell.font.color, 'rgb'):
+                    if cell.font.color.rgb and cell.font.color.rgb != '00000000':
+                        return True
+            
+            # Check se tem borda
+            if cell.border:
+                for side in [cell.border.left, cell.border.right, cell.border.top, cell.border.bottom]:
+                    if side and side.style:
+                        return True
+            
+            # Check se tem alinhamento especial
+            if cell.alignment and (cell.alignment.wrapText or cell.alignment.shrinkToFit):
+                return True
+            
+            return False
+        except Exception:
+            return False
 
     def _extract_cell(self, cell) -> Dict[str, Any]:
         """Extrai dados completos de uma célula"""
@@ -332,55 +410,140 @@ class TemplateSnapshotService:
 
     def _validate_snapshot(self, snapshot: Dict[str, Any]):
         """
-        Validação obrigatória do snapshot
+        Validação obrigatória do snapshot - RIGOROSA
         
-        Garante que todos os componentes críticos foram extraídos
+        Garante que todos os componentes críticos foram extraídos:
+        - schema_version
+        - workbook properties
+        - Todas as sheets com todos os campos obrigatórios
+        - Células com estilos completos
+        - merged_cells, validations, images (mesmo que vazio, deve estar presente)
         
         Raises:
             SnapshotValidationError: Se validação falhar
         """
         errors = []
+        warnings = []
         
-        # Validar estrutura básica
+        # 1. Validar estrutura básica
         if "schema_version" not in snapshot:
             errors.append("schema_version ausente")
+        
+        if snapshot.get("schema_version") != SNAPSHOT_SCHEMA_VERSION:
+            warnings.append(f"schema_version é {snapshot.get('schema_version')}, esperado {SNAPSHOT_SCHEMA_VERSION}")
+        
+        if "workbook" not in snapshot:
+            errors.append("workbook properties ausentes")
         
         if "sheets" not in snapshot:
             errors.append("sheets ausente")
         
-        if not snapshot.get("sheets"):
-            errors.append("nenhuma sheet encontrada")
+        sheets = snapshot.get("sheets", [])
+        if not sheets:
+            errors.append("nenhuma sheet encontrada no workbook")
         
-        # Validar cada sheet
-        for idx, sheet in enumerate(snapshot.get("sheets", [])):
+        # 2. Validar cada sheet em detalhes
+        for idx, sheet in enumerate(sheets):
             sheet_name = sheet.get("name", f"Sheet_{idx}")
             
-            # Componentes obrigatórios
+            # 2.1. Componentes obrigatórios (estruturais)
             required_keys = [
-                "cells", "merged_cells", "row_dimensions", "column_dimensions",
-                "data_validations", "conditional_formatting", "tables", "images"
+                "name", "sheet_state", "freeze_panes", "page_setup", "page_margins",
+                "row_dimensions", "column_dimensions", "merged_cells",
+                "cells", "data_validations", "conditional_formatting", "tables", "images"
             ]
             
             for key in required_keys:
                 if key not in sheet:
-                    errors.append(f"Sheet '{sheet_name}': {key} ausente")
+                    errors.append(f"Sheet '{sheet_name}': campo '{key}' ausente")
             
-            # Validar células têm estilo
-            if "cells" in sheet and sheet["cells"]:
-                sample_cell = sheet["cells"][0]
-                if "style" not in sample_cell:
-                    errors.append(f"Sheet '{sheet_name}': células sem estilo")
-                else:
-                    style = sample_cell["style"]
-                    if not all(k in style for k in ["font", "fill", "border", "alignment", "protection"]):
-                        errors.append(f"Sheet '{sheet_name}': estilo incompleto")
+            # 2.2. Validar tipos de dados
+            if "cells" in sheet and not isinstance(sheet["cells"], list):
+                errors.append(f"Sheet '{sheet_name}': cells deve ser list")
+            
+            if "merged_cells" in sheet and not isinstance(sheet["merged_cells"], list):
+                errors.append(f"Sheet '{sheet_name}': merged_cells deve ser list")
+            
+            if "data_validations" in sheet and not isinstance(sheet["data_validations"], list):
+                errors.append(f"Sheet '{sheet_name}': data_validations deve ser list")
+            
+            # 2.3. Validar estrutura de page_setup
+            if "page_setup" in sheet and isinstance(sheet["page_setup"], dict):
+                ps = sheet["page_setup"]
+                ps_keys = ["orientation", "paperSize", "fitToHeight", "fitToWidth", "scale"]
+                for key in ps_keys:
+                    if key not in ps:
+                        errors.append(f"Sheet '{sheet_name}': page_setup.{key} ausente")
+            
+            # 2.4. Validar estrutura de page_margins
+            if "page_margins" in sheet and isinstance(sheet["page_margins"], dict):
+                pm = sheet["page_margins"]
+                pm_keys = ["left", "right", "top", "bottom", "header", "footer"]
+                for key in pm_keys:
+                    if key not in pm:
+                        errors.append(f"Sheet '{sheet_name}': page_margins.{key} ausente")
+            
+            # 2.5. Validar células têm estilo completo
+            if "cells" in sheet:
+                cells = sheet["cells"]
+                if cells:  # Se houver células
+                    # Verificar primeira célula como amostra
+                    sample_cell = cells[0]
+                    
+                    # Validar campos obrigatórios de célula
+                    cell_required_keys = [
+                        "coordinate", "row", "column", "column_letter",
+                        "value", "data_type", "formula", "number_format",
+                        "hyperlink", "comment", "style"
+                    ]
+                    
+                    for key in cell_required_keys:
+                        if key not in sample_cell:
+                            errors.append(f"Sheet '{sheet_name}': célula sem campo '{key}'")
+                    
+                    # Validar estilo completo
+                    if "style" in sample_cell and isinstance(sample_cell["style"], dict):
+                        style = sample_cell["style"]
+                        style_keys = ["font", "fill", "border", "alignment", "protection"]
+                        for key in style_keys:
+                            if key not in style:
+                                errors.append(f"Sheet '{sheet_name}': cell.style sem '{key}'")
+                        
+                        # Validar font completo
+                        if "font" in style and isinstance(style["font"], dict):
+                            font = style["font"]
+                            font_keys = ["name", "size", "bold", "italic", "underline", "strike", "color"]
+                            for key in font_keys:
+                                if key not in font:
+                                    errors.append(f"Sheet '{sheet_name}': font sem '{key}'")
+                    else:
+                        errors.append(f"Sheet '{sheet_name}': primeira célula sem style")
+            
+            # 2.6. Validar imagens (pode ser vazio, mas deve estar presente)
+            if "images" not in sheet:
+                errors.append(f"Sheet '{sheet_name}': images ausente (pode estar vazio)")
+            elif isinstance(sheet["images"], list):
+                for img_idx, img in enumerate(sheet["images"]):
+                    img_keys = ["index", "anchor", "format"]
+                    for key in img_keys:
+                        if key not in img:
+                            warnings.append(f"Sheet '{sheet_name}': image[{img_idx}] sem '{key}'")
         
+        # 3. Falhar se houver erros críticos
         if errors:
-            error_msg = "Snapshot INVÁLIDO:\n" + "\n".join(f"  - {e}" for e in errors)
+            error_msg = f"❌ Snapshot INVÁLIDO ({len(errors)} erro(s)):\n"
+            error_msg += "\n".join(f"  - {e}" for e in errors)
+            if warnings:
+                error_msg += f"\n\n⚠️ Avisos ({len(warnings)}):\n"
+                error_msg += "\n".join(f"  - {w}" for w in warnings)
             logger.error(error_msg)
             raise SnapshotValidationError(error_msg)
         
-        logger.info(f"✓ Snapshot validado: {len(snapshot['sheets'])} sheets, schema v{snapshot['schema_version']}")
+        # 4. Log de sucesso
+        log_msg = f"✅ Snapshot validado com sucesso: {len(sheets)} sheets, {sum(len(s.get('cells', [])) for s in sheets)} células"
+        if warnings:
+            log_msg += f", {len(warnings)} avisos"
+        logger.info(log_msg)
 
 
 def validate_snapshot(snapshot_dict: Dict[str, Any]) -> Dict[str, Any]:

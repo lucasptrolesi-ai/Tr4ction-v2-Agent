@@ -381,23 +381,48 @@ class FillableAreaDetector:
         """
         Infere tipo semântico do campo
         
-        Prioridades:
+        Prioridades (SEM HARDCODE):
         1. Validation list -> choice
         2. Number format de data -> date
         3. Range grande -> text_long
         4. Data type numérico -> number
-        5. Default -> text_short
+        5. Célula com currency -> number
+        6. Default -> text_short
         """
-        # Validation list
+        # 1. Validation list (maior prioridade)
         if self._range_has_validation(cell_range, validations):
             val_type = self._get_validation_type(cell_range, validations)
-            if val_type == "list":
+            if val_type and val_type.lower() in ("list", "listvalid"):
+                logger.debug(f"  -> Tipo 'choice' inferido por validation list")
                 return "choice"
         
-        # Format de data
-        fmt = cell.get("number_format", "")
-        if any(x in fmt.lower() for x in ["dd", "mm", "yy", "date"]):
+        # 2. Format de data
+        fmt = cell.get("number_format", "").lower() if cell.get("number_format") else ""
+        if any(x in fmt for x in ["dd", "mm", "yy", "date", "time"]):
+            logger.debug(f"  -> Tipo 'date' inferido por number_format: {fmt}")
             return "date"
+        
+        # 3. Range grande = text_long (para merged cells)
+        if ":" in cell_range:
+            area = self._compute_range_area(cell_range)
+            if area >= 4:
+                logger.debug(f"  -> Tipo 'text_long' inferido por área de merged cell: {area}")
+                return "text_long"
+        
+        # 4. Data type numérico
+        dt = cell.get("data_type")
+        if dt in ("n", "f"):
+            logger.debug(f"  -> Tipo 'number' inferido por data_type: {dt}")
+            return "number"
+        
+        # 5. Currency format
+        if fmt and any(x in fmt for x in ["$", "€", "currency", "accounting"]):
+            logger.debug(f"  -> Tipo 'number' inferido por formato currency")
+            return "number"
+        
+        # Default
+        logger.debug(f"  -> Tipo 'text_short' (padrão)")
+        return "text_short"
         
         # Range grande = text_long
         if ":" in cell_range:

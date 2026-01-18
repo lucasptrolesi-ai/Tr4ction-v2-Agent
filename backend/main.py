@@ -1,5 +1,6 @@
 # backend/main.py
 from core.logging_config import setup_logging
+from core.xlsx_validator import validate_xlsx_support_on_startup
 
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
@@ -37,6 +38,10 @@ from db.database import SessionLocal
 
 def create_app():
     setup_logging()
+    
+    # 🔍 VALIDAÇÃO CRÍTICA: Suporte XLSX
+    # Fail fast se dependências não existem
+    validate_xlsx_support_on_startup()
     
     # Inicializa o banco de dados (cria tabelas)
     init_db()
