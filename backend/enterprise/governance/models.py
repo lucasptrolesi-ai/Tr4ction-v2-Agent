@@ -22,6 +22,11 @@ class GovernanceGate(Base):
     """Append-only governance gate definition."""
 
     __tablename__ = "governance_gates"
+    __table_args__ = (
+        Index("idx_gate_template_vertical", "template_id", "vertical"),
+        Index("idx_gate_template_version", "template_id", "version"),
+        {"extend_existing": True},
+    )
 
     id = Column(String(100), primary_key=True, default=lambda: str(uuid.uuid4()))
     template_id = Column(String(255), nullable=False, index=True)
@@ -32,11 +37,6 @@ class GovernanceGate(Base):
     block_on_fail = Column(Boolean, default=False)
     version = Column(Integer, nullable=False, default=1)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-
-    __table_args__ = (
-        Index("idx_gate_template_vertical", "template_id", "vertical"),
-        Index("idx_gate_template_version", "template_id", "version"),
-    )
 
     def to_dict(self) -> Dict[str, Any]:
         return {
