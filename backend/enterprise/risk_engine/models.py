@@ -21,6 +21,12 @@ class RiskSignal(Base):
     """Persistent risk signal with evidence and dependencies."""
 
     __tablename__ = "risk_signals"
+    __table_args__ = (
+        Index("idx_risk_client", "client_id"),
+        Index("idx_risk_template", "template_key"),
+        Index("idx_risk_severity", "severity"),
+        {"extend_existing": True},
+    )
 
     id = Column(String(100), primary_key=True, default=lambda: str(uuid.uuid4()))
     client_id = Column(String(100), nullable=False, index=True)
@@ -32,12 +38,6 @@ class RiskSignal(Base):
     violated_dependencies = Column(JSON, nullable=True)
     recommendation = Column(String(1000), nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-
-    __table_args__ = (
-        Index("idx_risk_client", "client_id"),
-        Index("idx_risk_template", "template_key"),
-        Index("idx_risk_severity", "severity"),
-    )
 
     def to_dict(self) -> Dict[str, Any]:
         return {
