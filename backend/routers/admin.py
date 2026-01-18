@@ -4,6 +4,9 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from datetime import datetime
 from typing import Optional, List
+import logging
+
+logger = logging.getLogger(__name__)
 
 from usecases.admin_usecase import (
     list_knowledge_docs,
@@ -1243,4 +1246,321 @@ async def update_template_status_endpoint(
     except HTTPException:
         raise
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ====================================================================
+# ENDPOINTS DE ONBOARDING (Invitations e Memberships)
+# ====================================================================
+
+from pydantic import Field
+from services.onboarding import (
+    create_invitation,
+    revoke_invitation,
+    revoke_membership,
+    list_invitations,
+    list_memberships,
+    VALID_ROLES,
+)
+from db.models import Organization, Cycle, Membership, Invitation
+
+
+class CreateInvitationRequest(BaseModel):
+    """Request body para criar convite"""
+    email: str = Field(..., description="Email do usuário a convidar")
+    organization_id: int = Field(..., description="ID da organização")
+    cycle_id: int = Field(..., description="ID do ciclo")
+    role: str = Field(..., description=f"Role: {list(VALID_ROLES.keys())}")
+    invitation_message: Optional[str] = Field(None, description="Mensagem personalizada")
+
+
+class InvitationResponse(BaseModel):
+    """Response com dados do convite (SEM token em plaintext)"""
+    id: int
+    email: str
+    organization_id: int
+    cycle_id: int
+    role: str
+    status: str
+    expires_at: datetime
+    created_at: datetime
+    
+    model_config = {"from_attributes": True}
+
+
+class InvitationWithLinkResponse(BaseModel):
+    """Response ao criar convite (contém link APENAS, nunca token em plaintext em logs)"""
+    invitation_id: int
+    email: str
+    role: str
+    expires_at: datetime
+    invite_link: str  # URL para frontend aceitar convite
+    expires_in_hours: int
+
+
+@router.post("/invitations", response_model=InvitationWithLinkResponse)
+async def create_invitation_endpoint(
+    request: CreateInvitationRequest,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
+    """
+    Cria um convite para um usuário ingressar em uma org/ciclo.
+    
+    **ADMIN ONLY**
+    
+    Segurança:
+    - Token é gerado securely (secrets.token_urlsafe)
+    - Salva apenas hash SHA256
+    - Nunca retorna token em logs
+    - Retorna apenas invite_link para frontend
+    - Invite link deve ser enviado via email fora deste endpoint
+    
+    Idempotência:
+    - Se já existe convite PENDING para mesmo email/org/cycle:
+      Retorna ID do convite existente (não cria novo token)
+    
+    Returns:
+        Dados do convite + invite_link (sem token plaintext)
+    """
+    try:
+        invitation, plain_token = create_invitation(
+            db=db,
+            email=request.email,
+            organization_id=request.organization_id,
+            cycle_id=request.cycle_id,
+            role=request.role,
+            invited_by_user_id=current_admin.id,
+            invitation_message=request.invitation_message,
+        )
+        
+        # Calcular TTL em horas
+        from services.onboarding import INVITE_TOKEN_TTL_HOURS
+        expires_in = int((invitation.expires_at - datetime.utcnow()).total_seconds() / 3600)
+        
+        # Construir invite_link (o token é passado para o frontend via query param)
+        # Frontend vai enviar: POST /auth/accept-invitation com { token, password, name }
+        frontend_base_url = __import__('os').getenv('FRONTEND_BASE_URL', 'http://localhost:3000')
+        invite_link = f"{frontend_base_url}/auth/accept-invitation?token={plain_token}"
+        
+        logger_msg = (
+            f"Convite criado para {request.email} "
+            f"(id={invitation.id}, org={request.organization_id}, cycle={request.cycle_id})"
+        )
+        logger.info(logger_msg)  # Token NOT included in logs
+        
+        return InvitationWithLinkResponse(
+            invitation_id=invitation.id,
+            email=invitation.email,
+            role=invitation.role,
+            expires_at=invitation.expires_at,
+            invite_link=invite_link,
+            expires_in_hours=expires_in,
+        )
+    
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error(f"Erro ao criar convite: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/invitations", response_model=SuccessResponse)
+async def list_invitations_endpoint(
+    organization_id: Optional[int] = None,
+    cycle_id: Optional[int] = None,
+    status: Optional[str] = None,
+    skip: int = 0,
+    limit: int = 50,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
+    """
+    Lista convites com filtros opcionais.
+    
+    **ADMIN ONLY**
+    
+    Filtros:
+    - organization_id: Filtrar por organização
+    - cycle_id: Filtrar por ciclo
+    - status: pending|accepted|expired|revoked
+    
+    Returns:
+        Lista paginada de convites (SEM tokens)
+    """
+    try:
+        invitations, total = list_invitations(
+            db=db,
+            organization_id=organization_id,
+            cycle_id=cycle_id,
+            status=status,
+            skip=skip,
+            limit=limit,
+        )
+        
+        invitations_data = [
+            {
+                'id': inv.id,
+                'email': inv.email,
+                'organization_id': inv.organization_id,
+                'cycle_id': inv.cycle_id,
+                'role': inv.role,
+                'status': inv.status,
+                'expires_at': inv.expires_at,
+                'used_at': inv.used_at,
+                'created_at': inv.created_at,
+            }
+            for inv in invitations
+        ]
+        
+        return SuccessResponse(data={
+            'invitations': invitations_data,
+            'total': total,
+            'skip': skip,
+            'limit': limit,
+        })
+    
+    except Exception as e:
+        logger.error(f"Erro ao listar convites: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+class RevokeInvitationRequest(BaseModel):
+    """Request para revogar convite"""
+    pass  # Body vazio, tudo via path param
+
+
+@router.patch("/invitations/{invitation_id}/revoke", response_model=InvitationResponse)
+async def revoke_invitation_endpoint(
+    invitation_id: int,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
+    """
+    Revoga um convite pendente.
+    
+    **ADMIN ONLY**
+    
+    Um convite revogado não pode mais ser aceito.
+    """
+    try:
+        invitation = revoke_invitation(db, invitation_id)
+        
+        logger.info(f"Convite {invitation_id} revogado por {current_admin.email}")
+        
+        return InvitationResponse.model_validate(invitation)
+    
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error(f"Erro ao revogar convite: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ====================================================================
+# Endpoints de Membership (Autorização / Contexto)
+# ====================================================================
+
+class MembershipResponse(BaseModel):
+    """Response com dados de membership"""
+    id: int
+    user_id: str
+    organization_id: int
+    cycle_id: int
+    role: str
+    status: str
+    created_at: datetime
+    revoked_at: Optional[datetime]
+    
+    model_config = {"from_attributes": True}
+
+
+@router.get("/memberships", response_model=SuccessResponse)
+async def list_memberships_endpoint(
+    organization_id: Optional[int] = None,
+    cycle_id: Optional[int] = None,
+    status: Optional[str] = None,
+    role: Optional[str] = None,
+    skip: int = 0,
+    limit: int = 50,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
+    """
+    Lista memberships com filtros opcionais.
+    
+    **ADMIN ONLY**
+    
+    Filtros:
+    - organization_id: Por organização
+    - cycle_id: Por ciclo
+    - status: active|revoked|invited
+    - role: admin_fcj|mentor|founder
+    
+    Returns:
+        Lista paginada de memberships
+    """
+    try:
+        memberships, total = list_memberships(
+            db=db,
+            organization_id=organization_id,
+            cycle_id=cycle_id,
+            status=status,
+            role=role,
+            skip=skip,
+            limit=limit,
+        )
+        
+        memberships_data = [
+            {
+                'id': m.id,
+                'user_id': m.user_id,
+                'organization_id': m.organization_id,
+                'cycle_id': m.cycle_id,
+                'role': m.role,
+                'status': m.status,
+                'created_at': m.created_at,
+                'revoked_at': m.revoked_at,
+            }
+            for m in memberships
+        ]
+        
+        return SuccessResponse(data={
+            'memberships': memberships_data,
+            'total': total,
+            'skip': skip,
+            'limit': limit,
+        })
+    
+    except Exception as e:
+        logger.error(f"Erro ao listar memberships: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.patch("/memberships/{membership_id}/revoke", response_model=MembershipResponse)
+async def revoke_membership_endpoint(
+    membership_id: int,
+    db: Session = Depends(get_db),
+    current_admin: User = Depends(get_current_admin)
+):
+    """
+    Revoga acesso de um usuário a uma org/ciclo.
+    
+    **ADMIN ONLY**
+    
+    Um membership revogado bloqueia imediatamente o acesso.
+    """
+    try:
+        membership = revoke_membership(db, membership_id)
+        
+        logger.info(
+            f"Membership {membership_id} revogado para user {membership.user_id} "
+            f"por {current_admin.email}"
+        )
+        
+        return MembershipResponse.model_validate(membership)
+    
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error(f"Erro ao revogar membership: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))

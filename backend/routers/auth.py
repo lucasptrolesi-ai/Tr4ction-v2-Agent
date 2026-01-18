@@ -206,3 +206,93 @@ async def seed_defaults(db: Session = Depends(get_db)):
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=500, detail=str(e))
+
+# ====================================================================
+# ENDPOINTS DE ONBOARDING (Aceitar Convite)
+# ====================================================================
+
+class AcceptInvitationRequest(BaseModel):
+    """Request para aceitar convite"""
+    token: str = __import__('pydantic').Field(..., description="Token do convite (recebido via email)")
+    password: str = __import__('pydantic').Field(..., description="Senha para criar/atualizar conta")
+    name: str = __import__('pydantic').Field(None, description="Nome do usuário (opcional)")
+
+
+class AcceptInvitationResponse(BaseModel):
+    """Response ao aceitar convite"""
+    user_id: str
+    email: str
+    name: str
+    organization_id: int
+    cycle_id: int
+    role: str
+    access_token: str
+    token_type: str
+
+
+@router.post("/accept-invitation", response_model=AcceptInvitationResponse)
+async def accept_invitation_endpoint(
+    request: AcceptInvitationRequest,
+    db: Session = Depends(get_db)
+):
+    """
+    Aceita um convite e cria/atualiza o usuário + membership.
+    
+    Fluxo:
+    1. Valida token (existe, não expirou, não foi usado)
+    2. Se email já existe → reusar User; senão criar novo
+    3. Cria Membership ativa para org/ciclo/role do convite
+    4. Marca Invitation como used_at
+    5. Retorna JWT para login imediato
+    
+    Segurança:
+    - Token é hashed (SHA256) antes de comparar
+    - Senha validada (mínimo 8 chars, maiúscula, minúscula, número, especial)
+    - Sem plaintext tokens em logs ou responses
+    
+    Returns:
+        User data + JWT para login imediato
+    """
+    try:
+        from services.onboarding import accept_invitation
+        from services.auth import create_access_token
+        from datetime import timedelta
+        
+        # Aceitar convite (cria User + Membership)
+        user, membership = accept_invitation(
+            db=db,
+            token=request.token,
+            password=request.password,
+            name=request.name,
+        )
+        
+        # Criar JWT
+        access_token = create_access_token(
+            data={
+                "sub": user.id,
+                "email": user.email,
+                "role": user.role,
+                "name": user.name,
+            },
+            expires_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        )
+        
+        return AcceptInvitationResponse(
+            user_id=user.id,
+            email=user.email,
+            name=user.name,
+            organization_id=membership.organization_id,
+            cycle_id=membership.cycle_id,
+            role=membership.role,
+            access_token=access_token,
+            token_type="bearer",
+        )
+    
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        db.rollback()
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.error(f"Erro ao aceitar convite: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
