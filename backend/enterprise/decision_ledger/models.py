@@ -40,6 +40,7 @@ class DecisionEvent(Base):
     Nunca é atualizada, apenas inserida.
     """
     __tablename__ = "decision_events"
+    __table_args__ = {"extend_existing": True}
     
     # Identificação
     id = Column(String(100), primary_key=True, default=lambda: str(uuid.uuid4()))

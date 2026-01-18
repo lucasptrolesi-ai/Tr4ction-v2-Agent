@@ -6,11 +6,15 @@ from sqlalchemy import Column, String, Integer, Text, DateTime, ForeignKey, Bool
 from sqlalchemy.dialects.sqlite import BLOB
 from sqlalchemy.orm import relationship
 
-from backend.app.db.session import Base
+from db.database import Base
 
 
 class TemplateDefinition(Base):
     __tablename__ = "template_definitions"
+    __table_args__ = (
+        Index("ix_template_key_cycle_hash", "template_key", "cycle", "file_hash_sha256", unique=True),
+        {"extend_existing": True},
+    )
 
     id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
     template_key = Column(String, index=True, nullable=False)
@@ -31,13 +35,16 @@ class TemplateDefinition(Base):
 
     fields = relationship("FillableField", back_populates="template", cascade="all, delete-orphan")
 
-    __table_args__ = (
-        Index("ix_template_key_cycle_hash", "template_key", "cycle", "file_hash_sha256", unique=True),
-    )
-
 
 class FillableField(Base):
     __tablename__ = "fillable_fields"
+    __table_args__ = (
+        Index("ix_template_sheet", "template_id", "sheet_name"),
+        Index("ix_template_phase", "template_id", "phase"),
+        Index("ix_template_order", "template_id", "order_index"),
+        Index("uq_field_stable", "template_id", "field_id", unique=True),
+        {"extend_existing": True},
+    )
 
     id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
     template_id = Column(String, ForeignKey("template_definitions.id"), index=True, nullable=False)
@@ -56,10 +63,3 @@ class FillableField(Base):
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
     template = relationship("TemplateDefinition", back_populates="fields")
-
-    __table_args__ = (
-        Index("ix_template_sheet", "template_id", "sheet_name"),
-        Index("ix_template_phase", "template_id", "phase"),
-        Index("ix_template_order", "template_id", "order_index"),
-        Index("uq_field_stable", "template_id", "field_id", unique=True),
-    )

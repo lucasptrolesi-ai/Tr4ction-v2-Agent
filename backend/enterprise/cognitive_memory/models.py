@@ -58,6 +58,7 @@ class StrategicMemory(Base):
     Imutável (append-only).
     """
     __tablename__ = "strategic_memory"
+    __table_args__ = {"extend_existing": True}
     
     id = Column(String(100), primary_key=True, default=lambda: str(uuid.uuid4()))
     

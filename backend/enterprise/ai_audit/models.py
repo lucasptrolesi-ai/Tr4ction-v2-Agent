@@ -41,6 +41,7 @@ class AIAuditLog(Base):
     Cada linha é um evento.
     """
     __tablename__ = "ai_audit_logs"
+    __table_args__ = {"extend_existing": True}
     
     id = Column(String(100), primary_key=True, default=lambda: str(uuid.uuid4()))
     

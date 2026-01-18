@@ -30,6 +30,7 @@ class Partner(Base):
     - Government innovation program
     """
     __tablename__ = "partners"
+    __table_args__ = {"extend_existing": True}
     
     id = Column(String(50), primary_key=True)  # fcj, partner_corp_x, edu_usp
     name = Column(String(200), nullable=False)
@@ -66,6 +67,7 @@ class Vertical(Base):
     - Specific mandatory premises
     """
     __tablename__ = "verticals"
+    __table_args__ = {"extend_existing": True}
     
     id = Column(String(50), primary_key=True)  # saas_b2b, marketplace, agro, industry
     partner_id = Column(String(50), ForeignKey("partners.id"), nullable=False)
@@ -110,6 +112,7 @@ class MethodProfile(Base):
     Fail-safe: If no profile found, falls back to FCJ default.
     """
     __tablename__ = "method_profiles"
+    __table_args__ = {"extend_existing": True}
     
     id = Column(Integer, primary_key=True, autoincrement=True)
     

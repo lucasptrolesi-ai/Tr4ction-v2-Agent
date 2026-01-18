@@ -13,6 +13,7 @@ class User(Base):
     Usuário do sistema - Admin ou Founder
     """
     __tablename__ = "users"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(String(100), primary_key=True)
     email = Column(String(255), unique=True, nullable=False, index=True)
@@ -31,6 +32,7 @@ class Trail(Base):
     Trilha/Template - Ex: "Marketing Q1", "Onboarding"
     """
     __tablename__ = "trails"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(String(100), primary_key=True)
     name = Column(String(255), nullable=False)
@@ -48,6 +50,7 @@ class StepSchema(Base):
     Schema de uma etapa - define os campos do formulário
     """
     __tablename__ = "step_schemas"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     trail_id = Column(String(100), ForeignKey("trails.id"), nullable=False)
@@ -68,6 +71,7 @@ class StepAnswer(Base):
     Respostas do founder para uma etapa
     """
     __tablename__ = "step_answers"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     trail_id = Column(String(100), nullable=False)
@@ -83,6 +87,7 @@ class UserProgress(Base):
     Progresso do usuário em uma trilha
     """
     __tablename__ = "user_progress"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(String(100), nullable=False, default="demo-user")
@@ -100,6 +105,7 @@ class TemplateDefinition(Base):
     Suporta múltiplos cycles (Q1, Q2, Q3, Q4, etc.)
     """
     __tablename__ = "template_definitions"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     cycle = Column(String(50), nullable=False, index=True)  # Q1, Q2, Q3, Q4, etc.

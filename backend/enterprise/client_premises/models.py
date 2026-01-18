@@ -26,6 +26,7 @@ class ClientPremise(Base):
     """Premissas estratégicas versionadas por cliente."""
 
     __tablename__ = "client_premises"
+    __table_args__ = {"extend_existing": True}
 
     id = Column(String(100), primary_key=True, default=lambda: str(uuid.uuid4()))
     client_id = Column(String(100), nullable=False, index=True)
