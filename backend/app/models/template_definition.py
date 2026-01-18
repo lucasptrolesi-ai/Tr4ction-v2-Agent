@@ -42,13 +42,15 @@ class FillableField(Base):
         Index("ix_template_sheet", "template_id", "sheet_name"),
         Index("ix_template_phase", "template_id", "phase"),
         Index("ix_template_order", "template_id", "order_index"),
-        Index("uq_field_stable", "template_id", "field_id", unique=True),
+        # ✅ AJUSTE 1: Unicidade composta (template_id + field_id) - não global
+        Index("uq_field_per_template", "template_id", "field_id", unique=True),
         {"extend_existing": True},
     )
 
     id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
     template_id = Column(String, ForeignKey("template_definitions.id"), index=True, nullable=False)
 
+    # ✅ AJUSTE 1: field_id é único POR TEMPLATE, não globalmente
     field_id = Column(String, index=True, nullable=False)
     sheet_name = Column(String, index=True, nullable=False)
     cell_range = Column(String, nullable=False)

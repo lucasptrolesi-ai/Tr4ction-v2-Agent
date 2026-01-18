@@ -36,6 +36,11 @@ from services.auth import get_current_admin
 from db.database import get_db
 from db.models import User
 
+# ✅ AJUSTE 4: Import do handler de arquivos grandes
+from app.services.large_file_handler import (
+    LargeFileConfig, FileValidator, MemoryEfficientSnapshot
+)
+
 # Import do core FCJ pipeline
 import sys
 from pathlib import Path
@@ -88,16 +93,24 @@ async def upload_template(
         - fields_count
     """
     try:
-        # 1. Validar extensão
-        if not file.filename.lower().endswith(".xlsx"):
-            raise HTTPException(status_code=400, detail="Somente arquivos .xlsx são suportados")
-        
         logger.info(f"📥 Iniciando ingestão: {file.filename} | cycle={cycle}")
         
-        # 2. Ler arquivo
+        # ✅ AJUSTE 4: Validar tamanho ANTES de ler
+        is_valid, error_msg = FileValidator.validate_content_length(
+            file.size if hasattr(file, 'size') else None
+        )
+        if not is_valid:
+            raise HTTPException(status_code=413, detail=error_msg)
+        
+        # 1. Ler arquivo
         content = await file.read()
         
-        # 3. Extrair snapshot
+        # ✅ AJUSTE 4: Validar tamanho APÓS ler
+        is_valid, error_msg = FileValidator.validate_file_size(content, file.filename)
+        if not is_valid:
+            raise HTTPException(status_code=413, detail=error_msg)
+        
+        # 2. Extrair snapshot
         logger.info("📊 Extraindo snapshot completo...")
         try:
             snapshot_service = TemplateSnapshotService()
