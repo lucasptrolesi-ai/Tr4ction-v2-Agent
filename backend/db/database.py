@@ -8,8 +8,20 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 import os
 
 # Prioriza variável de ambiente (PostgreSQL/SQLite)
-DEFAULT_SQLITE_FILE = "/app/data/tr4ction.db"
-DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DEFAULT_SQLITE_FILE}")
+# Em desenvolvimento, usa um banco local
+if os.getenv("DATABASE_URL"):
+    DATABASE_URL = os.getenv("DATABASE_URL")
+else:
+    # Verificar se estamos em /app (container) ou no desenvolvimento local
+    if os.path.exists("/app/data"):
+        DEFAULT_SQLITE_FILE = "/app/data/tr4ction.db"
+    else:
+        # Desenvolvimento local - criar db na pasta do backend
+        db_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "db", "data")
+        os.makedirs(db_dir, exist_ok=True)
+        DEFAULT_SQLITE_FILE = os.path.join(db_dir, "tr4ction.db")
+    
+    DATABASE_URL = f"sqlite:///{DEFAULT_SQLITE_FILE}"
 
 # Configurações específicas para SQLite
 is_sqlite = DATABASE_URL.startswith("sqlite")

@@ -33,8 +33,22 @@ except ImportError:
             enable_risk_blocking = False
             ai_audit = False
         return MockConfig()
-from backend.enterprise.risk_engine.models import RiskSignalService
-from backend.enterprise.cognitive_signals import CognitiveUXFormatter
+
+try:
+    from backend.enterprise.risk_engine.models import RiskSignalService
+except (ImportError, ModuleNotFoundError):
+    try:
+        from enterprise.risk_engine.models import RiskSignalService
+    except (ImportError, ModuleNotFoundError):
+        RiskSignalService = None
+
+try:
+    from backend.enterprise.cognitive_signals import CognitiveUXFormatter
+except (ImportError, ModuleNotFoundError):
+    try:
+        from enterprise.cognitive_signals import CognitiveUXFormatter
+    except (ImportError, ModuleNotFoundError):
+        CognitiveUXFormatter = None
 
 router = APIRouter(prefix="/founder")
 logger = logging.getLogger(__name__)
